@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Pipeline output
+data/
+
+# Local secrets
+docker/.env
+
+# Crawl4AI / Playwright local caches
+.crawl4ai/
+
+# OS / editor
+.DS_Store
+Thumbs.db

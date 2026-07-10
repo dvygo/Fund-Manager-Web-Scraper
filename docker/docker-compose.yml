@@ -1,0 +1,97 @@
+name: mf-engine
+
+services:
+  # Phase 1 scraper — one-shot job, exits after writing the seed list.
+  # Run with: docker compose run --rm scraper
+  scraper:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    container_name: mf-scraper
+    restart: "no"
+    volumes:
+      - ../data:/app/data
+    environment:
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
+    depends_on:
+      minio:
+        condition: service_healthy
+
+  # Object store for Phase 4 persistence (raw HTML snapshots + extracted JSON).
+  minio:
+    image: minio/minio:latest
+    container_name: mf-minio
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000" # S3 API
+      - "9001:9001" # web console
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # OpenAI-compatible LLM endpoint for Phase 3 fund-manager extraction.
+  # Sized for a 6GB VRAM card (RTX 3050): AWQ 4-bit weights ~1.9GB, context
+  # capped at 2048 tokens and 75% VRAM claim so the desktop stays alive.
+  # Requires an NVIDIA GPU exposed to Docker (Docker Desktop: enable GPU support).
+  vllm:
+    image: vllm/vllm-openai:latest
+    container_name: mf-vllm
+    command: >
+      --model ${VLLM_MODEL:-Qwen/Qwen2.5-3B-Instruct-AWQ}
+      --max-model-len ${VLLM_MAX_MODEL_LEN:-2048}
+      --gpu-memory-utilization 0.75
+      --max-num-seqs 4
+    ports:
+      - "8000:8000"
+    environment:
+      HUGGING_FACE_HUB_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - hf-cache:/root/.cache/huggingface
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  # Browser chat UI on http://localhost:3000 for testing extraction prompts
+  # against the vLLM/Qwen endpoint. Not part of the pipeline itself.
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: mf-webui
+    ports:
+      - "3000:8080"
+    environment:
+      OPENAI_API_BASE_URL: http://vllm:8000/v1
+      OPENAI_API_KEY: vllm-local
+      WEBUI_AUTH: "false" # local single-user; no login screen
+    volumes:
+      - webui-data:/app/backend/data
+    depends_on:
+      - vllm
+
+  # Vector DB for future semantic search over extracted manager profiles.
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: mf-qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant-data:/qdrant/storage
+
+volumes:
+  minio-data:
+  hf-cache:
+  webui-data:
+  qdrant-data:

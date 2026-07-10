@@ -1,0 +1,340 @@
+"""MF-Engine — Phase 1: AMFI AMC seed list builder.
+
+Scrapes the AMFI members directory
+(https://www.amfiindia.com/aboutamfi?tab=members) for all active Asset
+Management Companies in India, resolves each AMC's corporate domain (known
+mapping first, slug fallback second), and writes a crawler seed list to
+data/amc_seed_list.json.
+
+If the live scrape fails (network drop, bot block, DOM change) the script
+falls back to an embedded static list of active AMCs so a seed file is always
+produced.
+
+Usage:
+    python main.py
+"""
+
+import asyncio
+import json
+import logging
+import re
+import sys
+from pathlib import Path
+
+from bs4 import BeautifulSoup
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+)
+log = logging.getLogger("mf-engine.seed")
+
+# NOTE: /members returns 404 — the directory lives on the About AMFI page's
+# members tab, rendered client-side. Member names link to /member/{id} pages.
+AMFI_MEMBERS_URL = "https://www.amfiindia.com/aboutamfi?tab=members"
+OUTPUT_PATH = Path("data/amc_seed_list.json")
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
+# Legal / generic suffixes stripped from firm names, longest patterns first so
+# e.g. "Asset Management Company" wins over "Asset Management".
+LEGAL_SUFFIXES = [
+    r"asset management company limited",
+    r"asset management company ltd",
+    r"asset management company",
+    r"asset management co\.? ltd\.?",
+    r"asset management co",
+    r"asset management limited",
+    r"asset management ltd",
+    r"asset management",
+    r"investment managers?",
+    r"mutual fund",
+    r"private limited",
+    r"pvt\.? ltd\.?",
+    r"limited",
+    r"ltd\.?",
+    r"amc",
+]
+
+# Curated domain map for active Indian AMCs. Keys are lowercase clean names
+# (post suffix-stripping). Unmapped names fall through to slug guessing.
+KNOWN_DOMAINS = {
+    "360 one": "mf.360.one",
+    "abakkus": "abakkusmf.com",
+    "aditya birla sun life": "mutualfund.adityabirlacapital.com",
+    "angel one": "angelonemf.com",
+    "axis": "axismf.com",
+    "bajaj finserv": "bajajamc.com",
+    "bandhan": "bandhanmutual.com",
+    "bank of india": "boimf.in",
+    "baroda bnp paribas": "barodabnpparibasmf.in",
+    "canara robeco": "canararobeco.com",
+    "capitalmind": "capitalmindmf.com",
+    "dsp": "dspim.com",
+    "edelweiss": "edelweissmf.com",
+    "franklin templeton": "franklintempletonindia.com",
+    "groww": "growwmf.in",
+    "hdfc": "hdfcfund.com",
+    "helios": "heliosmf.in",
+    "hsbc": "assetmanagement.hsbc.co.in",
+    "icici prudential": "icicipruamc.com",
+    "invesco": "invescomutualfund.com",
+    "iti": "itimf.com",
+    # jioblackrock.com is the investment-adviser arm; the AMC is jioblackrockamc.com
+    "jio blackrock": "jioblackrockamc.com",
+    "jm financial": "jmfinancialmf.com",
+    "kotak mahindra": "kotakmf.com",
+    "lic": "licmf.com",
+    "mahindra manulife": "mahindramanulife.com",
+    "mirae asset": "miraeassetmf.co.in",
+    "motilal oswal": "motilaloswalmf.com",
+    "navi": "navi.com",
+    "nippon india": "mf.nipponindiaim.com",
+    "nj": "njmutualfund.com",
+    "old bridge": "oldbridgemf.com",
+    "pgim india": "pgimindiamf.com",
+    "ppfas": "amc.ppfas.com",
+    "quant": "quantmutual.com",
+    "quantum": "quantumamc.com",
+    "samco": "samcomf.com",
+    "sbi": "sbimf.com",
+    "shriram": "shriramamc.in",
+    "sundaram": "sundarammutual.com",
+    "tata": "tatamutualfund.com",
+    "taurus": "taurusmutualfund.com",
+    "the wealth company": "wealthcompany.in",
+    "trust": "trustmf.com",
+    "unifi": "unifimf.com",
+    "union": "unionmf.com",
+    "uti": "utimf.com",
+    "whiteoak capital": "mf.whiteoakamc.com",
+    "zerodha": "zerodhafundhouse.com",
+}
+
+# Fallback roster of the 49 active AMFI member AMCs (verified July 2026).
+# Used only when the live scrape yields nothing, so the pipeline always gets
+# a seed file.
+STATIC_AMC_NAMES = [
+    "360 ONE Mutual Fund",
+    "Abakkus Mutual Fund",
+    "Aditya Birla Sun Life Mutual Fund",
+    "Angel One Mutual Fund",
+    "Axis Mutual Fund",
+    "Bajaj Finserv Mutual Fund",
+    "Bandhan Mutual Fund",
+    "Bank of India Mutual Fund",
+    "Baroda BNP Paribas Mutual Fund",
+    "Canara Robeco Mutual Fund",
+    "Capitalmind Mutual Fund",
+    "DSP Mutual Fund",
+    "Edelweiss Mutual Fund",
+    "Franklin Templeton Mutual Fund",
+    "Groww Mutual Fund",
+    "HDFC Mutual Fund",
+    "Helios Mutual Fund",
+    "HSBC Mutual Fund",
+    "ICICI Prudential Mutual Fund",
+    "Invesco Mutual Fund",
+    "ITI Mutual Fund",
+    "Jio BlackRock Mutual Fund",
+    "JM Financial Mutual Fund",
+    "Kotak Mahindra Mutual Fund",
+    "LIC Mutual Fund",
+    "Mahindra Manulife Mutual Fund",
+    "Mirae Asset Mutual Fund",
+    "Motilal Oswal Mutual Fund",
+    "Navi Mutual Fund",
+    "Nippon India Mutual Fund",
+    "NJ Mutual Fund",
+    "Old Bridge Mutual Fund",
+    "PGIM India Mutual Fund",
+    "PPFAS Mutual Fund",
+    "quant Mutual Fund",
+    "Quantum Mutual Fund",
+    "Samco Mutual Fund",
+    "SBI Mutual Fund",
+    "Shriram Mutual Fund",
+    "Sundaram Mutual Fund",
+    "Tata Mutual Fund",
+    "Taurus Mutual Fund",
+    "The Wealth Company Mutual Fund",
+    "Trust Mutual Fund",
+    "Unifi Mutual Fund",
+    "Union Mutual Fund",
+    "UTI Mutual Fund",
+    "WhiteOak Capital Mutual Fund",
+    "Zerodha Mutual Fund",
+]
+
+# Names on the members page that are not AMCs themselves.
+NON_AMC_PATTERNS = re.compile(
+    r"association of mutual funds|amfi|registrar|trustee", re.IGNORECASE
+)
+
+
+def clean_name(firm_name: str) -> str:
+    """Strip legal suffixes and normalize whitespace: core firm name only."""
+    name = re.sub(r"\s+", " ", firm_name).strip()
+    lowered = name.lower()
+    changed = True
+    while changed:
+        changed = False
+        for suffix in LEGAL_SUFFIXES:
+            match = re.search(rf"\b{suffix}\s*$", lowered)
+            if match:
+                name = name[: match.start()].rstrip(" ,.-")
+                lowered = name.lower()
+                changed = True
+    return name.strip()
+
+
+def slugify(name: str) -> str:
+    """Lowercase alphanumeric slug for fallback domain guessing."""
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def resolve_domain(cleaned: str) -> str:
+    """Map a clean AMC name to its corporate domain, guessing when unknown."""
+    key = cleaned.lower()
+    if key in KNOWN_DOMAINS:
+        return KNOWN_DOMAINS[key]
+    # Partial match: known key contained in the scraped name (or vice versa)
+    # absorbs punctuation/ordering drift in the directory listing. Longest
+    # keys first so "quantum" wins over "quant" for Quantum MF.
+    for known, domain in sorted(
+        KNOWN_DOMAINS.items(), key=lambda kv: len(kv[0]), reverse=True
+    ):
+        if known in key or key in known:
+            return domain
+    guess = f"www.{slugify(cleaned)}mf.com"
+    log.warning("No known domain for '%s' — guessing %s", cleaned, guess)
+    return guess
+
+
+def build_records(firm_names: list[str]) -> list[dict]:
+    records = []
+    for idx, firm in enumerate(firm_names, start=1):
+        cleaned = clean_name(firm)
+        domain = resolve_domain(cleaned)
+        records.append(
+            {
+                "amc_id": idx,
+                "firm_name": firm,
+                "clean_name": cleaned,
+                "base_domain": domain,
+                "team_url_guess": f"https://{domain}/fund-managers",
+            }
+        )
+    return records
+
+
+def parse_member_names(html: str) -> list[str]:
+    """Pull AMC names out of the rendered members page.
+
+    Primary signal: member names anchor to /member/{id} detail pages. If the
+    page ships fewer than 20 such links (layout change, partial render), fall
+    back to scanning every plausible container for AMC-shaped strings.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    candidates: list[str] = []
+    for anchor in soup.select("a[href*='/member/']"):
+        text = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True))
+        if 3 < len(text) < 90 and not NON_AMC_PATTERNS.search(text):
+            candidates.append(text)
+    if len(candidates) >= 20:
+        return _dedupe(candidates)
+
+    candidates = []
+    for tag in soup.find_all(["td", "li", "a", "h3", "h4", "p", "div", "span"]):
+        # Leaf-ish nodes only; deep containers repeat all their children's text.
+        if tag.find(["td", "li", "div", "p", "table", "ul"]):
+            continue
+        text = re.sub(r"\s+", " ", tag.get_text(" ", strip=True))
+        if not (5 < len(text) < 90):
+            continue
+        if NON_AMC_PATTERNS.search(text):
+            continue
+        if re.search(r"mutual fund|asset management", text, re.IGNORECASE):
+            candidates.append(text)
+    return _dedupe(candidates)
+
+
+def _dedupe(candidates: list[str]) -> list[str]:
+    """Order-preserving dedupe on the cleaned, lowercased name."""
+    seen: set[str] = set()
+    names: list[str] = []
+    for name in candidates:
+        key = clean_name(name).lower()
+        if key and key not in seen:
+            seen.add(key)
+            names.append(name)
+    return names
+
+
+async def fetch_members_html() -> str | None:
+    """Render the AMFI members page with a real browser and return its HTML."""
+    browser_config = BrowserConfig(
+        headless=True,
+        user_agent=USER_AGENT,
+        viewport_width=1366,
+        viewport_height=900,
+    )
+    run_config = CrawlerRunConfig(
+        cache_mode=CacheMode.BYPASS,
+        wait_for="css:body",
+        delay_before_return_html=4.0,  # let the members tab finish re-rendering
+        page_timeout=60_000,
+    )
+    try:
+        async with AsyncWebCrawler(config=browser_config) as crawler:
+            result = await crawler.arun(url=AMFI_MEMBERS_URL, config=run_config)
+        if not result.success:
+            log.error("Crawl failed: %s", result.error_message)
+            return None
+        return result.html
+    except Exception:
+        log.exception("Crawler raised while fetching %s", AMFI_MEMBERS_URL)
+        return None
+
+
+async def main() -> int:
+    log.info("Fetching AMFI members directory: %s", AMFI_MEMBERS_URL)
+    html = await fetch_members_html()
+
+    names: list[str] = []
+    source = "live"
+    if html:
+        try:
+            names = parse_member_names(html)
+        except Exception:
+            log.exception("Parsing members page failed")
+
+    if len(names) < 20:  # sane roster is ~44; fewer means the parse broke
+        log.warning(
+            "Live scrape yielded %d names — using embedded static roster (%d AMCs)",
+            len(names),
+            len(STATIC_AMC_NAMES),
+        )
+        names = STATIC_AMC_NAMES
+        source = "static_fallback"
+    else:
+        log.info("Live scrape yielded %d AMC names", len(names))
+
+    records = build_records(names)
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(
+        json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    log.info("Wrote %d records to %s (source: %s)", len(records), OUTPUT_PATH, source)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(asyncio.run(main()))
