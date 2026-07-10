@@ -13,10 +13,12 @@ Scrape the AMFI members directory, normalize firm names, resolve corporate domai
 
 ## Phase 2 — Team page discovery (planned)
 
-For each seed record, parse `sitemap_url` (XML: `<loc>` entries; HTML: anchor inventory) and harvest **two** URL sets:
+**Hard rule: never construct or template URLs.** Only URLs that actually appear in the sitemap (or on-page anchors) get crawled, each followed through redirects to its final destination before scraping. Pattern-matching is for *classifying* discovered URLs only.
 
-1. **Team/management pages** — URLs matching team/management/fund-manager/leadership patterns. Roster + bios.
-2. **Scheme pages** — URLs matching fund/scheme patterns (e.g. HDFC's `/explore/mutual-funds/{scheme}/regular`). Each scheme page names its fund managers with designations — the direct manager→fund mapping, richer than a roster.
+For each seed record, parse `sitemap_url` (XML: `<loc>` entries; HTML: anchor inventory) and classify the discovered URLs into two sets:
+
+1. **Team/management pages** — discovered URLs whose path mentions team/management/fund-manager/leadership. Roster + bios.
+2. **Scheme pages** — discovered URLs whose path marks a fund/scheme (HDFC's sitemap, for instance, lists every scheme page). Each scheme page names its fund managers with designations — the direct manager→fund mapping, richer than a roster.
 
 `sitemap_verified: false` usually means UA-based WAF (hdfcfund.com 403s httpx but serves browsers) — re-probe those with headless Chromium, which Phase 2 uses anyway. Fall back to nav-link crawling of `base_domain` when no sitemap exists. Output: per AMC, a `team_url` + list of scheme URLs.
 
