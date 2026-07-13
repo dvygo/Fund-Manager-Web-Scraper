@@ -1,11 +1,11 @@
 # MF-Engine
 
-Pipeline that extracts fund-manager data from India's ~55 AMFI-member Asset Management Companies (AMCs). The AMFI members directory (https://www.amfiindia.com/aboutamfi?tab=members — note: `/members` is a 404) is the source of truth for which AMCs exist. Phase 1 (implemented, `main.py`) scrapes that directory, resolves each AMC's corporate domain, and emits the crawler seed list `data/amc_seed_list.json`. Later phases crawl each AMC's site for team pages, extract fund-manager profiles, and persist to a MinIO data lake.
+Pipeline extract fund-manager data from India's ~55 AMFI-member Asset Management Companies (AMCs). AMFI members directory (https://www.amfiindia.com/aboutamfi?tab=members — note: `/members` is 404) = source of truth for which AMCs exist. Phase 1 (done, `main.py`) scrapes directory, resolves each AMC's corporate domain, emits crawler seed list `data/amc_seed_list.json`. Later phases crawl each AMC's site for team pages, extract fund-manager profiles, persist to MinIO data lake.
 
-Read the `context/` docs before working on pipeline logic:
+Read `context/` docs before pipeline logic work:
 
-- `context/project-overview.md` — mission and data source
-- `context/pipeline-phases.md` — what each phase does and its status
+- `context/project-overview.md` — mission + data source
+- `context/pipeline-phases.md` — each phase + status
 - `context/data-schema.md` — seed-list JSON schema
 
 ## Stack
@@ -13,7 +13,7 @@ Read the `context/` docs before working on pipeline logic:
 - Python 3.11+, async-first (`asyncio`)
 - Crawl4AI (`AsyncWebCrawler`) on Playwright/Chromium for JS-rendered pages
 - BeautifulSoup for DOM parsing
-- Docker + compose (`docker/docker-compose.yml`): scraper image, MinIO :9000 (Phase 4 persistence), vLLM :8000 serving Qwen2.5-3B-Instruct-AWQ (Phase 3 extraction — sized for the dev machine's RTX 3050 6GB VRAM), Open WebUI :3000 (chat UI for prompt testing), Qdrant :6333 (future semantic search)
+- Docker + compose (`docker/docker-compose.yml`): scraper image, MinIO :9000 (Phase 4 persistence), vLLM :8000 serving Qwen2.5-3B-Instruct-AWQ (Phase 3 extraction — sized for dev machine's RTX 3050 6GB VRAM), Open WebUI :3000 (chat UI for prompt testing), Qdrant :6333 (future semantic search)
 
 ## Commands
 
@@ -34,7 +34,7 @@ docker build -t mf-engine .
 docker run -v ./data:/app/data mf-engine
 ```
 
-Full stack (MinIO + vLLM/Qwen + scraper) — compose lives in `docker/`:
+Full stack (MinIO + vLLM/Qwen + scraper) — compose in `docker/`:
 
 ```bash
 cd docker
@@ -43,12 +43,12 @@ docker compose up -d minio vllm open-webui qdrant
 docker compose run --rm scraper   # one-shot; writes ../data/amc_seed_list.json
 ```
 
-The Dockerfile packages `main.py` into the scraper image; compose builds/runs that image — `main.py` never invokes Docker itself. vLLM needs an NVIDIA GPU exposed to Docker; model/context are tuned for 6GB VRAM via `VLLM_MODEL` / `VLLM_MAX_MODEL_LEN` in `.env`.
+Dockerfile packages `main.py` into scraper image; compose builds/runs it — `main.py` never invokes Docker itself. vLLM needs NVIDIA GPU exposed to Docker; model/context tuned for 6GB VRAM via `VLLM_MODEL` / `VLLM_MAX_MODEL_LEN` in `.env`.
 
 ## Conventions
 
-- One self-contained script per pipeline phase; `main.py` is Phase 1.
-- All network work goes through Crawl4AI's async context manager (`async with AsyncWebCrawler(...)`), driven by `asyncio.run(main())`.
-- Scrapers must degrade gracefully: if a live scrape fails or looks wrong, fall back to embedded static data and log which path ran — never emit an empty output file.
-- JSON outputs go to `data/` (gitignored), written with `indent=2`.
-- Domain knowledge lives in `KNOWN_DOMAINS` in `main.py`; add new AMC mappings there rather than relying on the slug-guess fallback.
+- One self-contained script per phase; `main.py` is Phase 1.
+- All network work through Crawl4AI async context manager (`async with AsyncWebCrawler(...)`), driven by `asyncio.run(main())`.
+- Scrapers degrade gracefully: live scrape fails or looks wrong → fall back to embedded static data, log which path ran — never emit empty output file.
+- JSON outputs → `data/` (gitignored), `indent=2`.
+- Domain knowledge in `KNOWN_DOMAINS` in `main.py`; add new AMC mappings there, don't rely on slug-guess fallback.

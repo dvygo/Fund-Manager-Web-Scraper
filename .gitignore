@@ -11,6 +11,9 @@ data/
 # Local secrets
 docker/.env
 
+# caveman-compress backups
+*.original.md
+
 # Crawl4AI / Playwright local caches
 .crawl4ai/
 
