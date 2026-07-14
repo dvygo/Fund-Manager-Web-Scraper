@@ -48,6 +48,12 @@ Reads `data/fund_managers.csv` and adds, per manager, a LinkedIn profile URL and
 
 Fund manager ≠ MFD: the AMFI `/api/distributor-agent` endpoint lists distributors (with contacts) and is not a source for fund managers.
 
+## Side scraper — SEBI registered mutual funds (`src/sebi_mutual_funds.py`)
+
+Standalone, not part of the 1→4 chain. Scrapes SEBI's official **Registered Mutual Funds** directory (the *regulator's* list) → `data/sebi_mutual_funds.json`: name, SEBI registration number, registered address (city/state parsed out), and registration/validity date — fields AMFI does not publish. Useful to cross-check the AMFI roster and to attach a regulatory registration number to each AMC.
+
+The public page paginates via an AJAX POST its own `searchFormFpi()` makes to `getintmfpiinfo.jsp` with `doDirect=<page-1>` (0-based). No token or browser needed — the script calls that endpoint directly, page by page, with retries (SEBI drops rapid connections). Yields **59 registered mutual funds** (July 2026).
+
 ## Phase 6 — Persistence (planned)
 
 Land raw HTML snapshots and extracted JSON in a MinIO data lake (service defined in `docker/docker-compose.yml`, S3 API on :9000), for downstream querying and change tracking. Immutable, date-partitioned — every pull kept, nothing overwritten:

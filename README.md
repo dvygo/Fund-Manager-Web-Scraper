@@ -84,6 +84,12 @@ python src/phase4_enrich.py          # Phase 4 → data/fund_managers_enriched.c
 
 Phase 4's LinkedIn search needs a backend — set `BRAVE_API_KEY` (reliable) or point `SEARXNG_URL` at a local SearXNG (no key, best-effort). See [Configuration](#configuration).
 
+**Bonus — SEBI cross-check** (standalone): scrape the *regulator's* official registered-mutual-funds list (registration numbers, addresses, dates) that AMFI doesn't publish:
+
+```bash
+python src/sebi_mutual_funds.py     # → data/sebi_mutual_funds.json (59 funds)
+```
+
 ### With Docker
 
 ```bash
