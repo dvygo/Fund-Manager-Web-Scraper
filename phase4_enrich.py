@@ -9,10 +9,11 @@ Reads data/fund_managers.csv (Phase 3) and adds, per manager:
   - email_guess  : best-effort corporate pattern (first.last@domain). Clearly
                    separate from `email` — a guess, not asserted fact.
 
-Search: SearXNG only — a self-hosted meta-search instance (no API key, no
-per-engine throttle) queried over its JSON API. Runs as the `searxng` container
-in docker/docker-compose.yml. The discovered profile URL is name-matched to the
-manager and stored; no LinkedIn page is ever fetched.
+Search: Brave Search API when BRAVE_API_KEY is set (keyed, reliable, free tier
+~2000/mo — covers a full roster with no throttling); otherwise SearXNG (self-
+hosted, no key, but its engine scrapes get IP-throttled/Tor-blocked so coverage
+is flaky). The discovered profile URL is name-matched to the manager and stored;
+no LinkedIn page is ever fetched.
 
 Verified profiles in linkedin_overrides.json (keyed "name|firm") are applied as
 authoritative and skip search.
@@ -20,7 +21,8 @@ authoritative and skip search.
 Output: data/fund_managers_enriched.csv
 
 Env:
-  SEARXNG_URL      base URL of the SearXNG instance (default http://localhost:8080)
+  BRAVE_API_KEY    Brave Search API token (recommended — reliable, free tier)
+  SEARXNG_URL      SearXNG instance URL (fallback; default http://localhost:8080)
   HUNTER_API_KEY   use Hunter.io email-finder for verified emails
   VERIFY_SMTP=1    attempt SMTP RCPT verification of guessed emails (slow,
                    often blocked by corporate mail servers; needs dnspython)
@@ -61,6 +63,7 @@ LINKEDIN_RE = re.compile(
     r"https?://(?:[a-z]{2,3}\.)?linkedin\.com/in/[A-Za-z0-9\-_%]+", re.IGNORECASE
 )
 
+BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY", "")
 SEARXNG_URL = os.environ.get("SEARXNG_URL", "http://localhost:8080").rstrip("/")
 HUNTER_API_KEY = os.environ.get("HUNTER_API_KEY", "")
 VERIFY_SMTP = os.environ.get("VERIFY_SMTP") == "1"
@@ -130,30 +133,52 @@ def _pick_profile(candidates: list[tuple[str, str]], name: str) -> str:
     return ""
 
 
+async def brave_search(client: httpx.AsyncClient, query: str) -> list[tuple[str, str]]:
+    """(url, title) pairs from the Brave Search API. Keyed, no per-run
+    throttling within the free quota — reliable for a full roster."""
+    resp = await client.get(
+        "https://api.search.brave.com/res/v1/web/search",
+        params={"q": query, "count": 10},
+        headers={
+            "Accept": "application/json",
+            "X-Subscription-Token": BRAVE_API_KEY,
+        },
+    )
+    resp.raise_for_status()
+    results = resp.json().get("web", {}).get("results", [])
+    return [(r.get("url", ""), r.get("title", "")) for r in results]
+
+
+async def searxng_search(client: httpx.AsyncClient, query: str) -> list[tuple[str, str]]:
+    """(url, title) pairs from SearXNG's JSON API."""
+    resp = await client.get(
+        f"{SEARXNG_URL}/search",
+        params={
+            "q": query,
+            "format": "json",
+            # Tor-tolerant engines (Google/Bing block Tor exits)
+            "engines": "duckduckgo,startpage,brave,mojeek,qwant",
+        },
+    )
+    return [
+        (i.get("url", ""), i.get("title", ""))
+        for i in resp.json().get("results", [])
+    ]
+
+
 async def find_linkedin(client: httpx.AsyncClient, name: str, firm: str) -> str:
-    """Name-matched linkedin.com/in URL from SearXNG's JSON API. Stored only,
-    never scraped. One retry, since a busy SearXNG can return empty briefly."""
+    """Name-matched linkedin.com/in URL. Brave Search API when BRAVE_API_KEY is
+    set (reliable), else SearXNG. Stored only, never scraped. One retry, since a
+    busy engine can return empty briefly."""
     query = f"{name} {firm_for_query(firm)} fund manager linkedin"
+    search = brave_search if BRAVE_API_KEY else searxng_search
     for attempt in range(2):
         try:
-            resp = await client.get(
-                f"{SEARXNG_URL}/search",
-                params={
-                    "q": query,
-                    "format": "json",
-                    # Tor-tolerant engines (Google/Bing block Tor exits)
-                    "engines": "duckduckgo,startpage,brave,mojeek,qwant",
-                },
-            )
-            cands = [
-                (i.get("url", ""), i.get("title", ""))
-                for i in resp.json().get("results", [])
-            ]
-            hit = _pick_profile(cands, name)
+            hit = _pick_profile(await search(client, query), name)
             if hit or attempt == 1:
                 return hit
         except Exception:
-            log.debug("searxng failed: %s", query)
+            log.debug("search failed: %s", query)
             if attempt == 1:
                 return ""
         await asyncio.sleep(1.5)
@@ -234,10 +259,11 @@ async def main() -> int:
     overrides = {}
     if OVERRIDES_PATH.exists():
         overrides = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))
+    backend = "brave-api" if BRAVE_API_KEY else f"searxng({SEARXNG_URL})"
     log.info(
-        "Enriching %d managers | search=searxng(%s) overrides=%d hunter=%s smtp=%s",
+        "Enriching %d managers | search=%s overrides=%d hunter=%s smtp=%s",
         len(rows),
-        SEARXNG_URL,
+        backend,
         len(overrides),
         bool(HUNTER_API_KEY),
         VERIFY_SMTP,
