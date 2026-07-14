@@ -24,17 +24,17 @@ These are load-bearing. A change that violates them will be sent back regardless
 ## Development setup
 
 ```bash
-git clone git@github.com:dvygo/MF-Engine.git
-cd MF-Engine
+git clone git@github.com:dvygo/Fund-Manager-Web-Scraper.git
+cd Fund-Manager-Web-Scraper
 python -m venv .venv && . .venv/Scripts/activate   # or source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r setup/requirements.txt
 playwright install chromium
 ```
 
-Run a phase to confirm your environment works:
+Run a phase to confirm your environment works (from the repo root):
 
 ```bash
-python main.py            # writes data/amc_seed_list.json
+python src/main.py       # writes data/amc_seed_list.json
 ```
 
 ## Branching & commits
@@ -48,7 +48,7 @@ python main.py            # writes data/amc_seed_list.json
 Run the checks relevant to your change:
 
 ```bash
-python -m py_compile main.py phase2_discover.py phase3_extract.py phase4_enrich.py
+python -m py_compile src/main.py src/phase2_discover.py src/phase3_extract.py src/phase4_enrich.py
 ```
 
 - **Exercise the affected phase end-to-end** and confirm the output file is well-formed (don't just rely on a compile). If you touched Phase 2 classification, run it and spot-check `amc_page_inventory.json`.

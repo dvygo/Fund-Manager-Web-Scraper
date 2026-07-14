@@ -23,7 +23,7 @@ dependencies = [
 verify = ["dnspython>=2.6.0"]
 
 [project.urls]
-Repository = "https://github.com/dvygo/MF-Engine"
+Repository = "https://github.com/dvygo/Fund-Manager-Web-Scraper"
 
 [tool.ruff]
 line-length = 90

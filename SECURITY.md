@@ -5,7 +5,7 @@
 Please **do not** open a public GitHub issue for security problems.
 
 Report vulnerabilities privately to **narasimhadeshik@gmail.com** (or via
-GitHub's [private security advisory](https://github.com/dvygo/MF-Engine/security/advisories/new)).
+GitHub's [private security advisory](https://github.com/dvygo/Fund-Manager-Web-Scraper/security/advisories/new)).
 Include:
 
 - a description of the issue and its impact,
