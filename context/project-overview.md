@@ -12,7 +12,7 @@ Build a structured dataset of fund managers across all active Indian Asset Manag
 
 ## Why a seed list first
 
-The seed list (`data/amc_seed_list.json`) is the pipeline's root input — every downstream phase keys off it. The members page embeds a hydration JSON payload carrying each AMC's **official website** (`amc_website`), stable `mf_id`, and registered legal name, so on the normal path domains are authoritative, not guessed. The curated dictionary (`KNOWN_DOMAINS` in `main.py`) and slug guess (`www.{slug}mf.com`) only cover members without a listed website (unlaunched fund houses) and degraded fallback paths.
+The seed list (`data/amc_seed_list.json`) is the pipeline's root input — every downstream phase keys off it. The members page embeds a hydration JSON payload carrying each AMC's **official website** (`amc_website`), stable `mf_id`, and registered legal name, so on the normal path domains are authoritative, not guessed. The curated dictionary (`KNOWN_DOMAINS` in `src/main.py`) and slug guess (`www.{slug}mf.com`) only cover members without a listed website (unlaunched fund houses) and degraded fallback paths.
 
 ## Constraints
 

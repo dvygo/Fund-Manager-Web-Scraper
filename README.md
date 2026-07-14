@@ -48,10 +48,10 @@ flowchart LR
 
 | Phase | Script | Output | What it does | Status |
 |:-----:|--------|--------|--------------|:------:|
-| **1** | [`main.py`](main.py) | `amc_seed_list.json` | Scrape AMFI → **55 AMCs** with official domains & verified sitemaps | ✅ |
-| **2** | [`phase2_discover.py`](phase2_discover.py) | `amc_page_inventory.json` | Classify sitemap URLs → team + scheme pages (**40 AMCs, 7,372 scheme URLs**) | ✅ |
-| **3** | [`phase3_extract.py`](phase3_extract.py) | `fund_managers.csv` | Extract **137 managers** — name, designation, email, location | ✅ |
-| **4** | [`phase4_enrich.py`](phase4_enrich.py) | `fund_managers_enriched.csv` | Name-matched LinkedIn URL + best-effort email | ✅ |
+| **1** | [`src/main.py`](src/main.py) | `amc_seed_list.json` | Scrape AMFI → **55 AMCs** with official domains & verified sitemaps | ✅ |
+| **2** | [`src/phase2_discover.py`](src/phase2_discover.py) | `amc_page_inventory.json` | Classify sitemap URLs → team + scheme pages (**40 AMCs, 7,372 scheme URLs**) | ✅ |
+| **3** | [`src/phase3_extract.py`](src/phase3_extract.py) | `fund_managers.csv` | Extract **137 managers** — name, designation, email, location | ✅ |
+| **4** | [`src/phase4_enrich.py`](src/phase4_enrich.py) | `fund_managers_enriched.csv` | Name-matched LinkedIn URL + best-effort email | ✅ |
 | 5 | — | MinIO buckets | Persist raw HTML + JSON, date-partitioned | 📋 planned |
 | 6 | — | Qdrant | Semantic search over manager profiles | 📋 planned |
 
@@ -59,14 +59,14 @@ flowchart LR
 
 ```bash
 # 1. Install
-pip install -r requirements.txt
+pip install -r setup/requirements.txt
 playwright install chromium          # one-time browser download
 
-# 2. Run the pipeline
-python main.py                       # Phase 1 → data/amc_seed_list.json
-python phase2_discover.py            # Phase 2 → data/amc_page_inventory.json
-python phase3_extract.py             # Phase 3 → data/fund_managers.csv
-python phase4_enrich.py              # Phase 4 → data/fund_managers_enriched.csv
+# 2. Run the pipeline (from the repo root)
+python src/main.py                   # Phase 1 → data/amc_seed_list.json
+python src/phase2_discover.py        # Phase 2 → data/amc_page_inventory.json
+python src/phase3_extract.py         # Phase 3 → data/fund_managers.csv
+python src/phase4_enrich.py          # Phase 4 → data/fund_managers_enriched.csv
 ```
 
 Phase 4's LinkedIn search needs a backend — set `BRAVE_API_KEY` (reliable) or point `SEARXNG_URL` at a local SearXNG (no key, best-effort). See [Configuration](#configuration).

@@ -1,6 +1,6 @@
 # Pipeline Phases
 
-## Phase 1 — AMC seed list (implemented: `main.py`)
+## Phase 1 — AMC seed list (implemented: `src/main.py`)
 
 Scrape the AMFI members directory, normalize firm names, resolve corporate domains, write `data/amc_seed_list.json`.
 
@@ -11,7 +11,7 @@ Scrape the AMFI members directory, normalize firm names, resolve corporate domai
 - Resilience chain: payload extraction → DOM text scan → embedded static roster (49 names). The run's source is logged; the script always produces a seed file.
 - **Sitemap discovery**: every domain is probed concurrently (httpx, semaphore 10) — `robots.txt` `Sitemap:` directive, then `/sitemap.xml`, `/sitemap_index.xml`, `/sitemap`, `/site-map` — and records carry `sitemap_url` / `sitemap_type` / `sitemap_verified` (~39/55 verify over plain HTTP; WAF-walled sites like HDFC need Phase 2's browser).
 
-## Phase 2 — Team & scheme page discovery (implemented: `phase2_discover.py`)
+## Phase 2 — Team & scheme page discovery (implemented: `src/phase2_discover.py`)
 
 **Hard rule: never construct or template URLs.** Only URLs that actually appear in the sitemap (or on-page anchors) get crawled, each followed through redirects to its final destination before scraping. Pattern-matching is for *classifying* discovered URLs only.
 
@@ -26,7 +26,7 @@ Fetch strategy per URL: httpx first, headless Chromium fallback (Chrome's XML vi
 
 Output: `data/amc_page_inventory.json` (records carry `canonical_host`). Current yield: 29/55 AMCs with team pages, 40/55 with scheme pages (186 team + 7372 scheme URLs). Remaining zero-yield are small/newly-launched houses (Invesco's `/FundPage` slugless paths, Angel One, Choice, Unifi, ASK, Monarch, AlphaGrep) needing per-site classifier patterns, plus Lakshya (DNS does not resolve — site not up yet) and Abakkus (upstream sitemap misconfig).
 
-## Phase 3 — Fund manager extraction (implemented: `phase3_extract.py`)
+## Phase 3 — Fund manager extraction (implemented: `src/phase3_extract.py`)
 
 Current scope: crawl each AMC's team/management pages (from Phase 2 `team_urls`, blog/article paths filtered out) and extract **fund-manager name, designation, email, location** into `data/fund_managers.csv`. Heuristic only — no LLM, runs on CPU:
 
@@ -37,7 +37,7 @@ Current scope: crawl each AMC's team/management pages (from Phase 2 `team_urls`,
 
 Crawls with Crawl4AI stealth. Best-effort by design — layouts vary per AMC and few sites publish per-manager emails. **Upgrade path**: swap the heuristic for an LLM pass (vLLM/Qwen on :8000, `instructor` + Pydantic) for cleaner names and manager→fund mapping from scheme pages.
 
-## Phase 4 — Enrichment: LinkedIn + email (implemented: `phase4_enrich.py`)
+## Phase 4 — Enrichment: LinkedIn + email (implemented: `src/phase4_enrich.py`)
 
 Reads `data/fund_managers.csv` and adds, per manager, a LinkedIn profile URL and a best-effort email → `data/fund_managers_enriched.csv`.
 

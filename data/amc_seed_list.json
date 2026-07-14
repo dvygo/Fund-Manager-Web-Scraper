@@ -1,0 +1,562 @@
+[
+  {
+    "amc_id": 3,
+    "firm_name": "Aditya Birla Sun Life Mutual Fund",
+    "legal_name": "Aditya Birla Sun Life AMC Limited",
+    "clean_name": "Aditya Birla Sun Life",
+    "base_domain": "mutualfund.adityabirlacapital.com",
+    "sitemap_url": "https://mutualfund.adityabirlacapital.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 4,
+    "firm_name": "Baroda BNP Paribas Mutual Fund",
+    "legal_name": "Baroda BNP Paribas Asset Management India Private Limited",
+    "clean_name": "Baroda BNP Paribas",
+    "base_domain": "barodabnpparibasmf.in",
+    "sitemap_url": "https://www.barodabnpparibasmf.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 6,
+    "firm_name": "DSP Mutual Fund",
+    "legal_name": "DSP Asset Managers Private Limited",
+    "clean_name": "DSP",
+    "base_domain": "dspim.com",
+    "sitemap_url": "https://www.dspim.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 9,
+    "firm_name": "HDFC Mutual Fund",
+    "legal_name": "HDFC Asset Management Company Limited",
+    "clean_name": "HDFC",
+    "base_domain": "hdfcfund.com",
+    "sitemap_url": "https://hdfcfund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 13,
+    "firm_name": "quant Mutual Fund",
+    "legal_name": "quant Money Managers Limited",
+    "clean_name": "quant",
+    "base_domain": "quantmutual.com",
+    "sitemap_url": "https://quantmutual.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 16,
+    "firm_name": "JM Financial Mutual Fund",
+    "legal_name": "JM Financial Asset Management Limited",
+    "clean_name": "JM Financial",
+    "base_domain": "jmfinancialmf.com",
+    "sitemap_url": "https://www.jmfinancialmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 17,
+    "firm_name": "Kotak Mahindra Mutual Fund",
+    "legal_name": "Kotak Mahindra Asset Management Company Limited.",
+    "clean_name": "Kotak Mahindra",
+    "base_domain": "kotakmf.com",
+    "sitemap_url": "https://www.kotakmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 18,
+    "firm_name": "LIC Mutual Fund",
+    "legal_name": "LIC Mutual Fund Asset Management Limited",
+    "clean_name": "LIC",
+    "base_domain": "licmf.com",
+    "sitemap_url": "https://www.licmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 20,
+    "firm_name": "ICICI Prudential Mutual Fund",
+    "legal_name": "ICICI Prudential Asset Management Company Limited",
+    "clean_name": "ICICI Prudential",
+    "base_domain": "icicipruamc.com",
+    "sitemap_url": "https://icicipruamc.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 21,
+    "firm_name": "Nippon India Mutual Fund",
+    "legal_name": "Nippon Life India Asset Management Limited",
+    "clean_name": "Nippon India",
+    "base_domain": "mf.nipponindiaim.com",
+    "sitemap_url": "https://mf.nipponindiaim.com:443/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 22,
+    "firm_name": "SBI Mutual Fund",
+    "legal_name": "SBI Funds Management Limited",
+    "clean_name": "SBI",
+    "base_domain": "sbimf.com",
+    "sitemap_url": "https://www.sbimf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 25,
+    "firm_name": "Tata Mutual Fund",
+    "legal_name": "Tata Asset Management Limited",
+    "clean_name": "Tata",
+    "base_domain": "tatamutualfund.com",
+    "sitemap_url": "https://www.tatamutualfund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 26,
+    "firm_name": "Taurus Mutual Fund",
+    "legal_name": "Taurus Asset Management Company Limited",
+    "clean_name": "Taurus",
+    "base_domain": "taurusmutualfund.com",
+    "sitemap_url": "https://taurusmutualfund.com/sitemap",
+    "sitemap_type": "html",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 27,
+    "firm_name": "Franklin Templeton Mutual Fund",
+    "legal_name": "Franklin Templeton Asset Management (India) Private Limited",
+    "clean_name": "Franklin Templeton",
+    "base_domain": "franklintempletonindia.com",
+    "sitemap_url": "https://franklintempletonindia.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 28,
+    "firm_name": "UTI Mutual Fund",
+    "legal_name": "UTI Asset Mgmt. Co. Ltd.",
+    "clean_name": "UTI",
+    "base_domain": "utimf.com",
+    "sitemap_url": "https://utimf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 32,
+    "firm_name": "Canara Robeco Mutual Fund",
+    "legal_name": "Canara Robeco Asset Management Company Limited",
+    "clean_name": "Canara Robeco",
+    "base_domain": "canararobeco.com",
+    "sitemap_url": "https://www.canararobeco.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 33,
+    "firm_name": "Sundaram Mutual Fund",
+    "legal_name": "Sundaram Asset Management Company Ltd",
+    "clean_name": "Sundaram",
+    "base_domain": "sundarammutual.com",
+    "sitemap_url": "https://sundarammutual.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 37,
+    "firm_name": "HSBC Mutual Fund",
+    "legal_name": "HSBC Asset Management (India) Private Ltd.",
+    "clean_name": "HSBC",
+    "base_domain": "assetmanagement.hsbc.co.in",
+    "sitemap_url": "https://assetmanagement.hsbc.co.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 41,
+    "firm_name": "Quantum Mutual Fund",
+    "legal_name": "Quantum Asset Management Company Private Limited",
+    "clean_name": "Quantum",
+    "base_domain": "quantumamc.com",
+    "sitemap_url": "https://www.quantumamc.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 42,
+    "firm_name": "Invesco Mutual Fund",
+    "legal_name": "Invesco Asset Management (India) Private Limited",
+    "clean_name": "Invesco",
+    "base_domain": "invescomutualfund.com",
+    "sitemap_url": "https://www.invescomutualfund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 45,
+    "firm_name": "Mirae Asset Mutual Fund",
+    "legal_name": "Mirae Asset Investment Managers (India) Pvt. Ltd",
+    "clean_name": "Mirae Asset",
+    "base_domain": "miraeassetmf.co.in",
+    "sitemap_url": "https://www.miraeassetmf.co.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 46,
+    "firm_name": "Bank of India Mutual Fund",
+    "legal_name": "Bank of India Investment Managers Private Limited",
+    "clean_name": "Bank of India",
+    "base_domain": "boimf.in",
+    "sitemap_url": "https://www.boimf.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 47,
+    "firm_name": "Edelweiss Mutual Fund",
+    "legal_name": "Edelweiss Asset Management Limited",
+    "clean_name": "Edelweiss",
+    "base_domain": "edelweissmf.com",
+    "sitemap_url": "https://www.edelweissmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 48,
+    "firm_name": "Bandhan Mutual Fund",
+    "legal_name": "Bandhan AMC Limited",
+    "clean_name": "Bandhan",
+    "base_domain": "bandhanmutual.com",
+    "sitemap_url": "https://bandhanmutual.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 53,
+    "firm_name": "Axis Mutual Fund",
+    "legal_name": "Axis Asset Management Co. Ltd.",
+    "clean_name": "Axis",
+    "base_domain": "axismf.com",
+    "sitemap_url": "https://www.axismf.com/sitemap-index.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 54,
+    "firm_name": "Navi Mutual Fund",
+    "legal_name": "Navi AMC Limited",
+    "clean_name": "Navi",
+    "base_domain": "navimutualfund.com",
+    "sitemap_url": "https://navimutualfund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 55,
+    "firm_name": "Motilal Oswal Mutual Fund",
+    "legal_name": "Motilal Oswal Asset Management Company Limited",
+    "clean_name": "Motilal Oswal",
+    "base_domain": "motilaloswalmf.com",
+    "sitemap_url": "https://www.motilaloswalmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 58,
+    "firm_name": "PGIM India Mutual Fund",
+    "legal_name": "PGIM India Asset Management Private Limite",
+    "clean_name": "PGIM India",
+    "base_domain": "pgimindiamf.com",
+    "sitemap_url": "https://www.pgimindia.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 61,
+    "firm_name": "Union Mutual Fund",
+    "legal_name": "Union Asset Management Company Private Limited",
+    "clean_name": "Union",
+    "base_domain": "unionmf.com",
+    "sitemap_url": "https://unionmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 62,
+    "firm_name": "360 ONE Mutual Fund",
+    "legal_name": "360 ONE Asset Management Limited",
+    "clean_name": "360 ONE",
+    "base_domain": "360.one",
+    "sitemap_url": "https://www.360.one/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 63,
+    "firm_name": "Groww Mutual Fund",
+    "legal_name": "Groww Asset Management Limited",
+    "clean_name": "Groww",
+    "base_domain": "growwmf.in",
+    "sitemap_url": "https://www.growwmf.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 64,
+    "firm_name": "PPFAS Mutual Fund",
+    "legal_name": "PPFAS Asset Management Pvt. Ltd.",
+    "clean_name": "PPFAS",
+    "base_domain": "amc.ppfas.com",
+    "sitemap_url": "https://amc.ppfas.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 65,
+    "firm_name": "IL\\u0026FS Mutual Fund (IDF)",
+    "legal_name": "IL\\u0026FS Infra Asset Management Limited",
+    "clean_name": "IL\\u0026FS Mutual Fund (IDF)",
+    "base_domain": "ilfsinfrafund.com",
+    "sitemap_url": "https://ilfsinfrafund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 67,
+    "firm_name": "Shriram Mutual Fund",
+    "legal_name": "Shriram Asset Management Co. Ltd.",
+    "clean_name": "Shriram",
+    "base_domain": "shriramamc.in",
+    "sitemap_url": "http://www.shriramamc.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 69,
+    "firm_name": "Mahindra Manulife Mutual Fund",
+    "legal_name": "Mahindra Manulife Investment Management Pvt Ltd",
+    "clean_name": "Mahindra Manulife",
+    "base_domain": "mahindramanulife.com",
+    "sitemap_url": "https://www.mahindramanulife.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 70,
+    "firm_name": "ITI Mutual Fund",
+    "legal_name": "ITI Asset Management Limited",
+    "clean_name": "ITI",
+    "base_domain": "itiamc.com",
+    "sitemap_url": "https://www.itiamc.com/sitemap-index.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 71,
+    "firm_name": "WhiteOak Capital Mutual Fund",
+    "legal_name": "WhiteOak Capital Asset Management Limited",
+    "clean_name": "WhiteOak Capital",
+    "base_domain": "mf.whiteoakamc.com",
+    "sitemap_url": "https://mf.whiteoakamc.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 72,
+    "firm_name": "Trust Mutual Fund",
+    "legal_name": "Trust Asset Management Private Limited",
+    "clean_name": "Trust",
+    "base_domain": "trustmf.com",
+    "sitemap_url": "https://www.trustmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 73,
+    "firm_name": "NJ Mutual Fund",
+    "legal_name": "NJ Asset Management Private Limited",
+    "clean_name": "NJ",
+    "base_domain": "njmutualfund.com",
+    "sitemap_url": "https://www.njmutualfund.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 74,
+    "firm_name": "Samco Mutual Fund",
+    "legal_name": "Samco Asset Management Private Limited",
+    "clean_name": "Samco",
+    "base_domain": "samcomf.com",
+    "sitemap_url": "https://www.samcomf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 75,
+    "firm_name": "Bajaj Finserv Mutual Fund",
+    "legal_name": "Bajaj Finserv Asset Management Limited",
+    "clean_name": "Bajaj Finserv",
+    "base_domain": "bajajamc.com",
+    "sitemap_url": "https://www.bajajamc.com/sitemap_index.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 76,
+    "firm_name": "Helios Mutual Fund",
+    "legal_name": "Helios Capital Asset Management (India) Pvt. Ltd.",
+    "clean_name": "Helios",
+    "base_domain": "heliosmf.in",
+    "sitemap_url": "https://www.heliosmf.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 77,
+    "firm_name": "Zerodha Mutual Fund",
+    "legal_name": "Zerodha Asset Management Private Limited",
+    "clean_name": "Zerodha",
+    "base_domain": "zerodhafundhouse.com",
+    "sitemap_url": "https://www.zerodhafundhouse.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 78,
+    "firm_name": "Old Bridge Mutual Fund",
+    "legal_name": "Old Bridge Asset Management Private Limited",
+    "clean_name": "Old Bridge",
+    "base_domain": "oldbridgemf.com",
+    "sitemap_url": "https://www.oldbridgemf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 79,
+    "firm_name": "Unifi Mutual Fund",
+    "legal_name": "Unifi Asset Management Private Limited",
+    "clean_name": "Unifi",
+    "base_domain": "unifimf.com",
+    "sitemap_url": "https://unifimf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 80,
+    "firm_name": "Angel One Mutual Fund",
+    "legal_name": "Angel One Asset Management Company Limited",
+    "clean_name": "Angel One",
+    "base_domain": "angelonemf.com",
+    "sitemap_url": "https://www.angelonemf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 81,
+    "firm_name": "Capitalmind Mutual Fund",
+    "legal_name": "Capitalmind Asset Management Private Limited",
+    "clean_name": "Capitalmind",
+    "base_domain": "capitalmindmf.com",
+    "sitemap_url": "https://capitalmindmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 82,
+    "firm_name": "Jio BlackRock Mutual Fund",
+    "legal_name": "Jio BlackRock Asset Management Private Limited",
+    "clean_name": "Jio BlackRock",
+    "base_domain": "jioblackrockamc.com",
+    "sitemap_url": "https://www.jioblackrockamc.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 83,
+    "firm_name": "The Wealth Company Mutual Fund",
+    "legal_name": "Wealth Company Asset Management Holdings Private Limited",
+    "clean_name": "The Wealth Company",
+    "base_domain": "wealthcompanyamc.in",
+    "sitemap_url": "https://wealthcompanyamc.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 84,
+    "firm_name": "Choice Mutual Fund",
+    "legal_name": "Choice AMC Private Limited",
+    "clean_name": "Choice",
+    "base_domain": "choicemf.com",
+    "sitemap_url": "https://choicemf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 85,
+    "firm_name": "Abakkus Mutual Fund",
+    "legal_name": "Abakkus Investment Managers Private Limited",
+    "clean_name": "Abakkus",
+    "base_domain": "abakkusmf.com",
+    "sitemap_url": "https://www.abakkusmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 86,
+    "firm_name": "AlphaGrep Mutual Fund",
+    "legal_name": "AlphaGrep Investment Management Private Limited",
+    "clean_name": "AlphaGrep",
+    "base_domain": "alphagrepmf.ai",
+    "sitemap_url": "https://alphagrepmf.ai/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 87,
+    "firm_name": "ASK MUTUAL FUND",
+    "legal_name": "ASK ASSET MANAGEMENT PRIVATE LIMITED",
+    "clean_name": "ASK",
+    "base_domain": "www.askmf.com",
+    "sitemap_url": "https://www.askmf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 88,
+    "firm_name": "Lakshya Mutual Fund",
+    "legal_name": "Lakshya Asset Management Private Limited",
+    "clean_name": "Lakshya",
+    "base_domain": "www.lakshyamf.com",
+    "sitemap_url": "https://www.lakshyamf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 89,
+    "firm_name": "Monarch Mutual Fund",
+    "legal_name": "Monarch Networth Asset Management Private Limited",
+    "clean_name": "Monarch",
+    "base_domain": "monarchamc.in",
+    "sitemap_url": "https://monarchamc.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 90,
+    "firm_name": "Nuvama Mutual Fund",
+    "legal_name": "Nuvama Asset Management Limited",
+    "clean_name": "Nuvama",
+    "base_domain": "www.nuvamamf.com",
+    "sitemap_url": "https://www.nuvamamf.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  }
+]

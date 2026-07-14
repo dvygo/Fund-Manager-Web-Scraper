@@ -1,0 +1,38 @@
+# MF-Engine project + tooling config.
+# Note: this file lives in setup/ alongside requirements.txt. To build/install
+# as a package, run tools from here (e.g. `pip install -r setup/requirements.txt`).
+
+[project]
+name = "mf-engine"
+version = "0.4.0"
+description = "Pipeline that extracts fund-manager data from India's AMFI-member AMCs."
+readme = "../README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "the MF-Engine authors" }]
+keywords = ["scraping", "crawl4ai", "mutual-funds", "amfi", "india", "pipeline"]
+
+dependencies = [
+    "crawl4ai>=0.6.0",
+    "beautifulsoup4>=4.12.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+# SMTP email verification (VERIFY_SMTP=1)
+verify = ["dnspython>=2.6.0"]
+
+[project.urls]
+Repository = "https://github.com/dvygo/MF-Engine"
+
+[tool.ruff]
+line-length = 90
+target-version = "py311"
+src = ["../src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.black]
+line-length = 90
+target-version = ["py311"]

@@ -5,8 +5,7 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Pipeline output
-data/
+# Pipeline output is committed (public-source data) — kept in the repo.
 
 # Local secrets
 docker/.env
