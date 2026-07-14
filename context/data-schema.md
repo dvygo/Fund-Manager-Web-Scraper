@@ -66,9 +66,9 @@ Phase 3 columns plus:
 |---|---|
 | `email_source` | Where a verified `email` came from: `amc_page`, `hunter`, `smtp`, or blank. |
 | `email_guess` | Most-likely corporate pattern (`first.last@domain`). A guess — never verified, kept separate from `email`. |
-| `linkedin_url` | Profile URL from a web search (stored, not scraped). Sparse in scrape mode (Bing throttles); full coverage with a configured search backend. |
+| `linkedin_url` | Name-matched profile URL from SearXNG (stored, not scraped), or a `linkedin_overrides.json` entry. Blank when no confident match. |
 
-Env toggles: `SEARXNG_URL` (self-hosted search, recommended), `ANTHROPIC_API_KEY` (web_search backend), `SERPAPI_KEY` (hosted search), `HUNTER_API_KEY` (verified emails), `VERIFY_SMTP=1` (SMTP RCPT check, needs dnspython).
+Env toggles: `SEARXNG_URL` (default `http://localhost:8080`), `SEARCH_GAP_SECONDS` (pause between live queries, default 4), `HUNTER_API_KEY` (verified emails), `VERIFY_SMTP=1` (SMTP RCPT check, needs dnspython).
 
 ## Source of a run (logged, not stored in the file)
 

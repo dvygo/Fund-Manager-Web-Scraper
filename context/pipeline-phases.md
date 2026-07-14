@@ -41,13 +41,9 @@ Crawls with Crawl4AI stealth. Best-effort by design — layouts vary per AMC and
 
 Reads `data/fund_managers.csv` and adds, per manager, a LinkedIn profile URL and a best-effort email → `data/fund_managers_enriched.csv`.
 
-- **LinkedIn**: a web search (`{name} {firm} fund manager linkedin`, firm's "Mutual Fund" suffix trimmed) returns the profile URL, which is *stored, never scraped* — LinkedIn walls bots and hides emails anyway. Search backend is pluggable, first available wins:
-  1. **SearXNG** (`SEARXNG_URL`) — self-hosted meta-search, no key, aggregates Bing/Google/DDG so it doesn't throttle; runs as the `searxng` container in `docker/docker-compose.yml`. **Recommended.**
-  2. **Anthropic web_search** (`ANTHROPIC_API_KEY`) — the *same* server-side `web_search_20250305` tool Claude Code's own WebSearch calls; highest quality (disambiguates namesakes), ~$10/1k searches via the official `anthropic` SDK.
-  3. **SerpAPI** (`SERPAPI_KEY`) — hosted Google JSON, free tier ~100/mo.
-  4. **Bing scrape** (no config) — best-effort via Crawl4AI stealth; **throttles after ~20–30 queries**, so it can't cover a full roster. Only for a quick trial.
-
-  Note: Claude Code's WebSearch is not a scraper — it delegates to Anthropic's server-side search tool. That's why option 2 reproduces exactly what an interactive Claude search returns.
+- **LinkedIn**: a search (`{name} {firm} fund manager linkedin`, firm's "Mutual Fund" suffix trimmed) via **SearXNG** (`SEARXNG_URL`, default `http://localhost:8080`) — a self-hosted meta-search running as the `searxng` container in `docker/docker-compose.yml`, queried over its JSON API. The discovered profile URL is **name-matched** to the manager (last name must appear in the slug/title; single-token slugs must also carry the first name) so a wrong-person hit is rejected rather than stored — no LinkedIn page is ever fetched.
+- **Verified overrides**: `linkedin_overrides.json` (keyed `"name|firm"`) holds hand-verified profile URLs, applied as authoritative and skipping search — reproducible, never re-searched.
+- **Throttling reality**: SearXNG scrapes Bing/Google/DDG under the hood, so a burst gets those engines IP-throttled and they start returning junk (the name-match guard rejects it, so coverage drops but no bad data lands). The run is therefore serial with a `SEARCH_GAP_SECONDS` (default 4) pause between live queries; run against a cool instance for full coverage.
 - **Email**: fund managers are AMC employees, not MFDs — no public directory lists their emails, and AMC sites rarely publish them. `email` holds a *verified* address only (from the AMC page in Phase 3, else Hunter.io if `HUNTER_API_KEY` set, else SMTP-verified if `VERIFY_SMTP=1`). `email_guess` holds the most-likely corporate pattern (`first.last@domain`) — kept in a separate column so a guess is never presented as fact.
 
 Fund manager ≠ MFD: the AMFI `/api/distributor-agent` endpoint lists distributors (with contacts) and is not a source for fund managers.
