@@ -141,7 +141,8 @@ async def find_linkedin(client: httpx.AsyncClient, name: str, firm: str) -> str:
                 params={
                     "q": query,
                     "format": "json",
-                    "engines": "bing,google,duckduckgo",
+                    # Tor-tolerant engines (Google/Bing block Tor exits)
+                    "engines": "duckduckgo,startpage,brave,mojeek,qwant",
                 },
             )
             cands = [

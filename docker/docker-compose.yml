@@ -90,10 +90,19 @@ services:
     volumes:
       - qdrant-data:/qdrant/storage
 
-  # Self-hosted meta-search for Phase 4 LinkedIn discovery — no API key,
-  # aggregates Bing/Google/DDG so it doesn't throttle like scraping one engine.
-  # Point the scraper at it: SEARXNG_URL=http://searxng:8080 (in-compose) or
-  # http://localhost:8080 (host). JSON API is enabled via the settings below.
+  # Tor SOCKS proxy — SearXNG routes its outgoing engine scrapes through this
+  # so the exit IP rotates and per-IP throttling is dodged. Circuits take
+  # ~20-40s to build on first start.
+  tor:
+    image: osminogin/tor-simple:latest
+    container_name: mf-tor
+    # SOCKS5 on 9050, reachable in-network as socks5h://tor:9050
+
+  # Self-hosted meta-search for Phase 4 LinkedIn discovery — no API key.
+  # Outgoing requests go through Tor (see settings.yml), so the scrape IP
+  # rotates. Engine set leans on Tor-tolerant engines (Google/Bing often block
+  # Tor exit nodes). Point the scraper at SEARXNG_URL=http://searxng:8080
+  # (in-compose) or http://localhost:8080 (host). JSON API enabled in settings.
   searxng:
     image: searxng/searxng:latest
     container_name: mf-searxng
@@ -102,9 +111,10 @@ services:
     environment:
       SEARXNG_BASE_URL: http://localhost:8080/
     volumes:
-      # Bind-mounted settings enable the JSON API out of the box (the default
-      # build serves HTML only). No first-run manual edit needed.
+      # Bind-mounted settings enable the JSON API + Tor proxy out of the box.
       - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+    depends_on:
+      - tor
 
 volumes:
   minio-data:

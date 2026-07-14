@@ -1,10 +1,12 @@
-# Minimal SearXNG config for MF-Engine Phase 4 LinkedIn discovery.
-# Enables the JSON API (default build allows HTML only) and disables the
-# rate limiter for local pipeline use. Mounted read-only at /etc/searxng.
+# SearXNG config for MF-Engine Phase 4 LinkedIn discovery.
+# - Enables the JSON API (default build serves HTML only).
+# - Routes all outgoing engine requests through the Tor SOCKS proxy so the
+#   scrape IP rotates and per-IP throttling is dodged.
+# Mounted read-only at /etc/searxng/settings.yml.
 use_default_settings: true
 
 server:
-  # Change this to any random string before exposing beyond localhost.
+  # Change this before exposing beyond localhost.
   secret_key: "mf-engine-local-change-me"
   limiter: false
   image_proxy: false
@@ -13,12 +15,34 @@ search:
   formats:
     - html
     - json
-  # Engines the pipeline aggregates; SearXNG rotates across them so no single
-  # engine throttles the way a direct scrape does.
   autocomplete: ""
 
+# Send every engine request out over Tor. Circuits take ~20-40s after the tor
+# container starts; until then engines error and results are empty.
+outgoing:
+  request_timeout: 15.0
+  max_request_timeout: 20.0
+  pool_connections: 100
+  pool_maxsize: 20
+  using_tor_proxy: true
+  proxies:
+    all://:
+      - socks5h://tor:9050
+
+# Prefer engines that tolerate Tor exit nodes; Google/Bing frequently block or
+# CAPTCHA Tor traffic, so keep them off to avoid poisoning results with errors.
 engines:
-  - name: bing
-    disabled: false
   - name: duckduckgo
     disabled: false
+  - name: startpage
+    disabled: false
+  - name: brave
+    disabled: false
+  - name: mojeek
+    disabled: false
+  - name: qwant
+    disabled: false
+  - name: bing
+    disabled: true
+  - name: google
+    disabled: true
