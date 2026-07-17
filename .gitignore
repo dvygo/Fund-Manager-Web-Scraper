@@ -19,3 +19,8 @@ docker/.env
 # OS / editor
 .DS_Store
 Thumbs.db
+
+
+
+# web/ is a git submodule -> github.com/dvygo/wealth-managers-internal
+# (its own .gitignore covers node_modules, .next, .env*, .vercel)
