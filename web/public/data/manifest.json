@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-17",
-  "total_rows": 4022,
+  "total_rows": 4016,
   "shards": [
     {
       "file": "firms_mutual_funds.json",
@@ -32,15 +32,15 @@
     },
     {
       "file": "managers.json",
-      "rows": 245,
-      "hash": "b51daecd7d4c",
-      "bytes": 78555,
+      "rows": 239,
+      "hash": "edbc94733c8c",
+      "bytes": 75899,
       "updated": "2026-07-17"
     },
     {
       "file": "places.json",
       "rows": 161,
-      "hash": "26e11f073cbc",
+      "hash": "dd184d3af547",
       "bytes": 6911,
       "updated": "2026-07-17"
     }
