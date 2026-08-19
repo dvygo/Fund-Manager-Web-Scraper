@@ -53,8 +53,8 @@
     "sebi_reg_no": "INP000004599",
     "sebi_email": "prabir.chatterjee@aarohanfinance.com",
     "sebi_contact_person": "PRABIR CHATTERJEE",
-    "city": "Hyderabad",
-    "state": "Andhra Pradesh",
+    "city": "Mumbai",
+    "state": "Maharashtra",
     "sitemap_url": "https://aarohanfinance.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
@@ -71,21 +71,6 @@
     "city": "Mumbai",
     "state": "Maharashtra",
     "sitemap_url": "https://aavishkaarcapital.in/wp-sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": true
-  },
-  {
-    "amc_id": 11,
-    "firm_name": "Abakkus Investment Managers Private Limited",
-    "legal_name": "Abakkus Investment Managers Private Limited",
-    "clean_name": "Abakkus",
-    "base_domain": "abakkusmf.com",
-    "sebi_reg_no": "INP000009959",
-    "sebi_email": "lijo.varghese@abakkusinvest.com",
-    "sebi_contact_person": "Lijo Varghese",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "sitemap_url": "https://www.abakkusmf.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
@@ -143,8 +128,8 @@
     "sebi_reg_no": "INP000008844",
     "sebi_email": "SB_ACCESS@ACCURACAP.COM",
     "sebi_contact_person": "ISHU SINGHANIA",
-    "city": "Delhi",
-    "state": "National Capital Territory Of Delhi",
+    "city": "Noida",
+    "state": "Uttar Pradesh",
     "sitemap_url": "https://accuracap.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
@@ -156,8 +141,8 @@
     "clean_name": "ACEPRO ADVISORS",
     "base_domain": "acepro.in",
     "sebi_reg_no": "INP000004854",
-    "sebi_email": "",
-    "sebi_contact_person": "Nikhil Arya",
+    "sebi_email": "compliance@acepro.in",
+    "sebi_contact_person": "Heth Patel",
     "city": "Mumbai",
     "state": "Maharashtra",
     "sitemap_url": "https://www.acepro.in/wp-sitemap.xml",
@@ -205,7 +190,7 @@
     "sebi_contact_person": "Anis Bohra",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://www.alchemycapital.com/sitemap.xml",
+    "sitemap_url": "https://www.alchemycapital.com/sitemap",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
@@ -222,7 +207,7 @@
     "state": "Maharashtra",
     "sitemap_url": "https://aldercapital.in/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": true
+    "sitemap_verified": false
   },
   {
     "amc_id": 30,
@@ -310,7 +295,7 @@
     "sebi_contact_person": "Mr. Kamlesh Gujar",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://www.angelone.in/sitemap_index.xml",
+    "sitemap_url": "https://www.angelone.in/sitemap-index.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
@@ -411,7 +396,7 @@
     "clean_name": "Avestha Fund Management LLP",
     "base_domain": "avestha.com",
     "sebi_reg_no": "INP000005810",
-    "sebi_email": "farokh@avesthafm.com",
+    "sebi_email": "",
     "sebi_contact_person": "Chaitanya Kamdar",
     "city": "Mumbai",
     "state": "Maharashtra",
@@ -458,7 +443,7 @@
     "sebi_reg_no": "INP000009904",
     "sebi_email": "shivam.pandey39@bajajfinserv.in",
     "sebi_contact_person": "Shivam Pandey",
-    "city": "Pune",
+    "city": "Mumbai",
     "state": "Maharashtra",
     "sitemap_url": "https://na/sitemap.xml",
     "sitemap_type": "xml",
@@ -488,8 +473,8 @@
     "sebi_reg_no": "INP000004243",
     "sebi_email": "",
     "sebi_contact_person": "Anoop Kumar",
-    "city": "New Delhi",
-    "state": "National Capital Territory Of Delhi",
+    "city": "Noida",
+    "state": "Uttar Pradesh",
     "sitemap_url": "https://banyan-capital.com/wp-sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
@@ -533,8 +518,8 @@
     "sebi_reg_no": "INP000004946",
     "sebi_email": "",
     "sebi_contact_person": "Shalu Mehra",
-    "city": "Mumbai",
-    "state": "Maharashtra",
+    "city": "Kolkata",
+    "state": "West Bengal",
     "sitemap_url": "https://theequitydesk.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
@@ -568,21 +553,6 @@
     "sitemap_url": "https://beallp.in/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
-  },
-  {
-    "amc_id": 92,
-    "firm_name": "BMC Advisors Private Limited",
-    "legal_name": "BMC Advisors Private Limited",
-    "clean_name": "BMC Advisors",
-    "base_domain": "bmcadvisor.com",
-    "sebi_reg_no": "INP000008783",
-    "sebi_email": "info@bmcadvisor.com",
-    "sebi_contact_person": "KRITTIKA CHOWDHURY",
-    "city": "Kolkata",
-    "state": "West Bengal",
-    "sitemap_url": "https://bmcadvisor.com/wp-sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": true
   },
   {
     "amc_id": 94,
@@ -630,7 +600,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 101,
+    "amc_id": 102,
     "firm_name": "Capital 8 LLP",
     "legal_name": "Capital 8 LLP",
     "clean_name": "Capital 8 LLP",
@@ -645,7 +615,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 104,
+    "amc_id": 105,
     "firm_name": "CARE PORTFOLIO MANAGERS PRIVATE LIMITED",
     "legal_name": "CARE PORTFOLIO MANAGERS PRIVATE LIMITED",
     "clean_name": "CARE PORTFOLIO MANAGERS",
@@ -660,7 +630,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 106,
+    "amc_id": 107,
     "firm_name": "Caspian Impact Investment Adviser Private Limited",
     "legal_name": "Caspian Impact Investment Adviser Private Limited",
     "clean_name": "Caspian Impact Investment Adviser",
@@ -675,7 +645,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 107,
+    "amc_id": 108,
     "firm_name": "Centricity Portfolio Managers Private Limited",
     "legal_name": "Centricity Portfolio Managers Private Limited",
     "clean_name": "Centricity Portfolio Managers",
@@ -690,7 +660,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 110,
+    "amc_id": 111,
     "firm_name": "CHONA FINANCIAL SERVICES LTD",
     "legal_name": "CHONA FINANCIAL SERVICES LTD",
     "clean_name": "CHONA FINANCIAL SERVICES",
@@ -705,7 +675,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 112,
+    "amc_id": 113,
     "firm_name": "Citrus Advisors Private Limited",
     "legal_name": "Citrus Advisors Private Limited",
     "clean_name": "Citrus Advisors",
@@ -720,7 +690,22 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 118,
+    "amc_id": 114,
+    "firm_name": "CKREDENCE WEALTH MANAGEMENT PRIVATE LIMITED",
+    "legal_name": "CKREDENCE WEALTH MANAGEMENT PRIVATE LIMITED",
+    "clean_name": "CKREDENCE WEALTH MANAGEMENT",
+    "base_domain": "ckredencewealth.com",
+    "sebi_reg_no": "INP000007164",
+    "sebi_email": "PRAKASH.MAVANI@CKREDENCEWEALTH.COM",
+    "sebi_contact_person": "PRAKASHKUMAR MAVANI",
+    "city": "Surat",
+    "state": "Gujarat",
+    "sitemap_url": "https://ckredencewealth.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 119,
     "firm_name": "Coheron Wealth private Limited",
     "legal_name": "Coheron Wealth private Limited",
     "clean_name": "Coheron Wealth",
@@ -735,7 +720,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 119,
+    "amc_id": 120,
     "firm_name": "Complete CircleWealth Solutions LLP",
     "legal_name": "Complete CircleWealth Solutions LLP",
     "clean_name": "Complete CircleWealth Solutions LLP",
@@ -750,7 +735,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 123,
+    "amc_id": 124,
     "firm_name": "CONSORTIUM SECURITIES PVT. LTD.",
     "legal_name": "CONSORTIUM SECURITIES PVT. LTD.",
     "clean_name": "CONSORTIUM SECURITIES",
@@ -758,14 +743,14 @@
     "sebi_reg_no": "INP000003658",
     "sebi_email": "PRADEEPRAJ@CONSORTIUMSECURITIES.COM",
     "sebi_contact_person": "PARDEEP RAJ",
-    "city": "New Delhi",
+    "city": "Delhi",
     "state": "National Capital Territory Of Delhi",
     "sitemap_url": "https://consortiumsecurities.com/sitemaps.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 125,
+    "amc_id": 126,
     "firm_name": "Corporate Business Advisors Private Limited",
     "legal_name": "Corporate Business Advisors Private Limited",
     "clean_name": "Corporate Business Advisors",
@@ -780,7 +765,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 127,
+    "amc_id": 128,
     "firm_name": "COUNTER CYCLICAL INVESTMENTS PRIVATE LIMITED",
     "legal_name": "COUNTER CYCLICAL INVESTMENTS PRIVATE LIMITED",
     "clean_name": "COUNTER CYCLICAL INVESTMENTS",
@@ -795,7 +780,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 130,
+    "amc_id": 131,
     "firm_name": "Cresana Wealth Managers Private Limited",
     "legal_name": "Cresana Wealth Managers Private Limited",
     "clean_name": "Cresana Wealth Managers",
@@ -810,7 +795,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 133,
+    "amc_id": 134,
     "firm_name": "CX ADVISORS LLP",
     "legal_name": "CX ADVISORS LLP",
     "clean_name": "CX ADVISORS LLP",
@@ -825,7 +810,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 134,
+    "amc_id": 135,
     "firm_name": "DALAL & BROACHA STOCK BROKING PVT. LTD.",
     "legal_name": "DALAL & BROACHA STOCK BROKING PVT. LTD.",
     "clean_name": "DALAL & BROACHA STOCK BROKING",
@@ -840,7 +825,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 135,
+    "amc_id": 136,
     "firm_name": "DARASHAW & COMPANY LTD",
     "legal_name": "DARASHAW & COMPANY LTD",
     "clean_name": "DARASHAW & COMPANY",
@@ -850,12 +835,12 @@
     "sebi_contact_person": "M.Bina Shah",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://darashaw.com/sitemap.xml",
+    "sitemap_url": "https://www.darashaw.com/wp-sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
-    "amc_id": 136,
+    "amc_id": 137,
     "firm_name": "DEUTSCHE INVESTMENTS INDIA PRIVATE LIMITED",
     "legal_name": "DEUTSCHE INVESTMENTS INDIA PRIVATE LIMITED",
     "clean_name": "DEUTSCHE INVESTMENTS INDIA",
@@ -870,7 +855,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 139,
+    "amc_id": 140,
     "firm_name": "Divya Capital One Private Limited",
     "legal_name": "Divya Capital One Private Limited",
     "clean_name": "Divya Capital One",
@@ -878,14 +863,14 @@
     "sebi_reg_no": "INP000008145",
     "sebi_email": "cs@divyacapitalone.com",
     "sebi_contact_person": "Haritima Singh",
-    "city": "Gandhinagar",
-    "state": "Gujarat",
+    "city": "Delhi",
+    "state": "National Capital Territory Of Delhi",
     "sitemap_url": "https://divyacapitalone.com/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": true
+    "sitemap_verified": false
   },
   {
-    "amc_id": 140,
+    "amc_id": 141,
     "firm_name": "DMZ Partners Investment Management LLP",
     "legal_name": "DMZ Partners Investment Management LLP",
     "clean_name": "DMZ Partners Investment Management LLP",
@@ -900,7 +885,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 144,
+    "amc_id": 145,
     "firm_name": "DSIJ WEALTH ADVISORY PRIVATE LIMITED",
     "legal_name": "DSIJ WEALTH ADVISORY PRIVATE LIMITED",
     "clean_name": "DSIJ WEALTH ADVISORY",
@@ -915,7 +900,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 147,
+    "amc_id": 148,
     "firm_name": "DWAITH ADVISORY PRIVATE LIMITED",
     "legal_name": "DWAITH ADVISORY PRIVATE LIMITED",
     "clean_name": "DWAITH ADVISORY",
@@ -930,7 +915,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 148,
+    "amc_id": 149,
     "firm_name": "DYNAMIC EQUITIES PRIVATE LIMITED",
     "legal_name": "DYNAMIC EQUITIES PRIVATE LIMITED",
     "clean_name": "DYNAMIC EQUITIES",
@@ -945,7 +930,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 152,
+    "amc_id": 153,
     "firm_name": "EASTERN FINANCIERS LIMITED",
     "legal_name": "EASTERN FINANCIERS LIMITED",
     "clean_name": "EASTERN FINANCIERS",
@@ -960,7 +945,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 156,
+    "amc_id": 157,
     "firm_name": "EKLAVYA CAPITAL ADVISORS LLP",
     "legal_name": "EKLAVYA CAPITAL ADVISORS LLP",
     "clean_name": "EKLAVYA CAPITAL ADVISORS LLP",
@@ -968,14 +953,14 @@
     "sebi_reg_no": "INP000005265",
     "sebi_email": "",
     "sebi_contact_person": "",
-    "city": "107 Ip Extension",
-    "state": "New Delhi",
+    "city": "Gurugram",
+    "state": "Haryana",
     "sitemap_url": "https://eklavyacap.in/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
   },
   {
-    "amc_id": 157,
+    "amc_id": 158,
     "firm_name": "Electrum Portfolio Managers Private Limited",
     "legal_name": "Electrum Portfolio Managers Private Limited",
     "clean_name": "Electrum Portfolio Managers",
@@ -1058,8 +1043,8 @@
     "sebi_reg_no": "INP000005777",
     "sebi_email": "pawan@equitreecapital.com",
     "sebi_contact_person": "Suneet Kabra",
-    "city": "Surat",
-    "state": "Gujarat",
+    "city": "Mumbai",
+    "state": "Maharashtra",
     "sitemap_url": "https://equitreecapital.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
@@ -1088,8 +1073,8 @@
     "sebi_reg_no": "INP000007720",
     "sebi_email": "umesh.kumar@esteeadvisors.com",
     "sebi_contact_person": "Umesh Kumar",
-    "city": "Gandhinagar",
-    "state": "Gujarat",
+    "city": "Gurugram",
+    "state": "Haryana",
     "sitemap_url": "https://esteeadvisors.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
@@ -1140,22 +1125,22 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 180,
-    "firm_name": "Finwizard Technology Private Limited",
-    "legal_name": "Finwizard Technology Private Limited",
-    "clean_name": "Finwizard Technology",
-    "base_domain": "fisdom.com",
-    "sebi_reg_no": "INP000008950",
-    "sebi_email": "krishna@fisdom.com",
-    "sebi_contact_person": "Krishna Jakkula",
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "sitemap_url": "https://www.fisdom.com/wp-sitemap.xml",
+    "amc_id": 190,
+    "firm_name": "FORTITUDE FUND MANAGEMENT LLP",
+    "legal_name": "FORTITUDE FUND MANAGEMENT LLP",
+    "clean_name": "FORTITUDE FUND MANAGEMENT LLP",
+    "base_domain": "fortitudefundmanagers.com",
+    "sebi_reg_no": "INP000010186",
+    "sebi_email": "binoyshah00@gmail.com",
+    "sebi_contact_person": "Binoy Shah",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "sitemap_url": "https://fortitudefundmanagers.com/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": true
+    "sitemap_verified": false
   },
   {
-    "amc_id": 191,
+    "amc_id": 192,
     "firm_name": "Fortune Wealth Management Company India Private Limited",
     "legal_name": "Fortune Wealth Management Company India Private Limited",
     "clean_name": "Fortune Wealth Management Company India",
@@ -1170,7 +1155,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 193,
+    "amc_id": 194,
     "firm_name": "FOURDEGREEWATER FINVEST PRIVATE LIMITED",
     "legal_name": "FOURDEGREEWATER FINVEST PRIVATE LIMITED",
     "clean_name": "FOURDEGREEWATER FINVEST",
@@ -1185,7 +1170,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 194,
+    "amc_id": 195,
     "firm_name": "Fractal Capital Investments LLP",
     "legal_name": "Fractal Capital Investments LLP",
     "clean_name": "Fractal Capital Investments LLP",
@@ -1200,7 +1185,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 195,
+    "amc_id": 196,
     "firm_name": "FRANKLIN TEMPLETON ASSET MANAGEMENT (INDIA) PRIVATE LIMITED",
     "legal_name": "FRANKLIN TEMPLETON ASSET MANAGEMENT (INDIA) PRIVATE LIMITED",
     "clean_name": "FRANKLIN TEMPLETON ASSET MANAGEMENT (INDIA)",
@@ -1215,7 +1200,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 198,
+    "amc_id": 199,
     "firm_name": "GAUVIK WEALTH MANAGEMENT LLP",
     "legal_name": "GAUVIK WEALTH MANAGEMENT LLP",
     "clean_name": "GAUVIK WEALTH MANAGEMENT LLP",
@@ -1230,7 +1215,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 201,
+    "amc_id": 202,
     "firm_name": "GHALLA BHANSALI STOCK BROKERS PRIVATE LIMITED",
     "legal_name": "GHALLA BHANSALI STOCK BROKERS PRIVATE LIMITED",
     "clean_name": "GHALLA BHANSALI STOCK BROKERS",
@@ -1245,7 +1230,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 202,
+    "amc_id": 203,
     "firm_name": "GIRIK WEALTH ADVISORS PRIVATE LIMITED",
     "legal_name": "GIRIK WEALTH ADVISORS PRIVATE LIMITED",
     "clean_name": "GIRIK WEALTH ADVISORS",
@@ -1260,7 +1245,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 203,
+    "amc_id": 204,
     "firm_name": "GLOBE CAPITAL MARKET LTD.",
     "legal_name": "GLOBE CAPITAL MARKET LTD.",
     "clean_name": "GLOBE CAPITAL MARKET",
@@ -1270,12 +1255,27 @@
     "sebi_contact_person": "Gautam Gupta",
     "city": "New Delhi",
     "state": "National Capital Territory Of Delhi",
-    "sitemap_url": "https://globecapital.com/sitemap.xml",
+    "sitemap_url": "https://globecapital.com/wp-sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
-    "amc_id": 208,
+    "amc_id": 205,
+    "firm_name": "GODREJ WEALTH LIMITED",
+    "legal_name": "GODREJ WEALTH LIMITED",
+    "clean_name": "GODREJ WEALTH",
+    "base_domain": "godrejwealth.com",
+    "sebi_reg_no": "INP000010177",
+    "sebi_email": "shrenik.shah@godrejcapital.com",
+    "sebi_contact_person": "Shrenik Shah",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "sitemap_url": "https://godrejwealth.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 210,
     "firm_name": "Greenedge Wealth Services LLP",
     "legal_name": "Greenedge Wealth Services LLP",
     "clean_name": "Greenedge Wealth Services LLP",
@@ -1290,22 +1290,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 209,
-    "firm_name": "Grey Sky Capital Private Limited",
-    "legal_name": "Grey Sky Capital Private Limited",
-    "clean_name": "Grey Sky Capital",
-    "base_domain": "greyskycapital.com",
-    "sebi_reg_no": "INP000009694",
-    "sebi_email": "apurv@greysky.capital",
-    "sebi_contact_person": "Apurv Anand",
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "sitemap_url": "https://greyskycapital.com/sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": false
-  },
-  {
-    "amc_id": 212,
+    "amc_id": 214,
     "firm_name": "GUARDIAN ADVISORS PVT LTD",
     "legal_name": "GUARDIAN ADVISORS PVT LTD",
     "clean_name": "GUARDIAN ADVISORS",
@@ -1320,7 +1305,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 216,
+    "amc_id": 218,
     "firm_name": "HAWMS Equities Private Limited",
     "legal_name": "HAWMS Equities Private Limited",
     "clean_name": "HAWMS Equities",
@@ -1330,12 +1315,12 @@
     "sebi_contact_person": "Adwaith Vijay",
     "city": "Ernakulam",
     "state": "Kerala",
-    "sitemap_url": "https://hawmsequities.com/wp-sitemap.xml",
+    "sitemap_url": "https://hawmsequities.com/sitemap_index.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 218,
+    "amc_id": 220,
     "firm_name": "HEDGE EQUITIES LTD",
     "legal_name": "HEDGE EQUITIES LTD",
     "clean_name": "HEDGE EQUITIES",
@@ -1343,14 +1328,14 @@
     "sebi_reg_no": "INP000003476",
     "sebi_email": "",
     "sebi_contact_person": "SINI RALPH",
-    "city": "Mumbai",
-    "state": "Maharashtra",
+    "city": "Mamangalam",
+    "state": "Kerala",
     "sitemap_url": "https://hedgeequities.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 223,
+    "amc_id": 225,
     "firm_name": "HSBC ASSET MANAGEMENT (INDIA) PVT. LTD.",
     "legal_name": "HSBC ASSET MANAGEMENT (INDIA) PVT. LTD.",
     "clean_name": "HSBC ASSET MANAGEMENT (INDIA)",
@@ -1365,7 +1350,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 225,
+    "amc_id": 227,
     "firm_name": "ICICI SECURITIES LIMITED",
     "legal_name": "ICICI SECURITIES LIMITED",
     "clean_name": "ICICI SECURITIES",
@@ -1380,7 +1365,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 230,
+    "amc_id": 232,
     "firm_name": "IKIGAI Asset Manager Holdings Private Limited",
     "legal_name": "IKIGAI Asset Manager Holdings Private Limited",
     "clean_name": "IKIGAI Asset Manager Holdings",
@@ -1395,7 +1380,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 238,
+    "amc_id": 240,
     "firm_name": "INDSEC SECURITIES AND FINANCE LTD.",
     "legal_name": "INDSEC SECURITIES AND FINANCE LTD.",
     "clean_name": "INDSEC SECURITIES AND FINANCE",
@@ -1410,7 +1395,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 239,
+    "amc_id": 241,
     "firm_name": "INFINITY ALTERNATIVES INVESTMENT MANAGERS PRIVATE LIMITED",
     "legal_name": "INFINITY ALTERNATIVES INVESTMENT MANAGERS PRIVATE LIMITED",
     "clean_name": "INFINITY ALTERNATIVES",
@@ -1425,7 +1410,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 241,
+    "amc_id": 243,
     "firm_name": "Insightful Investment Manager LLP",
     "legal_name": "Insightful Investment Manager LLP",
     "clean_name": "Insightful Investment Manager LLP",
@@ -1440,7 +1425,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 242,
+    "amc_id": 244,
     "firm_name": "Integrow Asset Management Private Limited",
     "legal_name": "Integrow Asset Management Private Limited",
     "clean_name": "Integrow",
@@ -1455,7 +1440,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 243,
+    "amc_id": 245,
     "firm_name": "INVASSET LLP",
     "legal_name": "INVASSET LLP",
     "clean_name": "INVASSET LLP",
@@ -1470,7 +1455,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 244,
+    "amc_id": 246,
     "firm_name": "Invesco Asset Management India Private Limited",
     "legal_name": "Invesco Asset Management India Private Limited",
     "clean_name": "Invesco Asset Management India",
@@ -1480,12 +1465,12 @@
     "sebi_contact_person": "Deenal Dhulia",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://www.invescomutualfund.com/sitemap.xml",
+    "sitemap_url": "https://invescomutualfund.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 248,
+    "amc_id": 250,
     "firm_name": "InvestSavvy Portfolio Management LLP",
     "legal_name": "InvestSavvy Portfolio Management LLP",
     "clean_name": "InvestSavvy Portfolio Management LLP",
@@ -1500,7 +1485,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 249,
+    "amc_id": 251,
     "firm_name": "INVESTVALUE CAPITAL PRIVATE LIMITED",
     "legal_name": "INVESTVALUE CAPITAL PRIVATE LIMITED",
     "clean_name": "INVESTVALUE CAPITAL",
@@ -1515,7 +1500,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 252,
+    "amc_id": 254,
     "firm_name": "Irris Whiteboard Private Limited",
     "legal_name": "Irris Whiteboard Private Limited",
     "clean_name": "Irris Whiteboard",
@@ -1523,14 +1508,14 @@
     "sebi_reg_no": "INP000009667",
     "sebi_email": "anchit.lakhotiya@wbfam.com",
     "sebi_contact_person": "Anchit Lakhotiya",
-    "city": "Chennai",
-    "state": "Tamil Nadu",
+    "city": "Mumbai",
+    "state": "Maharashtra",
     "sitemap_url": "https://na/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
   },
   {
-    "amc_id": 253,
+    "amc_id": 255,
     "firm_name": "ithought Financial consulting LLP",
     "legal_name": "ithought Financial consulting LLP",
     "clean_name": "ithought Financial consulting LLP",
@@ -1545,7 +1530,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 255,
+    "amc_id": 257,
     "firm_name": "Itus Capital Advisors Pvt Ltd",
     "legal_name": "Itus Capital Advisors Pvt Ltd",
     "clean_name": "Itus Capital Advisors",
@@ -1560,7 +1545,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 258,
+    "amc_id": 260,
     "firm_name": "JAIN INVESTMENT ADVISORS PVT. LTD",
     "legal_name": "JAIN INVESTMENT ADVISORS PVT. LTD",
     "clean_name": "JAIN INVESTMENT ADVISORS",
@@ -1575,7 +1560,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 263,
+    "amc_id": 265,
     "firm_name": "JM Financial Asset Management Limited",
     "legal_name": "JM Financial Asset Management Limited",
     "clean_name": "JM Financial",
@@ -1590,7 +1575,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 265,
+    "amc_id": 267,
     "firm_name": "JOINDRE CAPITAL SERVICES LIMITED",
     "legal_name": "JOINDRE CAPITAL SERVICES LIMITED",
     "clean_name": "JOINDRE CAPITAL SERVICES",
@@ -1605,7 +1590,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 268,
+    "amc_id": 270,
     "firm_name": "KAPM Ventures LLP",
     "legal_name": "KAPM Ventures LLP",
     "clean_name": "KAPM Ventures LLP",
@@ -1620,7 +1605,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 269,
+    "amc_id": 271,
     "firm_name": "KARMA CAPITAL ADVISORS PVT. LTD.",
     "legal_name": "KARMA CAPITAL ADVISORS PVT. LTD.",
     "clean_name": "KARMA CAPITAL ADVISORS",
@@ -1635,7 +1620,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 270,
+    "amc_id": 272,
     "firm_name": "KARVY CAPITAL LIMITED",
     "legal_name": "KARVY CAPITAL LIMITED",
     "clean_name": "KARVY CAPITAL",
@@ -1650,7 +1635,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 272,
+    "amc_id": 274,
     "firm_name": "Kedia Shares & Stocks Brokers Ltd",
     "legal_name": "Kedia Shares & Stocks Brokers Ltd",
     "clean_name": "Kedia Shares & Stocks Brokers",
@@ -1665,7 +1650,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 273,
+    "amc_id": 275,
     "firm_name": "KHANDWALA SECURITIES LTD",
     "legal_name": "KHANDWALA SECURITIES LTD",
     "clean_name": "KHANDWALA SECURITIES",
@@ -1680,7 +1665,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 274,
+    "amc_id": 276,
     "firm_name": "Klay Securities Private Limited",
     "legal_name": "Klay Securities Private Limited",
     "clean_name": "Klay Securities",
@@ -1695,7 +1680,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 277,
+    "amc_id": 279,
     "firm_name": "KOTAK MAHINDRA ASSET MANAGEMENT COMPANY LTD",
     "legal_name": "KOTAK MAHINDRA ASSET MANAGEMENT COMPANY LTD",
     "clean_name": "KOTAK MAHINDRA",
@@ -1710,7 +1695,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 278,
+    "amc_id": 280,
     "firm_name": "KOTAK SECURITIES LTD",
     "legal_name": "KOTAK SECURITIES LTD",
     "clean_name": "KOTAK SECURITIES",
@@ -1720,12 +1705,12 @@
     "sebi_contact_person": "MR. SANDEEP CHORDIA",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://kotaksecurities.com/sitemap.xml",
+    "sitemap_url": "https://www.kotakneo.com/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
-    "amc_id": 279,
+    "amc_id": 281,
     "firm_name": "Kriis Portfolio Pvt. Ltd.",
     "legal_name": "Kriis Portfolio Pvt. Ltd.",
     "clean_name": "Kriis Portfolio",
@@ -1740,7 +1725,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 280,
+    "amc_id": 282,
     "firm_name": "KSEMA WEALTH PVT LTD",
     "legal_name": "KSEMA WEALTH PVT LTD",
     "clean_name": "KSEMA WEALTH",
@@ -1755,7 +1740,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 281,
+    "amc_id": 283,
     "firm_name": "KUNVARJI FINSTOCK PRIVATE LIMITED",
     "legal_name": "KUNVARJI FINSTOCK PRIVATE LIMITED",
     "clean_name": "KUNVARJI FINSTOCK",
@@ -1770,7 +1755,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 287,
+    "amc_id": 289,
     "firm_name": "LAUREL SECURITIES PRIVATE LIMITED",
     "legal_name": "LAUREL SECURITIES PRIVATE LIMITED",
     "clean_name": "LAUREL SECURITIES",
@@ -1785,7 +1770,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 288,
+    "amc_id": 290,
     "firm_name": "LC Capital India Private Limited",
     "legal_name": "LC Capital India Private Limited",
     "clean_name": "LC Capital India",
@@ -1793,14 +1778,14 @@
     "sebi_reg_no": "INP000008163",
     "sebi_email": "nrithya.ganam@lighthouse-canton.com",
     "sebi_contact_person": "Nrithya Ganam",
-    "city": "Hyderabad",
-    "state": "Telangana",
+    "city": "Delhi",
+    "state": "National Capital Territory Of Delhi",
     "sitemap_url": "https://www.lighthouse-canton.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 292,
+    "amc_id": 294,
     "firm_name": "LKP SECURITIES LTD",
     "legal_name": "LKP SECURITIES LTD",
     "clean_name": "LKP SECURITIES",
@@ -1810,12 +1795,12 @@
     "sebi_contact_person": "",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://www.lkpsec.com/sitemap.xml",
-    "sitemap_type": "xml",
+    "sitemap_url": "https://lkpsec.com/sitemap",
+    "sitemap_type": "html",
     "sitemap_verified": true
   },
   {
-    "amc_id": 293,
+    "amc_id": 295,
     "firm_name": "M/S JHP SECURITIES PRIVATE LIMITED",
     "legal_name": "M/S JHP SECURITIES PRIVATE LIMITED",
     "clean_name": "M/S JHP SECURITIES",
@@ -1830,7 +1815,22 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 297,
+    "amc_id": 296,
+    "firm_name": "M/S REDBERYL INVESTMENT MANAGERS LLP",
+    "legal_name": "M/S REDBERYL INVESTMENT MANAGERS LLP",
+    "clean_name": "M/S REDBERYL INVESTMENT MANAGERS LLP",
+    "base_domain": "redberyl.in",
+    "sebi_reg_no": "INP000010238",
+    "sebi_email": "",
+    "sebi_contact_person": "RAUNAK NOAH",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "sitemap_url": "https://redberyl.in/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": false
+  },
+  {
+    "amc_id": 300,
     "firm_name": "Marathon Trends Advisory Private Limited",
     "legal_name": "Marathon Trends Advisory Private Limited",
     "clean_name": "Marathon Trends Advisory",
@@ -1845,7 +1845,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 298,
+    "amc_id": 301,
     "firm_name": "Marcellus Investment Managers Private Limited",
     "legal_name": "Marcellus Investment Managers Private Limited",
     "clean_name": "Marcellus",
@@ -1860,7 +1860,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 299,
+    "amc_id": 302,
     "firm_name": "MARFATIA STOCK BROKING PRIVATE LIMITED",
     "legal_name": "MARFATIA STOCK BROKING PRIVATE LIMITED",
     "clean_name": "MARFATIA STOCK BROKING",
@@ -1870,12 +1870,12 @@
     "sebi_contact_person": "RAHUL MEHTA",
     "city": "Vadodara",
     "state": "Gujarat",
-    "sitemap_url": "https://www.marfatia.net/sitemap",
-    "sitemap_type": "html",
+    "sitemap_url": "https://marfatia.net/sitemap.xml",
+    "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 301,
+    "amc_id": 304,
     "firm_name": "MASTER PORTFOLIO SERVICES LTD",
     "legal_name": "MASTER PORTFOLIO SERVICES LTD",
     "clean_name": "MASTER PORTFOLIO SERVICES",
@@ -1883,14 +1883,14 @@
     "sebi_reg_no": "INP000001637",
     "sebi_email": "",
     "sebi_contact_person": "RINKOO SAHOO",
-    "city": "Ahmedabad",
-    "state": "Gujarat",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
     "sitemap_url": "https://www.mastertrust.co.in/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 303,
+    "amc_id": 307,
     "firm_name": "Maximal Capital Private Limited",
     "legal_name": "Maximal Capital Private Limited",
     "clean_name": "Maximal Capital",
@@ -1905,7 +1905,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 305,
+    "amc_id": 309,
     "firm_name": "Mehta Equities Private Limited",
     "legal_name": "Mehta Equities Private Limited",
     "clean_name": "Mehta Equities",
@@ -1920,7 +1920,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 311,
+    "amc_id": 315,
     "firm_name": "MIV INVESTMENT SERVICES PVT. LTD.",
     "legal_name": "MIV INVESTMENT SERVICES PVT. LTD.",
     "clean_name": "MIV INVESTMENT SERVICES",
@@ -1935,7 +1935,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 315,
+    "amc_id": 319,
     "firm_name": "Monarch Networth Capital Limited",
     "legal_name": "Monarch Networth Capital Limited",
     "clean_name": "Monarch Networth Capital",
@@ -1943,14 +1943,14 @@
     "sebi_reg_no": "INP000006059",
     "sebi_email": "diksha.jha@mnclgroup.com",
     "sebi_contact_person": "Diksha Jha",
-    "city": "Gandhinagar",
-    "state": "Gujarat",
+    "city": "New Delhi",
+    "state": "National Capital Territory Of Delhi",
     "sitemap_url": "https://mnclgroup.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
   },
   {
-    "amc_id": 316,
+    "amc_id": 320,
     "firm_name": "MONEYBEE SECURITIES PRIVATE LIMITED",
     "legal_name": "MONEYBEE SECURITIES PRIVATE LIMITED",
     "clean_name": "MONEYBEE SECURITIES",
@@ -1965,7 +1965,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 317,
+    "amc_id": 321,
     "firm_name": "Moneygrow Asset Private Limited",
     "legal_name": "Moneygrow Asset Private Limited",
     "clean_name": "Moneygrow Asset",
@@ -1975,12 +1975,12 @@
     "sebi_contact_person": "Pooja Gupta",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://moneygrowindia.com/wp-sitemap.xml",
+    "sitemap_url": "https://moneygrowindia.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 320,
+    "amc_id": 324,
     "firm_name": "MOTILAL OSWAL WEALTH LIMITED",
     "legal_name": "MOTILAL OSWAL WEALTH LIMITED",
     "clean_name": "MOTILAL OSWAL WEALTH",
@@ -1995,7 +1995,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 321,
+    "amc_id": 325,
     "firm_name": "MRG INVESTMENT PARTNERS PRIVATE LIMITED",
     "legal_name": "MRG INVESTMENT PARTNERS PRIVATE LIMITED",
     "clean_name": "MRG INVESTMENT PARTNERS",
@@ -2003,14 +2003,14 @@
     "sebi_reg_no": "INP000006253",
     "sebi_email": "keerthana261095@gmail.com",
     "sebi_contact_person": "KEERTHANA SAKALA",
-    "city": "Chandigarh",
-    "state": "Chandigarh",
+    "city": "Bangalore",
+    "state": "Karnataka",
     "sitemap_url": "https://www.mrgcapital.in/wp-sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 322,
+    "amc_id": 326,
     "firm_name": "MULTI-ACT EQUITY CONSULTANCY PVT LTD",
     "legal_name": "MULTI-ACT EQUITY CONSULTANCY PVT LTD",
     "clean_name": "MULTI-ACT EQUITY CONSULTANCY",
@@ -2025,7 +2025,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 323,
+    "amc_id": 327,
     "firm_name": "Multiples Alternate Asset Management Private Limited",
     "legal_name": "Multiples Alternate Asset Management Private Limited",
     "clean_name": "Multiples Alternate",
@@ -2040,7 +2040,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 326,
+    "amc_id": 330,
     "firm_name": "NARNOLIA VELOX ADVISORY LIMITED",
     "legal_name": "NARNOLIA VELOX ADVISORY LIMITED",
     "clean_name": "NARNOLIA VELOX ADVISORY",
@@ -2055,7 +2055,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 327,
+    "amc_id": 331,
     "firm_name": "NEGEN CAPITAL SERVICES PRIVATE LIMITED",
     "legal_name": "NEGEN CAPITAL SERVICES PRIVATE LIMITED",
     "clean_name": "NEGEN CAPITAL SERVICES",
@@ -2070,7 +2070,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 330,
+    "amc_id": 334,
     "firm_name": "NEW BERRY CAPITALS PVT. LTD.",
     "legal_name": "NEW BERRY CAPITALS PVT. LTD.",
     "clean_name": "NEW BERRY CAPITALS",
@@ -2085,7 +2085,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 331,
+    "amc_id": 335,
     "firm_name": "NIKUNJ STOCK BROKERS LIMITED",
     "legal_name": "NIKUNJ STOCK BROKERS LIMITED",
     "clean_name": "NIKUNJ STOCK BROKERS",
@@ -2100,7 +2100,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 337,
+    "amc_id": 341,
     "firm_name": "NJ ASSET MANAGEMENT PRIVATE LIMITED",
     "legal_name": "NJ ASSET MANAGEMENT PRIVATE LIMITED",
     "clean_name": "NJ",
@@ -2115,7 +2115,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 339,
+    "amc_id": 343,
     "firm_name": "NNM Securities Private Limited",
     "legal_name": "NNM Securities Private Limited",
     "clean_name": "NNM Securities",
@@ -2130,7 +2130,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 341,
+    "amc_id": 345,
     "firm_name": "Novumlake Partners Private Limited",
     "legal_name": "Novumlake Partners Private Limited",
     "clean_name": "Novumlake Partners",
@@ -2140,12 +2140,12 @@
     "sebi_contact_person": "Celestina  Mascarenhas",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://novumlake.com/wp-sitemap.xml",
+    "sitemap_url": "https://novumlake.com/?sitemapindex.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
   {
-    "amc_id": 342,
+    "amc_id": 346,
     "firm_name": "Nuvama and Cushman & Wakefield Management Private Limited",
     "legal_name": "Nuvama and Cushman & Wakefield Management Private Limited",
     "clean_name": "Nuvama and Cushman & Wakefield Management",
@@ -2160,7 +2160,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 346,
+    "amc_id": 350,
     "firm_name": "Oaks Asset Management Private Limited",
     "legal_name": "Oaks Asset Management Private Limited",
     "clean_name": "Oaks",
@@ -2175,7 +2175,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 347,
+    "amc_id": 351,
     "firm_name": "OHM PORTFOLIO EQUI RESEARCH PVT LTD.",
     "legal_name": "OHM PORTFOLIO EQUI RESEARCH PVT LTD.",
     "clean_name": "OHM PORTFOLIO EQUI RESEARCH",
@@ -2190,7 +2190,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 350,
+    "amc_id": 354,
     "firm_name": "Optima Wealth Private Limited",
     "legal_name": "Optima Wealth Private Limited",
     "clean_name": "Optima Wealth",
@@ -2205,7 +2205,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 353,
+    "amc_id": 357,
     "firm_name": "PACE FINANCIAL INVESTMENT ADVISER PRIVATE LIMITED",
     "legal_name": "PACE FINANCIAL INVESTMENT ADVISER PRIVATE LIMITED",
     "clean_name": "PACE FINANCIAL INVESTMENT ADVISER",
@@ -2220,7 +2220,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 355,
+    "amc_id": 359,
     "firm_name": "Param Ventures LLP",
     "legal_name": "Param Ventures LLP",
     "clean_name": "Param Ventures LLP",
@@ -2235,7 +2235,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 356,
+    "amc_id": 360,
     "firm_name": "PATERSON SECURITIES PRIVATE LTD",
     "legal_name": "PATERSON SECURITIES PRIVATE LTD",
     "clean_name": "PATERSON SECURITIES PRIVATE",
@@ -2250,7 +2250,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 359,
+    "amc_id": 363,
     "firm_name": "Pelican Holdings Private Limited",
     "legal_name": "Pelican Holdings Private Limited",
     "clean_name": "Pelican Holdings",
@@ -2265,7 +2265,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 362,
+    "amc_id": 366,
     "firm_name": "PHILLIPCAPITAL (INDIA) PRIVATE LIMITED",
     "legal_name": "PHILLIPCAPITAL (INDIA) PRIVATE LIMITED",
     "clean_name": "PHILLIPCAPITAL (INDIA)",
@@ -2280,7 +2280,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 363,
+    "amc_id": 367,
     "firm_name": "Pioneer Client Associates Private Limited",
     "legal_name": "Pioneer Client Associates Private Limited",
     "clean_name": "Pioneer Client Associates",
@@ -2295,22 +2295,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 371,
-    "firm_name": "Prabhudas Lilladher Private Limited",
-    "legal_name": "Prabhudas Lilladher Private Limited",
-    "clean_name": "Prabhudas Lilladher",
-    "base_domain": "plindia.com",
-    "sebi_reg_no": "INP000008279",
-    "sebi_email": "snehalkathrani@plindia.com",
-    "sebi_contact_person": "Snehal Kathrani",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "sitemap_url": "https://www.plindia.com/sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": true
-  },
-  {
-    "amc_id": 372,
+    "amc_id": 375,
     "firm_name": "Prajana Advisors Private Limited",
     "legal_name": "Prajana Advisors Private Limited",
     "clean_name": "Prajana Advisors",
@@ -2325,7 +2310,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 373,
+    "amc_id": 376,
     "firm_name": "Prescientcap Investment Advisors LLP",
     "legal_name": "Prescientcap Investment Advisors LLP",
     "clean_name": "Prescientcap Investment Advisors LLP",
@@ -2340,7 +2325,22 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 376,
+    "amc_id": 377,
+    "firm_name": "Prime Trigen Wealth Limited",
+    "legal_name": "Prime Trigen Wealth Limited",
+    "clean_name": "Prime Trigen Wealth",
+    "base_domain": "trigenwealth.com",
+    "sebi_reg_no": "INP000010256",
+    "sebi_email": "namrata.r@trigenwealth.com",
+    "sebi_contact_person": "Namrata Ramachandran",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "sitemap_url": "https://www.trigenwealth.com/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 380,
     "firm_name": "PROFITGATE CAPITAL SERVICES LLP",
     "legal_name": "PROFITGATE CAPITAL SERVICES LLP",
     "clean_name": "PROFITGATE CAPITAL SERVICES LLP",
@@ -2355,7 +2355,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 378,
+    "amc_id": 382,
     "firm_name": "Profusion Investment Advisors LLP",
     "legal_name": "Profusion Investment Advisors LLP",
     "clean_name": "Profusion Investment Advisors LLP",
@@ -2370,7 +2370,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 384,
+    "amc_id": 388,
     "firm_name": "PRUDENT INVESTMENT MANAGERS LLP",
     "legal_name": "PRUDENT INVESTMENT MANAGERS LLP",
     "clean_name": "PRUDENT INVESTMENT MANAGERS LLP",
@@ -2385,7 +2385,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 385,
+    "amc_id": 389,
     "firm_name": "Purnartha Investment Advisers Pvt.Ltd.",
     "legal_name": "Purnartha Investment Advisers Pvt.Ltd.",
     "clean_name": "Purnartha Investment Advisers Pvt",
@@ -2400,7 +2400,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 391,
+    "amc_id": 395,
     "firm_name": "QUANT PORTFOLIO MANAGERS PRIVATE LIMITED",
     "legal_name": "QUANT PORTFOLIO MANAGERS PRIVATE LIMITED",
     "clean_name": "QUANT PORTFOLIO MANAGERS",
@@ -2410,12 +2410,12 @@
     "sebi_contact_person": "Rashmikant Talati",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://quant.in/wp-sitemap.xml",
+    "sitemap_url": "https://quant.in/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": true
+    "sitemap_verified": false
   },
   {
-    "amc_id": 392,
+    "amc_id": 396,
     "firm_name": "QUANTUM ADVISORS PVT.LTD.",
     "legal_name": "QUANTUM ADVISORS PVT.LTD.",
     "clean_name": "QUANTUM ADVISORS PVT",
@@ -2430,7 +2430,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 396,
+    "amc_id": 399,
     "firm_name": "R. WADIWALA SECURITIES PRIVATE LIMITED",
     "legal_name": "R. WADIWALA SECURITIES PRIVATE LIMITED",
     "clean_name": "R. WADIWALA SECURITIES",
@@ -2445,7 +2445,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 397,
+    "amc_id": 400,
     "firm_name": "RBSA Investment Manager LLP",
     "legal_name": "RBSA Investment Manager LLP",
     "clean_name": "RBSA Investment Manager LLP",
@@ -2460,22 +2460,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 399,
-    "firm_name": "RENAISSANCE INVESTMENT MANAGERS PRIVATE LIMITED",
-    "legal_name": "RENAISSANCE INVESTMENT MANAGERS PRIVATE LIMITED",
-    "clean_name": "RENAISSANCE",
-    "base_domain": "renaissanceinvest.in",
-    "sebi_reg_no": "INP000005455",
-    "sebi_email": "compliance@renaissanceinvest.in",
-    "sebi_contact_person": "Meghana Kashte",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "sitemap_url": "https://renaissanceinvest.in/sitemap",
-    "sitemap_type": "html",
-    "sitemap_verified": true
-  },
-  {
-    "amc_id": 400,
+    "amc_id": 403,
     "firm_name": "REVELATION PORTFOLIO MANAGEMENT PVT. LTD.",
     "legal_name": "REVELATION PORTFOLIO MANAGEMENT PVT. LTD.",
     "clean_name": "REVELATION PORTFOLIO MANAGEMENT",
@@ -2490,7 +2475,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 401,
+    "amc_id": 404,
     "firm_name": "RIGHT HORIZONS PORTFOLIO MANAGEMENT PRIVATE LIMITED",
     "legal_name": "RIGHT HORIZONS PORTFOLIO MANAGEMENT PRIVATE LIMITED",
     "clean_name": "RIGHT HORIZONS PORTFOLIO MANAGEMENT",
@@ -2505,7 +2490,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 404,
+    "amc_id": 407,
     "firm_name": "Saamya Advisors LLP",
     "legal_name": "Saamya Advisors LLP",
     "clean_name": "Saamya Advisors LLP",
@@ -2515,12 +2500,12 @@
     "sebi_contact_person": "Ruchi Begrajka",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://saamya-advisors.in/sitemap.xml",
+    "sitemap_url": "https://www.saamya-advisors.in/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
-    "amc_id": 406,
+    "amc_id": 409,
     "firm_name": "Sahasrar Capital Private Limited",
     "legal_name": "Sahasrar Capital Private Limited",
     "clean_name": "Sahasrar Capital",
@@ -2535,7 +2520,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 413,
+    "amc_id": 416,
     "firm_name": "SAVVY CAPITAL ADVISORS LLP",
     "legal_name": "SAVVY CAPITAL ADVISORS LLP",
     "clean_name": "SAVVY CAPITAL ADVISORS LLP",
@@ -2550,7 +2535,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 414,
+    "amc_id": 417,
     "firm_name": "SBI FUNDS MANAGEMENT LIMITED",
     "legal_name": "SBI FUNDS MANAGEMENT LIMITED",
     "clean_name": "SBI FUNDS MANAGEMENT",
@@ -2565,7 +2550,22 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 416,
+    "amc_id": 419,
+    "firm_name": "Scripbox Wealth Managers Private Limited",
+    "legal_name": "Scripbox Wealth Managers Private Limited",
+    "clean_name": "Scripbox Wealth Managers",
+    "base_domain": "scripbox.com",
+    "sebi_reg_no": "INP000010247",
+    "sebi_email": "vedkumar.zirange@scripbox.com",
+    "sebi_contact_person": "Vedkumar Zirange",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "sitemap_url": "https://scripbox.com/mutual-fund/lps.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 420,
     "firm_name": "SECURITIES INVESTMENT MANAGEMENT PRIVATE LIMITED",
     "legal_name": "SECURITIES INVESTMENT MANAGEMENT PRIVATE LIMITED",
     "clean_name": "SECURITIES INVESTMENT MANAGEMENT",
@@ -2580,22 +2580,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 418,
-    "firm_name": "SEKURA INDIA MANAGEMENT LIMITED",
-    "legal_name": "SEKURA INDIA MANAGEMENT LIMITED",
-    "clean_name": "SEKURA INDIA MANAGEMENT",
-    "base_domain": "sekura.in",
-    "sebi_reg_no": "INP000008543",
-    "sebi_email": "alternativescompliance@edelweissalts.com",
-    "sebi_contact_person": "Amit Sharma",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "sitemap_url": "https://sekura.in/sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": false
-  },
-  {
-    "amc_id": 419,
+    "amc_id": 422,
     "firm_name": "SHADE CAPITAL PRIVATE LIMITED",
     "legal_name": "SHADE CAPITAL PRIVATE LIMITED",
     "clean_name": "SHADE CAPITAL",
@@ -2610,7 +2595,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 422,
+    "amc_id": 426,
     "firm_name": "SHEPHERDS HILL FINANCIAL ADVISORS LLP",
     "legal_name": "SHEPHERDS HILL FINANCIAL ADVISORS LLP",
     "clean_name": "SHEPHERDS HILL FINANCIAL ADVISORS LLP",
@@ -2625,7 +2610,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 423,
+    "amc_id": 427,
     "firm_name": "Shree Rama Managers LLP",
     "legal_name": "Shree Rama Managers LLP",
     "clean_name": "Shree Rama Managers LLP",
@@ -2640,7 +2625,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 424,
+    "amc_id": 428,
     "firm_name": "Shriram Asset Management Company Limited",
     "legal_name": "Shriram Asset Management Company Limited",
     "clean_name": "Shriram",
@@ -2655,7 +2640,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 425,
+    "amc_id": 430,
     "firm_name": "Sicomoro Advisors Private Limited",
     "legal_name": "Sicomoro Advisors Private Limited",
     "clean_name": "Sicomoro Advisors",
@@ -2670,7 +2655,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 430,
+    "amc_id": 435,
     "firm_name": "SIRIUS ADVISORS PRIVATE LIMITED",
     "legal_name": "SIRIUS ADVISORS PRIVATE LIMITED",
     "clean_name": "SIRIUS ADVISORS",
@@ -2685,7 +2670,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 432,
+    "amc_id": 437,
     "firm_name": "Sky Impact Capital Advisors LLP",
     "legal_name": "Sky Impact Capital Advisors LLP",
     "clean_name": "Sky Impact Capital Advisors LLP",
@@ -2700,7 +2685,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 434,
+    "amc_id": 439,
     "firm_name": "SMIFS LIMITED",
     "legal_name": "SMIFS LIMITED",
     "clean_name": "SMIFS",
@@ -2715,7 +2700,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 439,
+    "amc_id": 444,
     "firm_name": "Sowilo Investment Managers LLP",
     "legal_name": "Sowilo Investment Managers LLP",
     "clean_name": "Sowilo Investment Managers LLP",
@@ -2730,7 +2715,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 440,
+    "amc_id": 445,
     "firm_name": "Spark Asia Impact Managers Private Limited",
     "legal_name": "Spark Asia Impact Managers Private Limited",
     "clean_name": "Spark Asia Impact Managers",
@@ -2745,7 +2730,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 441,
+    "amc_id": 446,
     "firm_name": "Spark Fund Advisors LLP",
     "legal_name": "Spark Fund Advisors LLP",
     "clean_name": "Spark Fund Advisors LLP",
@@ -2760,7 +2745,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 444,
+    "amc_id": 449,
     "firm_name": "SPICE ROUTE ADVISORS LLP",
     "legal_name": "SPICE ROUTE ADVISORS LLP",
     "clean_name": "SPICE ROUTE ADVISORS LLP",
@@ -2775,7 +2760,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 447,
+    "amc_id": 452,
     "firm_name": "Stalwart Investment Advisors LLP",
     "legal_name": "Stalwart Investment Advisors LLP",
     "clean_name": "Stalwart Investment Advisors LLP",
@@ -2790,7 +2775,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 448,
+    "amc_id": 453,
     "firm_name": "STANDARD CHARTERED SECURITIES (INDIA) LIMITED",
     "legal_name": "STANDARD CHARTERED SECURITIES (INDIA) LIMITED",
     "clean_name": "STANDARD CHARTERED SECURITIES (INDIA)",
@@ -2805,7 +2790,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 449,
+    "amc_id": 454,
     "firm_name": "STEADFORT INVESTMENT MANAGERS LLP",
     "legal_name": "STEADFORT INVESTMENT MANAGERS LLP",
     "clean_name": "STEADFORT INVESTMENT MANAGERS LLP",
@@ -2820,7 +2805,22 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 452,
+    "amc_id": 456,
+    "firm_name": "Stride Fund Advisors LLP",
+    "legal_name": "Stride Fund Advisors LLP",
+    "clean_name": "Stride Fund Advisors LLP",
+    "base_domain": "strideventures.global",
+    "sebi_reg_no": "INP000010210",
+    "sebi_email": "pankaj@strideventures.in",
+    "sebi_contact_person": "Pankaj Kwatra",
+    "city": "New Delhi",
+    "state": "National Capital Territory Of Delhi",
+    "sitemap_url": "https://strideventures.global/sitemap.xml",
+    "sitemap_type": "xml",
+    "sitemap_verified": true
+  },
+  {
+    "amc_id": 458,
     "firm_name": "Svan Investment Managers LLP",
     "legal_name": "Svan Investment Managers LLP",
     "clean_name": "Svan Investment Managers LLP",
@@ -2835,7 +2835,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 453,
+    "amc_id": 459,
     "firm_name": "Svobodha Infinity Investment Advisors Private Limited",
     "legal_name": "Svobodha Infinity Investment Advisors Private Limited",
     "clean_name": "Svobodha Infinity Investment Advisors",
@@ -2850,7 +2850,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 459,
+    "amc_id": 465,
     "firm_name": "T G P ADVISORS LLP",
     "legal_name": "T G P ADVISORS LLP",
     "clean_name": "T G P ADVISORS LLP",
@@ -2865,7 +2865,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 460,
+    "amc_id": 466,
     "firm_name": "T.RAM FINANCIAL SERVICES PRIVATE LIMITED",
     "legal_name": "T.RAM FINANCIAL SERVICES PRIVATE LIMITED",
     "clean_name": "T.RAM FINANCIAL SERVICES",
@@ -2880,7 +2880,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 466,
+    "amc_id": 472,
     "firm_name": "THE HONGKONG AND SHANGHAI BANKING CORPOR",
     "legal_name": "THE HONGKONG AND SHANGHAI BANKING CORPOR",
     "clean_name": "THE HONGKONG AND SHANGHAI BANKING CORPOR",
@@ -2895,7 +2895,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 469,
+    "amc_id": 475,
     "firm_name": "Trilithon Partners LLP",
     "legal_name": "Trilithon Partners LLP",
     "clean_name": "Trilithon Partners LLP",
@@ -2910,7 +2910,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 470,
+    "amc_id": 476,
     "firm_name": "TRIVANTAGE CAPITAL MANAGMENT INDIA PRIVATE LIMITED",
     "legal_name": "TRIVANTAGE CAPITAL MANAGMENT INDIA PRIVATE LIMITED",
     "clean_name": "TRIVANTAGE CAPITAL MANAGMENT INDIA",
@@ -2925,7 +2925,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 472,
+    "amc_id": 478,
     "firm_name": "True North Credit Fund Managers LLP",
     "legal_name": "True North Credit Fund Managers LLP",
     "clean_name": "True North Credit Fund Managers LLP",
@@ -2940,7 +2940,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 473,
+    "amc_id": 479,
     "firm_name": "True North Managers LLP",
     "legal_name": "True North Managers LLP",
     "clean_name": "True North Managers LLP",
@@ -2955,7 +2955,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 476,
+    "amc_id": 482,
     "firm_name": "TRUSTLINE SECURITIES LIMITED",
     "legal_name": "TRUSTLINE SECURITIES LIMITED",
     "clean_name": "TRUSTLINE SECURITIES",
@@ -2970,7 +2970,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 478,
+    "amc_id": 484,
     "firm_name": "TURTLE WEALTH MANAGEMENT PVT. LTD.",
     "legal_name": "TURTLE WEALTH MANAGEMENT PVT. LTD.",
     "clean_name": "TURTLE WEALTH MANAGEMENT",
@@ -2985,7 +2985,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 480,
+    "amc_id": 486,
     "firm_name": "Unicorn Investment Managers LLP",
     "legal_name": "Unicorn Investment Managers LLP",
     "clean_name": "Unicorn Investment Managers LLP",
@@ -3000,7 +3000,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 483,
+    "amc_id": 489,
     "firm_name": "Upachaya Wealth Advisors LLP",
     "legal_name": "Upachaya Wealth Advisors LLP",
     "clean_name": "Upachaya Wealth Advisors LLP",
@@ -3015,7 +3015,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 485,
+    "amc_id": 491,
     "firm_name": "UTI ASSET MANAGEMENT COMPANY PVT LTD",
     "legal_name": "UTI ASSET MANAGEMENT COMPANY PVT LTD",
     "clean_name": "UTI",
@@ -3030,7 +3030,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 486,
+    "amc_id": 492,
     "firm_name": "V.E.C Assago Capital Management LLP",
     "legal_name": "V.E.C Assago Capital Management LLP",
     "clean_name": "V.E.C Assago Capital Management LLP",
@@ -3045,7 +3045,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 487,
+    "amc_id": 493,
     "firm_name": "Vaikarya Change LLP",
     "legal_name": "Vaikarya Change LLP",
     "clean_name": "Vaikarya Change LLP",
@@ -3060,7 +3060,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 489,
+    "amc_id": 495,
     "firm_name": "Valcreate Investment Managers LLP",
     "legal_name": "Valcreate Investment Managers LLP",
     "clean_name": "Valcreate Investment Managers LLP",
@@ -3075,7 +3075,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 490,
+    "amc_id": 496,
     "firm_name": "VALENTIS ADVISORS PRIVATE LIMITED",
     "legal_name": "VALENTIS ADVISORS PRIVATE LIMITED",
     "clean_name": "VALENTIS ADVISORS",
@@ -3090,7 +3090,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 493,
+    "amc_id": 499,
     "firm_name": "Value Prolific Investments and Consulting Private Limited",
     "legal_name": "Value Prolific Investments and Consulting Private Limited",
     "clean_name": "Value Prolific Investments and Consulting",
@@ -3105,7 +3105,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 497,
+    "amc_id": 503,
     "firm_name": "VENTURA SECURITIES LIMITED",
     "legal_name": "VENTURA SECURITIES LIMITED",
     "clean_name": "VENTURA SECURITIES",
@@ -3120,7 +3120,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 498,
+    "amc_id": 504,
     "firm_name": "VIREYA CAPITAL MANAGEMENT LLP",
     "legal_name": "VIREYA CAPITAL MANAGEMENT LLP",
     "clean_name": "VIREYA CAPITAL MANAGEMENT LLP",
@@ -3130,12 +3130,12 @@
     "sebi_contact_person": "Rakhi  Notani",
     "city": "Mumbai",
     "state": "Maharashtra",
-    "sitemap_url": "https://vireyacapital.com/sitemap.xml",
+    "sitemap_url": "https://vireyacapital.com/wp-sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
-    "amc_id": 509,
+    "amc_id": 514,
     "firm_name": "WEALTH FIRST PORTFOLIO MANAGERS LIMITED",
     "legal_name": "WEALTH FIRST PORTFOLIO MANAGERS LIMITED",
     "clean_name": "WEALTH FIRST PORTFOLIO MANAGERS",
@@ -3150,7 +3150,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 512,
+    "amc_id": 517,
     "firm_name": "WEALTHBRIDGE CAPITAL ADVISORS PRIVATE LIMITED",
     "legal_name": "WEALTHBRIDGE CAPITAL ADVISORS PRIVATE LIMITED",
     "clean_name": "WEALTHBRIDGE CAPITAL ADVISORS",
@@ -3158,14 +3158,14 @@
     "sebi_reg_no": "INP000005240",
     "sebi_email": "",
     "sebi_contact_person": "",
-    "city": "Phase 1",
+    "city": "Secunderabad",
     "state": "Andhra Pradesh",
     "sitemap_url": "https://wealthbridge.in/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
   },
   {
-    "amc_id": 514,
+    "amc_id": 519,
     "firm_name": "White Pine Investment Management Private Limited",
     "legal_name": "White Pine Investment Management Private Limited",
     "clean_name": "White Pine Investment Management",
@@ -3180,7 +3180,7 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 516,
+    "amc_id": 521,
     "firm_name": "White Whale Partners LLP",
     "legal_name": "White Whale Partners LLP",
     "clean_name": "White Whale Partners LLP",
@@ -3195,22 +3195,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 517,
-    "firm_name": "WhiteOak Capital Asset Management Limited",
-    "legal_name": "WhiteOak Capital Asset Management Limited",
-    "clean_name": "WhiteOak Capital",
-    "base_domain": "pms.whiteoakamc.com",
-    "sebi_reg_no": "INP000007766",
-    "sebi_email": "prannav.shah@whiteoakinvestors.com",
-    "sebi_contact_person": "Prannav Shah",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "sitemap_url": "https://pms.whiteoakamc.com/sitemap.xml",
-    "sitemap_type": "xml",
-    "sitemap_verified": true
-  },
-  {
-    "amc_id": 518,
+    "amc_id": 523,
     "firm_name": "WILLOW ADVISORS LLP",
     "legal_name": "WILLOW ADVISORS LLP",
     "clean_name": "WILLOW ADVISORS LLP",
@@ -3225,7 +3210,7 @@
     "sitemap_verified": true
   },
   {
-    "amc_id": 519,
+    "amc_id": 524,
     "firm_name": "Windmill Capital Private Limited",
     "legal_name": "Windmill Capital Private Limited",
     "clean_name": "Windmill Capital",
@@ -3240,22 +3225,22 @@
     "sitemap_verified": false
   },
   {
-    "amc_id": 524,
-    "firm_name": "ZEN WEALTH MANAGEMENT SERVICES LIMITED",
-    "legal_name": "ZEN WEALTH MANAGEMENT SERVICES LIMITED",
-    "clean_name": "ZEN WEALTH MANAGEMENT SERVICES",
-    "base_domain": "zenwealth.in",
-    "sebi_reg_no": "INP000000936",
-    "sebi_email": "",
-    "sebi_contact_person": "ANASUYA SAHU",
-    "city": "Hyderabad",
-    "state": "Andhra Pradesh",
-    "sitemap_url": "https://www.zenwealth.in/sitemap.xml",
+    "amc_id": 529,
+    "firm_name": "YUBI ASSET MANAGEMENT PRIVATE LIMITED",
+    "legal_name": "YUBI ASSET MANAGEMENT PRIVATE LIMITED",
+    "clean_name": "YUBI",
+    "base_domain": "yubiamc.com",
+    "sebi_reg_no": "INP000010201",
+    "sebi_email": "compliance@yubiamc.in",
+    "sebi_contact_person": "Shreya Kalantri",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "sitemap_url": "https://yubiamc.com/sitemap.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": true
+    "sitemap_verified": false
   },
   {
-    "amc_id": 525,
+    "amc_id": 531,
     "firm_name": "Zeva Capsol Private Limited",
     "legal_name": "Zeva Capsol Private Limited",
     "clean_name": "Zeva Capsol",

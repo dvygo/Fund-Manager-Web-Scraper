@@ -105,7 +105,7 @@
     "base_domain": "aavishkaarcapital.in",
     "canonical_host": "aavishkaarcapital.in",
     "source": "sitemap_index",
-    "discovered_total": 548,
+    "discovered_total": 549,
     "team_urls": [
       "https://aavishkaarcapital.in/watch-the-videos-of-aavishkaar-group-leadership-at-impact-investors-council-prabhav-2022/",
       "https://aavishkaarcapital.in/team/",
@@ -194,16 +194,6 @@
       "https://aavishkaarcapital.in/global-supply-chain-support-fund-is-now-a-2x-challenge-qualified-investment/",
       "https://aavishkaarcapital.in/category/500-cr-fund/"
     ]
-  },
-  {
-    "amc_id": 11,
-    "firm_name": "Abakkus Investment Managers Private Limited",
-    "base_domain": "abakkusmf.com",
-    "canonical_host": "abakkusmf.com",
-    "source": "sitemap_xml",
-    "discovered_total": 134,
-    "team_urls": [],
-    "scheme_urls": []
   },
   {
     "amc_id": 13,
@@ -581,7 +571,7 @@
     "base_domain": "acceltasset.com",
     "canonical_host": "acceltasset.com",
     "source": "homepage_anchors",
-    "discovered_total": 34,
+    "discovered_total": 33,
     "team_urls": [],
     "scheme_urls": []
   },
@@ -623,7 +613,7 @@
     "base_domain": "aikyamcap.com",
     "canonical_host": "aikyamcap.com",
     "source": "sitemap_index",
-    "discovered_total": 73,
+    "discovered_total": 76,
     "team_urls": [
       "https://aikyamcap.com/our-team/"
     ],
@@ -641,37 +631,42 @@
     "base_domain": "alchemycapital.com",
     "canonical_host": "alchemycapital.com",
     "source": "sitemap_xml",
-    "discovered_total": 420,
+    "discovered_total": 97,
     "team_urls": [
-      "https://www.alchemycapital.com/thought-leadership.aspx",
-      "https://www.alchemycapital.com/thought-leadership/india-as-a-manufacturing-partner-to-the-world.aspx",
-      "https://www.alchemycapital.com/thought-leadership/quantitative-investment-an-approach-to-reckon-with-in-a-fast-changing-world.aspx",
-      "https://www.alchemycapital.com/thought-leadership/the-enduring-saga-of-gold-from-cosmic-beginnings-to-geopolitical-powerhouse.aspx",
-      "https://www.alchemycapital.com/thought-leadership/scaling-up-how-indian-entrepreneurs-expand-their-markets.aspx",
-      "https://www.alchemycapital.com/thought-leadership/usd-uncovered-the-currency-that-changed-the-world.aspx",
-      "https://www.alchemycapital.com/thought-leadership/what-market-share-reveals-about-leadership.aspx",
-      "https://www.alchemycapital.com/thought-leadership/the-global-defence-spending-surge-a-2025-perspective-with-a-focus-on-india.aspx",
-      "https://www.alchemycapital.com/thought-leadership/investing-in-anti-fragility.aspx",
-      "https://www.alchemycapital.com/thought-leadership/market-outlook-august-2024.aspx",
-      "https://www.alchemycapital.com/thought-leadership/what-are-the-key-factors-to-watch-out-as-we-enter-2024-.aspx",
-      "https://www.alchemycapital.com/thought-leadership/markets-touch-new-all-time-high-what-next-.aspx",
-      "https://www.alchemycapital.com/thought-leadership/deepening-domestic-financial-markets.aspx",
-      "https://www.alchemycapital.com/thought-leadership/structural-changes-helping-the-indian-economy.aspx",
-      "https://www.alchemycapital.com/thought-leadership/first-quarter-fy24-earnings-review.aspx",
-      "https://www.alchemycapital.com/thought-leadership/markets-touching-new-highs.aspx",
-      "https://www.alchemycapital.com/thought-leadership/strong-market-tracking-fundamentals.aspx",
-      "https://www.alchemycapital.com/thought-leadership/sharp-bounce-in-markets.aspx",
-      "https://www.alchemycapital.com/thought-leadership/confluence-of-positives-but-risks-remain.aspx",
-      "https://www.alchemycapital.com/thought-leadership/fy24-a-quiet-year.aspx",
-      "https://www.alchemycapital.com/thought-leadership/us-banking-crisis-headwind-for-market.aspx",
-      "https://www.alchemycapital.com/thought-leadership/a-bottom-up-market.aspx",
-      "https://www.alchemycapital.com/thought-leadership/growth-budget-positive-for-equities.aspx",
-      "https://www.alchemycapital.com/thought-leadership/2023-the-year-of-reckoning.aspx",
-      "https://www.alchemycapital.com/thought-leadership/markets-at-new-highs-onwards-and-upwards.aspx"
+      "https://www.alchemycapital.com/thought-leadership/",
+      "https://www.alchemycapital.com/thought-leadership/quantitative-investment-an-approach-to-reckon-with-in-a-fast-changing-world/",
+      "https://www.alchemycapital.com/thought-leadership/india-as-a-manufacturing-partner-to-the-world/",
+      "https://www.alchemycapital.com/thought-leadership/investing-in-anti-fragility/",
+      "https://www.alchemycapital.com/thought-leadership/the-global-defence-spending-surge-a-2025-perspective-with-a-focus-on-india/",
+      "https://www.alchemycapital.com/thought-leadership/what-market-share-reveals-about-leadership/",
+      "https://www.alchemycapital.com/thought-leadership/usd-uncovered-the-currency-that-changed-the-world/",
+      "https://www.alchemycapital.com/thought-leadership/scaling-up-how-indian-entrepreneurs-expand-their-markets/",
+      "https://www.alchemycapital.com/thought-leadership/the-enduring-saga-of-gold-from-cosmic-beginnings-to-geopolitical-powerhouse/",
+      "https://www.alchemycapital.com/thought-leadership/what-are-the-key-factors-to-watch-out-as-we-enter-2024/",
+      "https://www.alchemycapital.com/thought-leadership/market-outlook-august-2024/",
+      "https://www.alchemycapital.com/our-team/",
+      "https://www.alchemycapital.com/our-team/hiren-ved/",
+      "https://www.alchemycapital.com/our-team/pooja-keswani/",
+      "https://www.alchemycapital.com/our-team/anis-bohra/",
+      "https://www.alchemycapital.com/our-team/sameer-tirani/",
+      "https://www.alchemycapital.com/our-team/mohit-bhagat/",
+      "https://www.alchemycapital.com/our-team/alok-agarwal/",
+      "https://www.alchemycapital.com/our-team/mythili-balakrishnan",
+      "https://www.alchemycapital.com/our-team/himani-shah/",
+      "https://www.alchemycapital.com/our-team/deven-ved/",
+      "https://www.alchemycapital.com/our-team/neeraj-roy/",
+      "https://www.alchemycapital.com/our-team/rajiv-agarwal/"
     ],
     "scheme_urls": [
-      "https://www.alchemycapital.com/Content/Monthly/alchemy-long-term-ventures-fund-apr26.pdf",
-      "https://www.alchemycapital.com/Content/Monthly/alchemy-smart-alpha-250-fund-may26-channel.pdf"
+      "https://www.alchemycapital.com/alternative-investment-funds/alchemy-long-term-ventures-fund",
+      "https://www.alchemycapital.com/alternative-investment-funds/long-term-ventures-fund-series-2",
+      "https://www.alchemycapital.com/alternative-investment-funds/long-term-ventures-fund-series-3",
+      "https://www.alchemycapital.com/alternative-investment-funds/alchemy-smart-alpha-250-fund",
+      "https://www.alchemycapital.com/press-releases/alchemy-capital-management-announces-the-launch-of-a-new-scheme-under-category-iii-alternative-investment-fund/",
+      "https://www.alchemycapital.com/press-releases/alchemy-capital-management-launches-new-aif-scheme-alchemy-leaders-of-tomorrow-closed-ended-fund-series-2/",
+      "https://www.alchemycapital.com/press-releases/alchemy-capital-management-launches-alchemy-long-term-ventures-fund-series-3/",
+      "https://www.alchemycapital.com/press-releases/alchemy-capital-management-launches-alchemy-smart-alpha-250-fund/",
+      "https://www.alchemycapital.com/press-releases/alchemy-capital-management-becomes-one-of-the-first-pms-providers-to-migrate-its-offshore-fund-to-gift-ifsc/"
     ]
   },
   {
@@ -679,11 +674,9 @@
     "firm_name": "ALDER CAPITAL ADVISORS LLP",
     "base_domain": "aldercapital.in",
     "canonical_host": "aldercapital.in",
-    "source": "homepage_anchors",
-    "discovered_total": 18,
-    "team_urls": [
-      "https://aldercapital.in/team/"
-    ],
+    "source": "sitemap_html",
+    "discovered_total": 4,
+    "team_urls": [],
     "scheme_urls": []
   },
   {
@@ -692,7 +685,7 @@
     "base_domain": "alfaccurate.com",
     "canonical_host": "alfaccurate.com",
     "source": "sitemap_index",
-    "discovered_total": 125,
+    "discovered_total": 126,
     "team_urls": [],
     "scheme_urls": [
       "https://www.alfaccurate.com/aaa-gems-fund-aif",
@@ -751,19 +744,13 @@
     "base_domain": "anandrathipms.com",
     "canonical_host": "anandrathipms.com",
     "source": "sitemap_index",
-    "discovered_total": 278,
+    "discovered_total": 539,
     "team_urls": [
-      "https://www.anandrathipms.com/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/hi/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/kn/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/ta/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/te/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/gu/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/mr/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/bn/download-fund-manager-reports.php",
-      "https://www.anandrathipms.com/blog/union-budget-2026-pms-fund-managers-expectations.php"
+      "https://www.anandrathipms.com/blog/union-budget-2026-pms-fund-managers-expectations"
     ],
-    "scheme_urls": []
+    "scheme_urls": [
+      "https://www.anandrathipms.com/blog/introduction-to-specialized-investment-fund"
+    ]
   },
   {
     "amc_id": 45,
@@ -772,173 +759,8 @@
     "canonical_host": "angelone.in",
     "source": "sitemap_index",
     "discovered_total": 2000,
-    "team_urls": [
-      "https://www.angelone.in/knowledge-center/share-market/sebi-securities-and-exchange-board-of-india-telugu",
-      "https://www.angelone.in/knowledge-center/share-market/sebi-securities-and-exchange-board-of-india-hindi"
-    ],
-    "scheme_urls": [
-      "https://www.angelone.in/mutual-funds/category/conservative-funds",
-      "https://www.angelone.in/mutual-funds/category/aggressive-funds",
-      "https://www.angelone.in/mutual-funds/category/ultra-short-funds",
-      "https://www.angelone.in/mutual-funds/category/dynamic-funds",
-      "https://www.angelone.in/mutual-funds/fund-screener",
-      "https://www.angelone.in/calculators/mutual-fund-returns-calculator",
-      "https://www.angelone.in/mutual-funds/amc",
-      "https://www.angelone.in/mutual-funds/category",
-      "https://www.angelone.in/mutual-funds/new-fund-offers",
-      "https://www.angelone.in/mutual-fund-distributor-acquisition",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-momentum-fund",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-silver-etf",
-      "https://www.angelone.in/knowledge-center/mutual-funds/multi-cap-vs-focused-equity-funds",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-contra-funds",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-cpse-etf-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/debt-mutual-fund-vs-rbi-retail-direct",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-in-etf",
-      "https://www.angelone.in/knowledge-center/personal-finance/imps-vs-upi-difference-between-imps-and-upi-fund-transfer",
-      "https://www.angelone.in/knowledge-center/mutual-funds/difference-between-liquid-funds-and-liquid-etfs",
-      "https://www.angelone.in/knowledge-center/personal-finance/emergency-fund-meaning",
-      "https://www.angelone.in/knowledge-center/mutual-funds/guide-to-building-emergency-fund",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-cpse-etf-gujarati",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-for-students",
-      "https://www.angelone.in/knowledge-center/mutual-funds/jensens-alpha-in-mutual-funds",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-can-in-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-childrens-mutual-fund-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-folio-number-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-minor-invest-in-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-isip-in-mutual-fund-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-cagr-for-sip-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-choose-best-etf-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-invest-in-mutual-funds-without-demat-account-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-redemption-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/lic-vs-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-nav-in-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-annuities-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-annuities-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-nav-in-sip-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-traded-like-stocks-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-xirr-in-mutual-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/offshore-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-traded-like-stocks-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-xirr-in-mutual-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-invest-in-mutual-funds-without-demat-account-hindi",
-      "https://www.angelone.in/knowledge-center/share-market/extended-market-index-fund-tamil",
-      "https://www.angelone.in/knowledge-center/savings-schemes/general-provident-fund-gpf-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-investment-strategy-for-women",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-cryptocurrency-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-minimum-investment-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/direct-vs-regular-mutual-fund-know-the-difference-telugu",
-      "https://www.angelone.in/knowledge-center/share-market/extended-market-index-fund-telugu",
-      "https://www.angelone.in/knowledge-center/savings-schemes/general-provident-fund-gpf-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-cryptocurrency-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-minimum-investment-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/liquid-funds-vs-debt-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-hybrid-mutual-funds-understand-here-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-annualised-returns-in-mutual-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-vs-swp-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-top-up-sip-gujarati",
-      "https://www.angelone.in/knowledge-center/mutual-funds/alternative-investment-funds-gujarati",
-      "https://www.angelone.in/knowledge-center/savings-schemes/pension-fund-regulatory-and-development-authority-pfrda-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-vs-stocks-gujarati",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-vs-stocks-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/liquid-funds-vs-debt-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-hybrid-mutual-funds-understand-here-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-annualised-returns-in-mutual-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-clawback-in-mutual-fund-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-top-up-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-much-sip-do-you-need-to-save-for-car-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/alternative-investment-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-hybrid-mutual-funds-understand-here-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-xirr-in-mutual-funds-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-traded-like-stocks-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-annuities-hindi",
-      "https://www.angelone.in/knowledge-center/savings-schemes/general-provident-fund-gpf-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/liquid-funds-vs-debt-funds-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-distributor-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-funds-vs-cryptocurrency-hindi",
-      "https://www.angelone.in/knowledge-center/share-market/extended-market-index-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-annualised-returns-in-mutual-funds-hindi",
-      "https://www.angelone.in/knowledge-center/savings-schemes/pension-fund-regulatory-and-development-authority-pfrda-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-clawback-in-mutual-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-top-up-sip-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-euin-number-in-mutual-fund-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-change-expense-ratio-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-switch-regular-plan-to-direct-mutual-fund-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-vs-swp-telugu",
-      "https://www.angelone.in/knowledge-center/savings-schemes/pension-fund-regulatory-and-development-authority-pfrda-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-top-up-sip-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-clawback-in-mutual-fund-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-much-sip-do-you-need-to-save-for-car-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/dividend-fund-vs-growth-fund-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-prc-matrix-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-yield-to-maturity-ytm-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/alternative-investment",
-      "https://www.angelone.in/knowledge-center/mutual-funds/alternative-investment-funds-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-fatca-in-mutual-fund-tamil",
-      "https://www.angelone.in/knowledge-center/personal-finance/what-is-surplus-fund-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/index-funds-vs-sector-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-switch-benefits-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-transfer-your-existing-mutual-funds-to-angel-one-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-change-expense-ratio-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-euin-number-in-mutual-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-nri-invest-in-mutual-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-dividends-affect-nav-in-mutual-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-interest-earned-on-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/alternative-investment-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-cams-kra-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-check-mutual-fund-status-with-folio-number-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-capital-gain-on-mutual-fund-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-transferred-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-sell-mutual-funds-to-your-clients-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/which-are-the-best-sip-mutual-funds-for-long-term-investment-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-fund-of-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-fatca-in-mutual-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/why-mutual-funds-invest-in-treps-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/gold-etf-vs-gold-fund-tamil",
-      "https://www.angelone.in/knowledge-center/personal-finance/what-is-surplus-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/index-funds-vs-sector-funds-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-cagr-for-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/short-term-mutual-funds-meaning-risks-and-return-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-dividends-affect-nav-in-mutual-funds-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-change-expense-ratio-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-distributor-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-euin-number-in-mutual-fund-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-fatca-in-mutual-fund-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-is-prc-matrix-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/which-are-the-best-sip-mutual-funds-for-long-term-investment-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/lic-vs-mutual-funds-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-pledged-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-redemption-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/lump-sum-investments-in-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-avoid-ltcg-tax-on-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/invest-in-sp-500-stocks-through-index-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/loan-against-mutual-funds-malayalam",
-      "https://www.angelone.in/knowledge-center/personal-finance/what-is-surplus-fund-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/sip-vs-stocks-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-check-mutual-fund-status-with-folio-number-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/index-funds-vs-sector-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-become-mutual-fund-agent-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-withdraw-sip-amount-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/swp-meaning-in-mutual-fund-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/70-20-10-rule-in-sip-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/mutual-fund-switch-benefits-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-download-mutual-fund-statement-hindi",
-      "https://www.angelone.in/knowledge-center/personal-finance/what-is-clone-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/short-term-mutual-funds-meaning-risks-and-return-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-dividends-affect-nav-in-mutual-funds-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/swp-vs-fd-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-interest-earned-on-sip-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-calculate-capital-gain-on-mutual-fund-sip-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/can-mutual-funds-be-transferred-telugu",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-become-mutual-fund-agent-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/how-to-sell-mutual-funds-to-your-clients-telugu",
-      "https://www.angelone.in/knowledge-center/savings-schemes/employees-provident-fund-hindi",
-      "https://www.angelone.in/knowledge-center/mutual-funds/70-20-10-rule-in-sip-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/swp-meaning-in-mutual-fund-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/are-etfs-a-good-option-for-the-long-term-malayalam",
-      "https://www.angelone.in/knowledge-center/mutual-funds/equity-mutual-fund-investment-the-process-to-select-the-best-product-tamil",
-      "https://www.angelone.in/knowledge-center/mutual-funds/what-are-gold-mutual-funds-hindi"
-    ]
+    "team_urls": [],
+    "scheme_urls": []
   },
   {
     "amc_id": 49,
@@ -1051,7 +873,7 @@
     "base_domain": "astuteinvestment.in",
     "canonical_host": "astuteinvestment.in",
     "source": "sitemap_index",
-    "discovered_total": 3,
+    "discovered_total": 2,
     "team_urls": [],
     "scheme_urls": []
   },
@@ -1083,7 +905,7 @@
     "base_domain": "awriga.com",
     "canonical_host": "awriga.com",
     "source": "homepage_anchors",
-    "discovered_total": 18,
+    "discovered_total": 19,
     "team_urls": [],
     "scheme_urls": []
   },
@@ -1172,11 +994,11 @@
     "discovered_total": 61,
     "team_urls": [],
     "scheme_urls": [
-      "https://www.bandhanamc.com/mutual-funds/",
-      "https://www.bandhanamc.com/vedartha/vedartha-equity-opportunities-fund/",
-      "https://www.bandhanamc.com/vedartha/vedartha-india-opportunities-fund/",
-      "https://www.bandhanamc.com/vedartha-equity-opportunities-fund/",
-      "https://www.bandhanamc.com/vedartha-india-opportunities-fund/"
+      "https://bandhanamc.com/mutual-funds/",
+      "https://bandhanamc.com/vedartha/vedartha-equity-opportunities-fund/",
+      "https://bandhanamc.com/vedartha/vedartha-india-opportunities-fund/",
+      "https://bandhanamc.com/vedartha-equity-opportunities-fund/",
+      "https://bandhanamc.com/vedartha-india-opportunities-fund/"
     ]
   },
   {
@@ -1195,7 +1017,7 @@
     "base_domain": "banyantreeadvisors.com",
     "canonical_host": "banyantreeadvisors.com",
     "source": "sitemap_index",
-    "discovered_total": 327,
+    "discovered_total": 330,
     "team_urls": [
       "https://www.banyantreeadvisors.com/group/leadership/"
     ],
@@ -1231,7 +1053,7 @@
     "base_domain": "bellwethercapital.in",
     "canonical_host": "bellwethercapital.in",
     "source": "sitemap_html",
-    "discovered_total": 14,
+    "discovered_total": 15,
     "team_urls": [],
     "scheme_urls": []
   },
@@ -1243,18 +1065,6 @@
     "source": "homepage_anchors",
     "discovered_total": 23,
     "team_urls": [],
-    "scheme_urls": []
-  },
-  {
-    "amc_id": 92,
-    "firm_name": "BMC Advisors Private Limited",
-    "base_domain": "bmcadvisor.com",
-    "canonical_host": "bmcadvisor.com",
-    "source": "sitemap_index",
-    "discovered_total": 16,
-    "team_urls": [
-      "https://bmcadvisor.com/index.php/leadership/"
-    ],
     "scheme_urls": []
   },
   {
@@ -1288,7 +1098,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 101,
+    "amc_id": 102,
     "firm_name": "Capital 8 LLP",
     "base_domain": "capital8.in",
     "canonical_host": "capital8.in",
@@ -1300,12 +1110,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 104,
+    "amc_id": 105,
     "firm_name": "CARE PORTFOLIO MANAGERS PRIVATE LIMITED",
     "base_domain": "carepms.com",
     "canonical_host": "carepms.com",
     "source": "sitemap_index",
-    "discovered_total": 179,
+    "discovered_total": 189,
     "team_urls": [
       "https://carepms.com/fund-manager-connect-2024/",
       "https://carepms.com/impact-of-leadership-on-company/",
@@ -1315,17 +1125,26 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 106,
+    "amc_id": 107,
     "firm_name": "Caspian Impact Investment Adviser Private Limited",
     "base_domain": "caspianequity.in",
     "canonical_host": "caspianequity.in",
     "source": "homepage_anchors",
-    "discovered_total": 14,
-    "team_urls": [],
-    "scheme_urls": []
+    "discovered_total": 20,
+    "team_urls": [
+      "https://caspianequity.in/team"
+    ],
+    "scheme_urls": [
+      "https://caspianequity.in/funds/bellwether",
+      "https://caspianequity.in/funds/ifif",
+      "https://caspianequity.in/funds/caspian-impact-investments",
+      "https://caspianequity.in/funds/sme-impact",
+      "https://caspianequity.in/funds/leaf",
+      "https://caspianequity.in/funds/proprietary"
+    ]
   },
   {
-    "amc_id": 107,
+    "amc_id": 108,
     "firm_name": "Centricity Portfolio Managers Private Limited",
     "base_domain": "centricity.co.in",
     "canonical_host": "centricity.co.in",
@@ -1335,11 +1154,11 @@
       "https://centricity.co.in/about/leadership"
     ],
     "scheme_urls": [
-      "https://centricity.co.in/articles/a-comprehensive-guide-to-nfo-new-fund-offer"
+      "https://www.centricity.co.in/articles/a-comprehensive-guide-to-nfo-new-fund-offer"
     ]
   },
   {
-    "amc_id": 110,
+    "amc_id": 111,
     "firm_name": "CHONA FINANCIAL SERVICES LTD",
     "base_domain": "chona.com",
     "canonical_host": "chona.com",
@@ -1349,17 +1168,61 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 112,
+    "amc_id": 113,
     "firm_name": "Citrus Advisors Private Limited",
     "base_domain": "citrusadvisors.com",
     "canonical_host": "citrusadvisors.com",
-    "source": "unreachable",
-    "discovered_total": 0,
-    "team_urls": [],
+    "source": "sitemap_index",
+    "discovered_total": 175,
+    "team_urls": [
+      "https://www.citrusadvisors.com/old-our-team/",
+      "https://www.citrusadvisors.com/our-team/",
+      "https://www.citrusadvisors.com/portfolio/leadership-development/",
+      "https://www.citrusadvisors.com/services/leadership-coaching/",
+      "https://www.citrusadvisors.com/team/eloise-wheeler/",
+      "https://www.citrusadvisors.com/team/penelope-hampton/",
+      "https://www.citrusadvisors.com/team/steffan-burnett/",
+      "https://www.citrusadvisors.com/team/caroline-bowers/",
+      "https://www.citrusadvisors.com/team/jeremy-sloan/",
+      "https://www.citrusadvisors.com/team/gilbert-dunn/",
+      "https://www.citrusadvisors.com/team/betty-berry/",
+      "https://www.citrusadvisors.com/team/steven-fisher/",
+      "https://www.citrusadvisors.com/team/aysha-willis/",
+      "https://www.citrusadvisors.com/team/astrid-watts/",
+      "https://www.citrusadvisors.com/team/sanjay-sinha/",
+      "https://www.citrusadvisors.com/team/m-damodaran/"
+    ],
     "scheme_urls": []
   },
   {
-    "amc_id": 118,
+    "amc_id": 114,
+    "firm_name": "CKREDENCE WEALTH MANAGEMENT PRIVATE LIMITED",
+    "base_domain": "ckredencewealth.com",
+    "canonical_host": "ckredencewealth.com",
+    "source": "sitemap_xml",
+    "discovered_total": 146,
+    "team_urls": [
+      "https://ckredencewealth.com/insights/desk-of-fund-manager-february-25",
+      "https://ckredencewealth.com/insights/desk-of-fund-manager-january-25",
+      "https://ckredencewealth.com/insights/desk-of-fund-manager",
+      "https://ckredencewealth.com/insights/from-the-desk-of-fund-manager-oct-24",
+      "https://ckredencewealth.com/insights/from-the-desk-of-fund-manager-sep-24",
+      "https://ckredencewealth.com/insights/desk-of-fund-manager-july-24",
+      "https://ckredencewealth.com/insights/desk-of-fund-manager-june-24",
+      "https://ckredencewealth.com/insights/desk-of-fund-manager-may-24",
+      "https://ckredencewealth.com/our-resources/hedge-fund-manager-vs-portfolio-manager"
+    ],
+    "scheme_urls": [
+      "https://ckredencewealth.com/diversified-investment-approach/diversified-fund-portfolio-management-service",
+      "https://ckredencewealth.com/ice-growth/ice-growth-fund-portfolio-management-service",
+      "https://ckredencewealth.com/our-resources/mutual-fund-advisory-services-india",
+      "https://ckredencewealth.com/our-resources/direct-mutual-fund-vs-regular-mutual-fund",
+      "https://ckredencewealth.com/our-resources/mutual-fund-advisor",
+      "https://ckredencewealth.com/our-resources/custodian-in-mutual-fund"
+    ]
+  },
+  {
+    "amc_id": 119,
     "firm_name": "Coheron Wealth private Limited",
     "base_domain": "coheronwealth.com",
     "canonical_host": "coheronwealth.com",
@@ -1369,30 +1232,27 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 119,
+    "amc_id": 120,
     "firm_name": "Complete CircleWealth Solutions LLP",
     "base_domain": "completecirclewealth.com",
     "canonical_host": "completecirclewealth.com",
     "source": "sitemap_index",
-    "discovered_total": 66,
+    "discovered_total": 67,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 123,
+    "amc_id": 124,
     "firm_name": "CONSORTIUM SECURITIES PVT. LTD.",
     "base_domain": "consortiumsecurities.com",
     "canonical_host": "consortiumsecurities.com",
-    "source": "sitemap_index",
-    "discovered_total": 48,
+    "source": "sitemap_html",
+    "discovered_total": 43,
     "team_urls": [],
-    "scheme_urls": [
-      "https://consortiumsecurities.com/mutual-fund-platform/",
-      "https://consortiumsecurities.com/tag/mutual-funds/"
-    ]
+    "scheme_urls": []
   },
   {
-    "amc_id": 125,
+    "amc_id": 126,
     "firm_name": "Corporate Business Advisors Private Limited",
     "base_domain": "cbacapital.in",
     "canonical_host": "cbacapital.in",
@@ -1402,7 +1262,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 127,
+    "amc_id": 128,
     "firm_name": "COUNTER CYCLICAL INVESTMENTS PRIVATE LIMITED",
     "base_domain": "cciplpms.com",
     "canonical_host": "cciplpms.com",
@@ -1414,7 +1274,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 130,
+    "amc_id": 131,
     "firm_name": "Cresana Wealth Managers Private Limited",
     "base_domain": "cresanawealth.com",
     "canonical_host": "cresanawealth.com",
@@ -1426,32 +1286,32 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 133,
+    "amc_id": 134,
     "firm_name": "CX ADVISORS LLP",
     "base_domain": "cxpartners.in",
     "canonical_host": "cxpartners.in",
     "source": "sitemap_html",
-    "discovered_total": 4,
-    "team_urls": [],
-    "scheme_urls": []
-  },
-  {
-    "amc_id": 134,
-    "firm_name": "DALAL & BROACHA STOCK BROKING PVT. LTD.",
-    "base_domain": "dalal-broacha.com",
-    "canonical_host": "dalal-broacha.com",
-    "source": "homepage_anchors",
-    "discovered_total": 48,
+    "discovered_total": 2,
     "team_urls": [],
     "scheme_urls": []
   },
   {
     "amc_id": 135,
+    "firm_name": "DALAL & BROACHA STOCK BROKING PVT. LTD.",
+    "base_domain": "dalal-broacha.com",
+    "canonical_host": "dalal-broacha.com",
+    "source": "homepage_anchors",
+    "discovered_total": 49,
+    "team_urls": [],
+    "scheme_urls": []
+  },
+  {
+    "amc_id": 136,
     "firm_name": "DARASHAW & COMPANY LTD",
     "base_domain": "darashaw.com",
     "canonical_host": "darashaw.com",
-    "source": "homepage_anchors",
-    "discovered_total": 78,
+    "source": "sitemap_index",
+    "discovered_total": 136,
     "team_urls": [],
     "scheme_urls": [
       "https://www.darashaw.com/mutual-fund-distributor-arn-2648/",
@@ -1459,7 +1319,7 @@
     ]
   },
   {
-    "amc_id": 136,
+    "amc_id": 137,
     "firm_name": "DEUTSCHE INVESTMENTS INDIA PRIVATE LIMITED",
     "base_domain": "country.db.com",
     "canonical_host": "country.db.com",
@@ -1469,17 +1329,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 139,
+    "amc_id": 140,
     "firm_name": "Divya Capital One Private Limited",
     "base_domain": "divyacapitalone.com",
     "canonical_host": "divyacapitalone.com",
-    "source": "sitemap_xml",
-    "discovered_total": 70,
+    "source": "sitemap_html",
+    "discovered_total": 79,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 140,
+    "amc_id": 141,
     "firm_name": "DMZ Partners Investment Management LLP",
     "base_domain": "dmzpartners.in",
     "canonical_host": "dmzpartners.in",
@@ -1489,12 +1349,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 144,
+    "amc_id": 145,
     "firm_name": "DSIJ WEALTH ADVISORY PRIVATE LIMITED",
     "base_domain": "dsij.in",
     "canonical_host": "dsij.in",
     "source": "sitemap_index",
-    "discovered_total": 594,
+    "discovered_total": 618,
     "team_urls": [],
     "scheme_urls": [
       "https://www.dsij.in/mutual-fund",
@@ -1505,7 +1365,7 @@
     ]
   },
   {
-    "amc_id": 147,
+    "amc_id": 148,
     "firm_name": "DWAITH ADVISORY PRIVATE LIMITED",
     "base_domain": "dwaithfunds.com",
     "canonical_host": "dwaithfunds.com",
@@ -1520,7 +1380,7 @@
     ]
   },
   {
-    "amc_id": 148,
+    "amc_id": 149,
     "firm_name": "DYNAMIC EQUITIES PRIVATE LIMITED",
     "base_domain": "valuestocks.in",
     "canonical_host": "valuestocks.in",
@@ -1530,7 +1390,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 152,
+    "amc_id": 153,
     "firm_name": "EASTERN FINANCIERS LIMITED",
     "base_domain": "easternfin.com",
     "canonical_host": "easternfin.com",
@@ -1556,7 +1416,7 @@
     ]
   },
   {
-    "amc_id": 156,
+    "amc_id": 157,
     "firm_name": "EKLAVYA CAPITAL ADVISORS LLP",
     "base_domain": "eklavyacap.in",
     "canonical_host": "eklavyacap.in",
@@ -1566,7 +1426,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 157,
+    "amc_id": 158,
     "firm_name": "Electrum Portfolio Managers Private Limited",
     "base_domain": "electrumcapital.in",
     "canonical_host": "electrumcapital.in",
@@ -1625,7 +1485,7 @@
     "base_domain": "equitreecapital.com",
     "canonical_host": "equitreecapital.com",
     "source": "sitemap_xml",
-    "discovered_total": 36,
+    "discovered_total": 38,
     "team_urls": [],
     "scheme_urls": []
   },
@@ -1647,7 +1507,7 @@
     "base_domain": "esteeadvisors.com",
     "canonical_host": "esteeadvisors.com",
     "source": "sitemap_html",
-    "discovered_total": 56,
+    "discovered_total": 60,
     "team_urls": [],
     "scheme_urls": [
       "https://esteeadvisors.com/investor-charter/alternative-investment-fund"
@@ -1669,7 +1529,7 @@
     "base_domain": "eurekasec.com",
     "canonical_host": "eurekasec.com",
     "source": "sitemap_index",
-    "discovered_total": 157,
+    "discovered_total": 158,
     "team_urls": [],
     "scheme_urls": [
       "https://www.eurekasec.com/what-are-the-different-types-of-equity-mutual-funds/",
@@ -1695,229 +1555,27 @@
     ]
   },
   {
-    "amc_id": 180,
-    "firm_name": "Finwizard Technology Private Limited",
-    "base_domain": "fisdom.com",
-    "canonical_host": "fisdom.com",
-    "source": "sitemap_index",
-    "discovered_total": 2000,
-    "team_urls": [
-      "https://www.fisdom.com/what-is-the-eligibility-for-nps-who-are-the-fund-managers-of-national-pension-system/",
-      "https://www.fisdom.com/fund-managers-mutual-funds/",
-      "https://www.fisdom.com/ceo-speaks-naresh-shares-opinions-leadership-money-success-candid-interview-fisdom/",
-      "https://www.fisdom.com/securities-and-exchange-board-of-india-sebi/",
-      "https://www.fisdom.com/which-stocks-are-catching-mutual-fund-manager-interests/",
-      "https://www.fisdom.com/should-a-fund-managers-exit-matter-to-your-mutual-fund-investment/"
-    ],
-    "scheme_urls": [
-      "https://www.fisdom.com/sebi-classification-on-new-equity-mutual-funds/",
-      "https://www.fisdom.com/new-fund-classification-by-sebi/",
-      "https://www.fisdom.com/new-debt-mutual-fund-classification-by-sebi/",
-      "https://www.fisdom.com/new-hybrid-fund-classification-by-sebi/",
-      "https://www.fisdom.com/ultra-short-term-mutual-fund/",
-      "https://www.fisdom.com/multi-cap-fund/",
-      "https://www.fisdom.com/top-rated-mutual-funds/",
-      "https://www.fisdom.com/fd-vs-mutual-funds/",
-      "https://www.fisdom.com/what-is-an-aggressive-hybrid-fund-who-should-ideally-invest-in-them/",
-      "https://www.fisdom.com/what-is-a-conservative-hybrid-fund-who-should-ideally-invest-in-them/",
-      "https://www.fisdom.com/taxation-on-mutual-funds/",
-      "https://www.fisdom.com/fixed-deposits-v-s-mutual-funds/",
-      "https://www.fisdom.com/what-are-mutual-funds/",
-      "https://www.fisdom.com/gold-or-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-distribution-2017/",
-      "https://www.fisdom.com/understanding-different-types-mutual-funds/",
-      "https://www.fisdom.com/benefits-of-mutual-funds/",
-      "https://www.fisdom.com/why-should-i-shift-from-regular-plans-to-direct-plans-mutual-funds/",
-      "https://www.fisdom.com/axis-long-term-equity-fund/",
-      "https://www.fisdom.com/mutual-fund-options/",
-      "https://www.fisdom.com/equity-mutual-funds/",
-      "https://www.fisdom.com/real-estate-vs-equity-mutual-fund-investment/",
-      "https://www.fisdom.com/what-are-the-types-of-mutual-funds/",
-      "https://www.fisdom.com/important-update-recent-regulatory-changes-applicable-on-liquid-and-overnight-fund/",
-      "https://www.fisdom.com/how-mutual-fund-investment-can-help-you-achieve-your-financial-independence-2/",
-      "https://www.fisdom.com/elss-tax-saving-mutual-funds/",
-      "https://www.fisdom.com/9-reasons-why-you-should-invest-in-mutual-funds/",
-      "https://www.fisdom.com/ulips-vs-mutual-funds/",
-      "https://www.fisdom.com/how-to-compare-mutual-funds/",
-      "https://www.fisdom.com/what-are-direct-mutual-funds/",
-      "https://www.fisdom.com/what-factors-should-you-consider-while-investing-in-mutual-funds/",
-      "https://www.fisdom.com/focused-mutual-funds/",
-      "https://www.fisdom.com/open-ended-mutual-fund-meaning-benefits-and-advantages/",
-      "https://www.fisdom.com/index-funds-vs-mutual-funds/",
-      "https://www.fisdom.com/demystifying-the-new-mutual-fund-riskometer/",
-      "https://www.fisdom.com/taxes-on-mutual-fund-investments-how-do-they-work/",
-      "https://www.fisdom.com/how-to-check-mutual-fund-investment-status-with-folio-number/",
-      "https://www.fisdom.com/rate-of-return-on-mutual-fund-investments/",
-      "https://www.fisdom.com/can-nri-invest-in-indian-mutual-funds/",
-      "https://www.fisdom.com/understanding-exit-load-on-mutual-funds/",
-      "https://www.fisdom.com/the-beginners-guide-to-mutual-fund-investments/",
-      "https://www.fisdom.com/money-market-mutual-funds/",
-      "https://www.fisdom.com/banking-psu-debt-fund/",
-      "https://www.fisdom.com/expense-ratio-on-mutual-funds/",
-      "https://www.fisdom.com/voluntary-provident-fund-vpf-vs-public-provident-fund-ppf/",
-      "https://www.fisdom.com/children-specific-mutual-funds/",
-      "https://www.fisdom.com/should-you-opt-for-insurance-cover-with-mutual-funds/",
-      "https://www.fisdom.com/top-7-myths-around-mutual-fund-investing-debunked/",
-      "https://www.fisdom.com/arbitrage-mutual-funds/",
-      "https://www.fisdom.com/different-categories-of-mutual-funds/",
-      "https://www.fisdom.com/sebi-guidelines-for-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-investment-minor/",
-      "https://www.fisdom.com/mutual-fund-portfolio/",
-      "https://www.fisdom.com/how-to-select-a-mutual-fund/",
-      "https://www.fisdom.com/mutual-fund-terms/",
-      "https://www.fisdom.com/high-risk-mutual-funds/",
-      "https://www.fisdom.com/best-debt-mutual-funds/",
-      "https://www.fisdom.com/commodity-mutual-funds/",
-      "https://www.fisdom.com/indexation-on-mutual-funds/",
-      "https://www.fisdom.com/nfos-in-mutual-funds/",
-      "https://www.fisdom.com/possible-live-dream-current-income-dream-fund-will-let/",
-      "https://www.fisdom.com/equity-vs-debt-mutual-fund-investment/",
-      "https://www.fisdom.com/smart-strategies-for-mutual-fund-investment/",
-      "https://www.fisdom.com/when-to-sell-mutual-fund/",
-      "https://www.fisdom.com/past-mutual-fund-returns-analysis/",
-      "https://www.fisdom.com/best-debt-fund-for-your-portfolio/",
-      "https://www.fisdom.com/smart-investing-tips-for-beginners-in-mutual-funds/",
-      "https://www.fisdom.com/nps-vs-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-absolute-returns/",
-      "https://www.fisdom.com/why-invest-in-elss-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-beta-standard-deviation-sharpe-ratio/",
-      "https://www.fisdom.com/best-mutual-fund-investment-options-for-salaried/",
-      "https://www.fisdom.com/dividend-plan-in-mutual-funds/",
-      "https://www.fisdom.com/indians-prefer-investing-in-fixed-deposits-to-equities-and-mutual-funds/",
-      "https://www.fisdom.com/top-holding-in-mutual-fund/",
-      "https://www.fisdom.com/icici-prudential-bharat-consumption-fund-series-1/",
-      "https://www.fisdom.com/best-active-international-mutual-funds/",
-      "https://www.fisdom.com/bank-mandate-form-for-mutual-fund-investments/",
-      "https://www.fisdom.com/what-does-your-fixed-income-debt-fund-mean/",
-      "https://www.fisdom.com/compound-interest-in-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-metrics/",
-      "https://www.fisdom.com/tax-deduction-on-mutual-fund-dividend/",
-      "https://www.fisdom.com/chit-fund-vs-mutual-funds/",
-      "https://www.fisdom.com/what-is-mutual-fund-sahi-hai/",
-      "https://www.fisdom.com/15-15-15-rule-in-mutual-funds/",
-      "https://www.fisdom.com/ideal-amount-to-start-investing-in-mutual-funds/",
-      "https://www.fisdom.com/growth-in-the-mutual-fund-industry/",
-      "https://www.fisdom.com/navi-nifty-index-fund-nfo/",
-      "https://www.fisdom.com/sectoral-mutual-funds/",
-      "https://www.fisdom.com/motilal-oswal-nifty-200-index-fund/",
-      "https://www.fisdom.com/anybody-can-be-a-mutual-fund-investor-with-sip/",
-      "https://www.fisdom.com/how-to-invest-in-us-stocks-via-mutual-funds/",
-      "https://www.fisdom.com/franklin-templeton-mutual-fund-announced-winding-up/",
-      "https://www.fisdom.com/right-time-to-invest-in-small-and-mid-cap-mutual-funds/",
-      "https://www.fisdom.com/rbi-cushion-debt-mutual-funds/",
-      "https://www.fisdom.com/parag-parikh-flexi-cap-fund-all-that-you-should-know/",
-      "https://www.fisdom.com/how-mutual-fund-investment-can-help-you-achieve-your-financial-independence/",
-      "https://www.fisdom.com/the-optimistic-route-mutual-funds/",
-      "https://www.fisdom.com/how-to-choose-the-right-mutual-fund-for-beginners/",
-      "https://www.fisdom.com/the-signal-mutual-fund-your-wealth-caretaker-content-on-app/",
-      "https://www.fisdom.com/nfo-in-focus-nippon-india-multi-asset-fund/",
-      "https://www.fisdom.com/monthly-tally-mutual-fund-flows/",
-      "https://www.fisdom.com/principal-large-cap-fund-nfo/",
-      "https://www.fisdom.com/edelweiss-msci-india-domestic-world-healthcare-45-index-fund/",
-      "https://www.fisdom.com/aditya-birla-sun-life-special-opportunities-fund/",
-      "https://www.fisdom.com/mirae-asset-esg-sector-leaders-fund-of-fund/",
-      "https://www.fisdom.com/important-update-about-your-mutual-fund-investment/",
-      "https://www.fisdom.com/mirae-asset-banking-and-financial-services-fund/",
-      "https://www.fisdom.com/uti-small-cap-fund/",
-      "https://www.fisdom.com/axis-special-situation-fund/",
-      "https://www.fisdom.com/monthly-tally-the-mutual-fund-flows/",
-      "https://www.fisdom.com/situational-update-debt-mutual-fund-portfolio/",
-      "https://www.fisdom.com/icici-prudential-business-cycle-fund/",
-      "https://www.fisdom.com/indian-mutual-fund-industry-snapshot/",
-      "https://www.fisdom.com/sbi-retirement-benefit-fund/",
-      "https://www.fisdom.com/mutual-fund-handbook-january-2021/",
-      "https://www.fisdom.com/mutual-fund-handbook-feb/",
-      "https://www.fisdom.com/mutual-fund-handbook-march-2021/",
-      "https://www.fisdom.com/mutual-fund-handbook-april-2021/",
-      "https://www.fisdom.com/mutual-fund-book-may-2021/",
-      "https://www.fisdom.com/edelweiss-recently-listed-ipo-fund/",
-      "https://www.fisdom.com/mutual-fund-handbook-june-2021/",
-      "https://www.fisdom.com/the-signal-what-should-mutual-fund-investors-do-now/",
-      "https://www.fisdom.com/the-signal-a-mutual-fund-story-2021/",
-      "https://www.fisdom.com/the-signal-lic-ipo-what-should-mutual-fund-investors-do/",
-      "https://www.fisdom.com/the-signal-mutual-fund-guide-to-momentum-investing/",
-      "https://www.fisdom.com/an-analysis-of-lics-anchor-investors-participation-of-indian-mutual-funds/",
-      "https://www.fisdom.com/the-signal-core-of-a-mutual-fund-portfolio/",
-      "https://www.fisdom.com/myway-wealth-your-one-stop-destination-for-mutual-funds/",
-      "https://www.fisdom.com/loan-against-mutual-fund/",
-      "https://www.fisdom.com/can-index-funds-be-better-than-actively-managed-mutual-funds/",
-      "https://www.fisdom.com/what-are-fund-of-fundsfof-how-do-they-work/",
-      "https://www.fisdom.com/real-estate-vs-mutual-funds/",
-      "https://www.fisdom.com/best-mutual-fund-for-systematic-investment-plan-sip/",
-      "https://www.fisdom.com/direct-v-s-regular-mutual-fund/",
-      "https://www.fisdom.com/where-should-you-invest-stocks-or-equity-mutual-funds/",
-      "https://www.fisdom.com/best-long-term-mutual-funds/",
-      "https://www.fisdom.com/alpha-beta-mutual-funds/",
-      "https://www.fisdom.com/best-icici-prudential-mutual-funds/",
-      "https://www.fisdom.com/ppf-vs-mutual-funds/",
-      "https://www.fisdom.com/growth-plan-mutual-funds/",
-      "https://www.fisdom.com/analyse-an-equity-mutual-fund/",
-      "https://www.fisdom.com/rounding-off-in-mutual-funds/",
-      "https://www.fisdom.com/stamp-duty-on-mutual-fund/",
-      "https://www.fisdom.com/mutual-fund-investment-options-for-1-year/",
-      "https://www.fisdom.com/equity-mutual-fund-after-ltcg/",
-      "https://www.fisdom.com/mutual-fund-portfolio-diversification/",
-      "https://www.fisdom.com/expense-ratio-of-direct-and-regular-mutual-funds/",
-      "https://www.fisdom.com/direct-vs-regular-mutual-funds/",
-      "https://www.fisdom.com/what-should-be-your-first-mutual-fund/",
-      "https://www.fisdom.com/how-to-pick-the-right-hybrid-fund/",
-      "https://www.fisdom.com/icici-prudential-midcap-150-index-fund-nfo/",
-      "https://www.fisdom.com/4-factors-to-look-out-for-while-choosing-a-passive-fund/",
-      "https://www.fisdom.com/how-much-of-your-salary-should-you-invest-in-mutual-funds/",
-      "https://www.fisdom.com/liquid-mutual-funds/",
-      "https://www.fisdom.com/etfs-vs-mutual-funds/",
-      "https://www.fisdom.com/how-to-withdraw-or-redeem-mutual-funds/",
-      "https://www.fisdom.com/edelweiss-focused-equity-fund/",
-      "https://www.fisdom.com/ideal-mutual-fund-categories-for-long-term-investments/",
-      "https://www.fisdom.com/dsp-nifty-midcap-150-quality-50-index-fund-nfo/",
-      "https://www.fisdom.com/quant-large-cap-fund/",
-      "https://www.fisdom.com/section-194k-what-is-tds-on-mutual-fund-investments/",
-      "https://www.fisdom.com/are-mutual-funds-transferable-what-is-a-transfer-of-mutual-funds/",
-      "https://www.fisdom.com/5-tips-for-the-self-employed-to-build-their-emergency-fund-nest-faster/",
-      "https://www.fisdom.com/equity-mutual-fund-redemption-payout-time/",
-      "https://www.fisdom.com/franklin-india-balanced-advantage-fund-nfo/",
-      "https://www.fisdom.com/tata-housing-opportunities-fund-nfo/",
-      "https://www.fisdom.com/white-oak-capital-mid-cap-fund-nfo-review/",
-      "https://www.fisdom.com/white-oak-mid-cap-fund-nfo-review/",
-      "https://www.fisdom.com/icici-pru-psu-equity-fund-nfo/",
-      "https://www.fisdom.com/icici-prudential-nifty50-equal-weight-index-fund-nfo/",
-      "https://www.fisdom.com/idfc-nifty100-low-volatility-30-index-fund/",
-      "https://www.fisdom.com/kotak-business-cycles-fund-nfo/",
-      "https://www.fisdom.com/union-retirement-fund-nfo-review/",
-      "https://www.fisdom.com/equity-fund-vs-debt-fund/",
-      "https://www.fisdom.com/best-mutual-fund-apps/",
-      "https://www.fisdom.com/all-you-should-know-about-mutual-fund-new-nomination-rules/",
-      "https://www.fisdom.com/tds-on-mutual-fund-investments/",
-      "https://www.fisdom.com/idfc-tpt-logistics-fund/",
-      "https://www.fisdom.com/icici-pru-tpt-logistics-fund/",
-      "https://www.fisdom.com/where-and-how-can-you-complain-against-mutual-funds/",
-      "https://www.fisdom.com/employee-provident-fund-epf-vs-employees-pension-scheme-factors-to-consider/",
-      "https://www.fisdom.com/what-happens-if-i-miss-mutual-fund-sips/",
-      "https://www.fisdom.com/mutual-fund-factbook-nov-2022/",
-      "https://www.fisdom.com/how-to-build-your-emergency-fund-in-6-simple-steps/",
-      "https://www.fisdom.com/mutual-fund-factbook-december-2022/",
-      "https://www.fisdom.com/changes-in-tax-benefits-on-debt-mutual-funds/",
-      "https://www.fisdom.com/objectives-functions-of-mutual-funds/",
-      "https://www.fisdom.com/icici-pru-innovation-fund-nfo/",
-      "https://www.fisdom.com/concentrated-stock-baskets-vs-mutual-funds/",
-      "https://www.fisdom.com/mutual-fund-distributor-commission-structure/",
-      "https://www.fisdom.com/mutual-fund-portfolio-overlap/",
-      "https://www.fisdom.com/how-to-declare-mutual-fund-gains-in-itr/",
-      "https://www.fisdom.com/idcw-vs-growth-option-for-mutual-funds/"
-    ]
-  },
-  {
-    "amc_id": 191,
-    "firm_name": "Fortune Wealth Management Company India Private Limited",
-    "base_domain": "fortunewmc.com",
-    "canonical_host": "fortunewmc.com",
-    "source": "sitemap_xml",
-    "discovered_total": 30,
+    "amc_id": 190,
+    "firm_name": "FORTITUDE FUND MANAGEMENT LLP",
+    "base_domain": "fortitudefundmanagers.com",
+    "canonical_host": "fortitudefundmanagers.com",
+    "source": "unreachable",
+    "discovered_total": 0,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 193,
+    "amc_id": 192,
+    "firm_name": "Fortune Wealth Management Company India Private Limited",
+    "base_domain": "fortunewmc.com",
+    "canonical_host": "fortunewmc.com",
+    "source": "sitemap_xml",
+    "discovered_total": 31,
+    "team_urls": [],
+    "scheme_urls": []
+  },
+  {
+    "amc_id": 194,
     "firm_name": "FOURDEGREEWATER FINVEST PRIVATE LIMITED",
     "base_domain": "wintwealth.com",
     "canonical_host": "wintwealth.com",
@@ -1927,7 +1585,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 194,
+    "amc_id": 195,
     "firm_name": "Fractal Capital Investments LLP",
     "base_domain": "fractalcapital.in",
     "canonical_host": "fractalcapital.in",
@@ -1943,7 +1601,7 @@
     ]
   },
   {
-    "amc_id": 195,
+    "amc_id": 196,
     "firm_name": "FRANKLIN TEMPLETON ASSET MANAGEMENT (INDIA) PRIVATE LIMITED",
     "base_domain": "franklintempletonindia.com",
     "canonical_host": "franklintempletonindia.com",
@@ -2203,17 +1861,17 @@
     ]
   },
   {
-    "amc_id": 198,
+    "amc_id": 199,
     "firm_name": "GAUVIK WEALTH MANAGEMENT LLP",
     "base_domain": "gauvikwealth.com",
     "canonical_host": "gauvikwealth.com",
     "source": "sitemap_index",
-    "discovered_total": 25,
+    "discovered_total": 26,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 201,
+    "amc_id": 202,
     "firm_name": "GHALLA BHANSALI STOCK BROKERS PRIVATE LIMITED",
     "base_domain": "ghallabhansali.com",
     "canonical_host": "ghallabhansali.com",
@@ -2223,7 +1881,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 202,
+    "amc_id": 203,
     "firm_name": "GIRIK WEALTH ADVISORS PRIVATE LIMITED",
     "base_domain": "girikcap.com",
     "canonical_host": "girikcap.com",
@@ -2233,17 +1891,40 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 203,
+    "amc_id": 204,
     "firm_name": "GLOBE CAPITAL MARKET LTD.",
     "base_domain": "globecapital.com",
     "canonical_host": "globecapital.com",
     "source": "sitemap_html",
-    "discovered_total": 6,
+    "discovered_total": 90,
     "team_urls": [],
+    "scheme_urls": [
+      "https://globecapital.com/mutual-fund/"
+    ]
+  },
+  {
+    "amc_id": 205,
+    "firm_name": "GODREJ WEALTH LIMITED",
+    "base_domain": "godrejwealth.com",
+    "canonical_host": "godrejwealth.com",
+    "source": "sitemap_xml",
+    "discovered_total": 62,
+    "team_urls": [
+      "https://godrejwealth.com/our-leadership",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6180-be9f-e486cc89527c",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6181-aa62-b9b2d51b2e06",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6182-904a-e44eb5c3b5a2",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6183-bda6-67e622e3f528",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6184-830e-b78d4e43c133",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6185-a267-159d6fa9f5b4",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6186-8c96-d2e3ca1c2f0c",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6187-83c4-8e2602abda8b",
+      "https://godrejwealth.com/our-leadership/1f15daee-cecf-6188-9942-fc2d7d8fc87c"
+    ],
     "scheme_urls": []
   },
   {
-    "amc_id": 208,
+    "amc_id": 210,
     "firm_name": "Greenedge Wealth Services LLP",
     "base_domain": "greenedgewealth.com",
     "canonical_host": "greenedgewealth.com",
@@ -2251,22 +1932,12 @@
     "discovered_total": 72,
     "team_urls": [],
     "scheme_urls": [
-      "https://www.greenedgewealth.com/mutual-fund-advisory/index.html",
-      "https://www.greenedgewealth.com/gews-india-fund/"
+      "https://greenedgewealth.com/mutual-fund-advisory/index.html",
+      "https://greenedgewealth.com/gews-india-fund/"
     ]
   },
   {
-    "amc_id": 209,
-    "firm_name": "Grey Sky Capital Private Limited",
-    "base_domain": "greyskycapital.com",
-    "canonical_host": "greyskycapital.com",
-    "source": "unreachable",
-    "discovered_total": 0,
-    "team_urls": [],
-    "scheme_urls": []
-  },
-  {
-    "amc_id": 212,
+    "amc_id": 214,
     "firm_name": "GUARDIAN ADVISORS PVT LTD",
     "base_domain": "guardianadvisors.in",
     "canonical_host": "guardianadvisors.in",
@@ -2276,17 +1947,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 216,
+    "amc_id": 218,
     "firm_name": "HAWMS Equities Private Limited",
     "base_domain": "hawmsequities.com",
     "canonical_host": "hawmsequities.com",
     "source": "sitemap_index",
-    "discovered_total": 64,
+    "discovered_total": 29,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 218,
+    "amc_id": 220,
     "firm_name": "HEDGE EQUITIES LTD",
     "base_domain": "hedgeequities.com",
     "canonical_host": "hedgeequities.com",
@@ -2304,7 +1975,7 @@
     ]
   },
   {
-    "amc_id": 223,
+    "amc_id": 225,
     "firm_name": "HSBC ASSET MANAGEMENT (INDIA) PVT. LTD.",
     "base_domain": "asset",
     "canonical_host": "asset",
@@ -2314,27 +1985,27 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 225,
+    "amc_id": 227,
     "firm_name": "ICICI SECURITIES LIMITED",
     "base_domain": "secure.icicidirect.com",
     "canonical_host": "secure.icicidirect.com",
     "source": "sitemap_html",
-    "discovered_total": 6,
+    "discovered_total": 8,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 230,
+    "amc_id": 232,
     "firm_name": "IKIGAI Asset Manager Holdings Private Limited",
     "base_domain": "ikigaiasset.com",
     "canonical_host": "ikigaiasset.com",
     "source": "sitemap_xml",
-    "discovered_total": 17,
+    "discovered_total": 20,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 238,
+    "amc_id": 240,
     "firm_name": "INDSEC SECURITIES AND FINANCE LTD.",
     "base_domain": "indsec.co.in",
     "canonical_host": "indsec.co.in",
@@ -2344,17 +2015,21 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 239,
+    "amc_id": 241,
     "firm_name": "INFINITY ALTERNATIVES INVESTMENT MANAGERS PRIVATE LIMITED",
     "base_domain": "infinityalternatives.com",
     "canonical_host": "infinityalternatives.com",
     "source": "sitemap_index",
-    "discovered_total": 9,
-    "team_urls": [],
+    "discovered_total": 12,
+    "team_urls": [
+      "https://www.infinityalternatives.com/team/investor-note",
+      "https://www.infinityalternatives.com/team/account-statement",
+      "https://www.infinityalternatives.com/team/contracts"
+    ],
     "scheme_urls": []
   },
   {
-    "amc_id": 241,
+    "amc_id": 243,
     "firm_name": "Insightful Investment Manager LLP",
     "base_domain": "insightfulinvestments.in",
     "canonical_host": "insightfulinvestments.in",
@@ -2366,12 +2041,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 242,
+    "amc_id": 244,
     "firm_name": "Integrow Asset Management Private Limited",
     "base_domain": "integrowamc.com",
     "canonical_host": "integrowamc.com",
     "source": "sitemap_index",
-    "discovered_total": 164,
+    "discovered_total": 168,
     "team_urls": [
       "https://www.integrowamc.com/events/pioneers-that-have-shaped-the-real-estate-industry-in-india-integrow-amcs-leadership-team/"
     ],
@@ -2385,7 +2060,7 @@
     ]
   },
   {
-    "amc_id": 243,
+    "amc_id": 245,
     "firm_name": "INVASSET LLP",
     "base_domain": "invasset.com",
     "canonical_host": "invasset.com",
@@ -2397,17 +2072,62 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 244,
+    "amc_id": 246,
     "firm_name": "Invesco Asset Management India Private Limited",
     "base_domain": "invescomutualfund.com",
     "canonical_host": "invescomutualfund.com",
     "source": "sitemap_xml",
-    "discovered_total": 90,
-    "team_urls": [],
-    "scheme_urls": []
+    "discovered_total": 120,
+    "team_urls": [
+      "https://www.invescomutualfund.com/about-us/our-people/profile",
+      "https://www.invescomutualfund.com/about-us/our-people"
+    ],
+    "scheme_urls": [
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-largecap-fund/BLGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-focused-fund/IFGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-medium-duration-fund/MDGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-flexi-cap-fund/F9GP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-credit-risk-fund/CBGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-large-&amp;-mid-cap-fund/241G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-consumption-fund/CPGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-midcap-fund/211G",
+      "https://www.invescomutualfund.com/our-funds/fund/hybrid/invesco-india-equity-savings-fund/ESGP",
+      "https://www.invescomutualfund.com/our-funds/fund/exchange-traded-fund/invesco-india-nifty-50-exchange-traded-fund/NTGP",
+      "https://www.invescomutualfund.com/our-funds/fund/exchange-traded-fund/invesco-india-gold-exchange-traded-fund/GDGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-contra-fund/201G",
+      "https://www.invescomutualfund.com/our-funds/fund",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-short-duration-fund/STD3",
+      "https://www.invescomutualfund.com/our-funds/fund/fund-of-funds/invesco-india-gold-etf-fund-of-fund/RGGP",
+      "https://www.invescomutualfund.com/our-funds/fund/hybrid/invesco-india-arbitrage-fund/231G",
+      "https://www.invescomutualfund.com/our-funds/fund/fund-of-funds/invesco-india-income-plus-arbitrage-active-fund-of-fund/APGP",
+      "https://www.invescomutualfund.com/our-funds/fund/hybrid/invesco-india-balanced-advantage-fund/251G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-technology-fund/TFGP",
+      "https://www.invescomutualfund.com/our-funds/exchange-traded-fund",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-elss-tax-saver-fund/221G",
+      "https://www.invescomutualfund.com/our-funds/fund/fund-of-funds/invesco-india-invesco-global-consumer-trends-fund-of-fund/GCGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-ultra-short-duration-fund/MTGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-overnight-fund/ONGP",
+      "https://www.invescomutualfund.com/our-funds/fund/hybrid/invesco-india-multi-asset-allocation-fund/MLGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-banking-and-psu-fund/BDGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fund-of-funds/invesco-india-invesco-global-equity-income-fund-of-fund/GEGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-small-cap-fund/SCGP",
+      "https://www.invescomutualfund.com/our-funds/fund/hybrid/invesco-india-aggressive-hybrid-fund/EBGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fund-of-funds/invesco-india-invesco-pan-european-equity-fund-of-fund/PEGP",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-infrastructure-fund/253G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-multicap-fund/255G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-esg-integration-strategy-fund/EGGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-low-duration-fund/311G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-financial-services-fund/951G",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-business-cycle-fund/BCGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-corporate-bond-fund/511G",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-money-market-fund/CORG",
+      "https://www.invescomutualfund.com/our-funds/fund/equity/invesco-india-psu-equity-fund/PSGP",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-gilt-fund/901G",
+      "https://www.invescomutualfund.com/our-funds/fund/fixed-income/invesco-india-liquid-fund/121G"
+    ]
   },
   {
-    "amc_id": 248,
+    "amc_id": 250,
     "firm_name": "InvestSavvy Portfolio Management LLP",
     "base_domain": "investsavvy.in",
     "canonical_host": "investsavvy.in",
@@ -2417,7 +2137,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 249,
+    "amc_id": 251,
     "firm_name": "INVESTVALUE CAPITAL PRIVATE LIMITED",
     "base_domain": "na",
     "canonical_host": "na",
@@ -2427,7 +2147,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 252,
+    "amc_id": 254,
     "firm_name": "Irris Whiteboard Private Limited",
     "base_domain": "na",
     "canonical_host": "na",
@@ -2437,12 +2157,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 253,
+    "amc_id": 255,
     "firm_name": "ithought Financial consulting LLP",
     "base_domain": "ithought.co.in",
     "canonical_host": "ithought.co.in",
     "source": "sitemap_index",
-    "discovered_total": 1940,
+    "discovered_total": 1958,
     "team_urls": [
       "https://ithought.co.in/podcast-market-leadership/",
       "https://ithought.co.in/market-leadership-the-elusive-hunt/",
@@ -2464,7 +2184,7 @@
     ]
   },
   {
-    "amc_id": 255,
+    "amc_id": 257,
     "firm_name": "Itus Capital Advisors Pvt Ltd",
     "base_domain": "ituscapital.com",
     "canonical_host": "ituscapital.com",
@@ -2494,19 +2214,19 @@
     ]
   },
   {
-    "amc_id": 258,
+    "amc_id": 260,
     "firm_name": "JAIN INVESTMENT ADVISORS PVT. LTD",
     "base_domain": "jaininvestmentadvisors.com",
     "canonical_host": "jaininvestmentadvisors.com",
     "source": "sitemap_html",
-    "discovered_total": 13,
+    "discovered_total": 14,
     "team_urls": [
       "https://www.jaininvestmentadvisors.com/OurTeam.aspx"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 263,
+    "amc_id": 265,
     "firm_name": "JM Financial Asset Management Limited",
     "base_domain": "jmfinancialmf.com",
     "canonical_host": "jmfinancialmf.com",
@@ -2534,19 +2254,19 @@
     ]
   },
   {
-    "amc_id": 265,
+    "amc_id": 267,
     "firm_name": "JOINDRE CAPITAL SERVICES LIMITED",
     "base_domain": "joindrepms.com",
     "canonical_host": "joindrepms.com",
     "source": "sitemap_index",
-    "discovered_total": 7,
+    "discovered_total": 8,
     "team_urls": [],
     "scheme_urls": [
       "https://www.joindrepms.com/the-fund"
     ]
   },
   {
-    "amc_id": 268,
+    "amc_id": 270,
     "firm_name": "KAPM Ventures LLP",
     "base_domain": "kapmventures.com",
     "canonical_host": "kapmventures.com",
@@ -2556,7 +2276,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 269,
+    "amc_id": 271,
     "firm_name": "KARMA CAPITAL ADVISORS PVT. LTD.",
     "base_domain": "karmacapital.co.in",
     "canonical_host": "karmacapital.co.in",
@@ -2568,7 +2288,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 270,
+    "amc_id": 272,
     "firm_name": "KARVY CAPITAL LIMITED",
     "base_domain": "karvycapital.co.in",
     "canonical_host": "karvycapital.co.in",
@@ -2580,7 +2300,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 272,
+    "amc_id": 274,
     "firm_name": "Kedia Shares & Stocks Brokers Ltd",
     "base_domain": "kediashares.com",
     "canonical_host": "kediashares.com",
@@ -2592,19 +2312,19 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 273,
+    "amc_id": 275,
     "firm_name": "KHANDWALA SECURITIES LTD",
     "base_domain": "kslindia.com",
     "canonical_host": "kslindia.com",
     "source": "sitemap_index",
-    "discovered_total": 788,
+    "discovered_total": 790,
     "team_urls": [],
     "scheme_urls": [
       "https://kslindia.com/mutual-funds/"
     ]
   },
   {
-    "amc_id": 274,
+    "amc_id": 276,
     "firm_name": "Klay Securities Private Limited",
     "base_domain": "klaygroup.com",
     "canonical_host": "klaygroup.com",
@@ -2614,7 +2334,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 277,
+    "amc_id": 279,
     "firm_name": "KOTAK MAHINDRA ASSET MANAGEMENT COMPANY LTD",
     "base_domain": "kotakpms.com",
     "canonical_host": "kotakpms.com",
@@ -2624,7 +2344,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 278,
+    "amc_id": 280,
     "firm_name": "KOTAK SECURITIES LTD",
     "base_domain": "kotaksecurities.com",
     "canonical_host": "kotakneo.com",
@@ -2634,6 +2354,7 @@
       "https://www.kotakneo.com/investing-guide/mutual-funds/what-is-the-role-of-mutual-fund-manager/"
     ],
     "scheme_urls": [
+      "https://www.kotakneo.com/mutual-fund-distributor/",
       "https://www.kotakneo.com/investing-guide/mutual-funds/focused-fund/",
       "https://www.kotakneo.com/investing-guide/mutual-funds/overnight-funds/",
       "https://www.kotakneo.com/investing-guide/mutual-funds/introduction-to-mutual-funds/",
@@ -2842,26 +2563,11 @@
       "https://www.kotakneo.com/investing-guide/mutual-funds/fixed-deposits-vs.-debt-mutual-funds-better/",
       "https://www.kotakneo.com/investing-guide/share-market/what-is-alternative-investment-fund/",
       "https://www.kotakneo.com/investing-guide/share-market/what-is-a-stable-value-fund/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/childrens-mutual-fund/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/what-is-a-contra-fund/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/short-term-capital-gain-tax-on-mutual-funds/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/six-best-investment-plans-for-one-year/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/what-is-a-feeder-fund/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/top-10-reasons-why-sip-is-the-best-investment/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/what-is-a-dividend-reinvestment-plan/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/long-term-capital-gains-tax-on-mutual-funds/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/difference-between-hedge-funds-and-mutual-funds/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/building-a-mutual-fund-portfolio/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/types-of-sips-exploring-sip-plans-in-india/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/ulip-vs-mutual-funds-making-the-right-choice/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/dividend-yield-fund-explained/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/how-to-do-e-kyc-for-mutual-fund-investments/",
-      "https://www.kotakneo.com/investing-guide/share-market/shares-vs-mutual-funds/",
-      "https://www.kotakneo.com/investing-guide/mutual-funds/best-dividend-paying-mutual-funds/"
+      "https://www.kotakneo.com/investing-guide/mutual-funds/childrens-mutual-fund/"
     ]
   },
   {
-    "amc_id": 279,
+    "amc_id": 281,
     "firm_name": "Kriis Portfolio Pvt. Ltd.",
     "base_domain": "kriis.in",
     "canonical_host": "kriis.in",
@@ -2877,7 +2583,7 @@
     ]
   },
   {
-    "amc_id": 280,
+    "amc_id": 282,
     "firm_name": "KSEMA WEALTH PVT LTD",
     "base_domain": "ksemawealth.com",
     "canonical_host": "ksemawealth.com",
@@ -2891,7 +2597,7 @@
     ]
   },
   {
-    "amc_id": 281,
+    "amc_id": 283,
     "firm_name": "KUNVARJI FINSTOCK PRIVATE LIMITED",
     "base_domain": "kunvarjiwealth.com",
     "canonical_host": "kunvarjiwealth.com",
@@ -2917,7 +2623,7 @@
     ]
   },
   {
-    "amc_id": 287,
+    "amc_id": 289,
     "firm_name": "LAUREL SECURITIES PRIVATE LIMITED",
     "base_domain": "laurelgroup.in",
     "canonical_host": "laurelgroup.in",
@@ -2927,12 +2633,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 288,
+    "amc_id": 290,
     "firm_name": "LC Capital India Private Limited",
     "base_domain": "lighthouse-canton.com",
     "canonical_host": "lighthouse-canton.com",
     "source": "sitemap_xml",
-    "discovered_total": 646,
+    "discovered_total": 643,
     "team_urls": [
       "https://www.lighthouse-canton.com/insights/connect-engage-improve-navigating-our-teams-through-covid-19-crisis-by-charu-kunwar",
       "https://www.lighthouse-canton.com/team"
@@ -2965,17 +2671,17 @@
     ]
   },
   {
-    "amc_id": 292,
+    "amc_id": 294,
     "firm_name": "LKP SECURITIES LTD",
     "base_domain": "lkpsec.com",
     "canonical_host": "lkpsec.com",
-    "source": "sitemap_xml",
-    "discovered_total": 42,
+    "source": "sitemap_html",
+    "discovered_total": 1,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 293,
+    "amc_id": 295,
     "firm_name": "M/S JHP SECURITIES PRIVATE LIMITED",
     "base_domain": "jhpsecurities.com",
     "canonical_host": "jhpsecurities.com",
@@ -2985,7 +2691,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 297,
+    "amc_id": 296,
+    "firm_name": "M/S REDBERYL INVESTMENT MANAGERS LLP",
+    "base_domain": "redberyl.in",
+    "canonical_host": "redberyl.in",
+    "source": "unreachable",
+    "discovered_total": 0,
+    "team_urls": [],
+    "scheme_urls": []
+  },
+  {
+    "amc_id": 300,
     "firm_name": "Marathon Trends Advisory Private Limited",
     "base_domain": "marathontrends.com",
     "canonical_host": "marathontrends.com",
@@ -2995,7 +2711,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 298,
+    "amc_id": 301,
     "firm_name": "Marcellus Investment Managers Private Limited",
     "base_domain": "marcellus.in",
     "canonical_host": "marcellus.in",
@@ -3005,6 +2721,7 @@
       "https://marcellus.in/our-team/",
       "https://marcellus.in/portfolio-management-videos/",
       "https://marcellus.in/video/marcellus-webinar-pradeep-chakravarthy-author-of-leadership-shastralessons-from-indian-history/",
+      "https://marcellus.in/team/",
       "https://marcellus.in/team/sudhanshu-nahta/",
       "https://marcellus.in/team/salil-desai/",
       "https://marcellus.in/team/parimal-deuskar-company-secretary-compliance-legal/",
@@ -3013,12 +2730,12 @@
       "https://marcellus.in/team/pramod-gubbi-cfa/",
       "https://marcellus.in/team/nitesh-bhadani-ca/",
       "https://marcellus.in/team/manish-hemnani/",
-      "https://marcellus.in/team/saurabh-mukherjea-cfa/",
       "https://marcellus.in/team/tej-shah/",
       "https://marcellus.in/team/ashvin-shetty-cfa/",
       "https://marcellus.in/team/siddharth-joshi/",
       "https://marcellus.in/team/rakshit-ranjan-cfa/",
       "https://marcellus.in/team/arindam-mandal/",
+      "https://marcellus.in/team/saurabh-mukherjea-cfa/",
       "https://marcellus.in/blogs/marcellus-the-most-important-questions-to-ask-your-fund-manager/",
       "https://marcellus.in/story/sports-cars-psychopaths-and-testosterone-inside-the-new-frontier-of-fund-manager-research/",
       "https://marcellus.in/story/qantas-airways-ceo-delivered-a-masterclass-in-leadership/",
@@ -3027,8 +2744,8 @@
       "https://marcellus.in/story/the-last-dance-and-lessons-in-leadership/"
     ],
     "scheme_urls": [
-      "https://marcellus.in/portfolio-management-services/marcellus-global-equities-fund/",
       "https://marcellus.in/portfolio-management-services/marcellus-global-compounder-equities-fund/",
+      "https://marcellus.in/portfolio-management-services/marcellus-global-equities-fund/",
       "https://marcellus.in/video/how-volatile-will-a-single-sector-focused-fund-be-tej-shah-marcellus-pms/",
       "https://marcellus.in/video/demystifying-the-security-of-clients-monies-in-pms-mutual-funds/",
       "https://marcellus.in/events/opportunities-in-global-diversification-marcellus-global-equities-fund/",
@@ -3045,24 +2762,26 @@
     ]
   },
   {
-    "amc_id": 299,
+    "amc_id": 302,
     "firm_name": "MARFATIA STOCK BROKING PRIVATE LIMITED",
     "base_domain": "marfatia.net",
     "canonical_host": "marfatia.net",
-    "source": "sitemap_html",
-    "discovered_total": 108,
+    "source": "sitemap_xml",
+    "discovered_total": 42,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 301,
+    "amc_id": 304,
     "firm_name": "MASTER PORTFOLIO SERVICES LTD",
     "base_domain": "mastertrust.co.in",
     "canonical_host": "mastertrust.co.in",
     "source": "sitemap_xml",
-    "discovered_total": 262,
+    "discovered_total": 316,
     "team_urls": [],
     "scheme_urls": [
+      "https://www.mastertrust.co.in/blog/mutual-fund-categories-explained-equity-debt-hybrid-and-solution-oriented-funds",
+      "https://www.mastertrust.co.in/blog/how-to-build-a-mutual-fund-portfolio-based-on-your-financial-goals",
       "https://www.mastertrust.co.in/blog/pledging-shares-as-margin-how-to-use-your-stock-portfolio-to-fund-more-trades",
       "https://www.mastertrust.co.in/blog/what-is-a-flexi-cap-fund-meaning-features-and-working-structure",
       "https://www.mastertrust.co.in/blog/evaluate-mutual-fund-performance",
@@ -3080,7 +2799,7 @@
     ]
   },
   {
-    "amc_id": 303,
+    "amc_id": 307,
     "firm_name": "Maximal Capital Private Limited",
     "base_domain": "maximalcapital.com",
     "canonical_host": "maximalcapital.com",
@@ -3092,19 +2811,19 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 305,
+    "amc_id": 309,
     "firm_name": "Mehta Equities Private Limited",
     "base_domain": "mehtagroup.in",
     "canonical_host": "mehtagroup.in",
     "source": "sitemap_html",
-    "discovered_total": 94,
+    "discovered_total": 95,
     "team_urls": [],
     "scheme_urls": [
       "https://mehtagroup.in/public/pdf/Mehta-Equities-Mutual-Fund-Client-Registration-ECS-Form.pdf"
     ]
   },
   {
-    "amc_id": 311,
+    "amc_id": 315,
     "firm_name": "MIV INVESTMENT SERVICES PVT. LTD.",
     "base_domain": "prodigyinvest.com",
     "canonical_host": "prodigyinvest.com",
@@ -3114,92 +2833,75 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 315,
+    "amc_id": 319,
     "firm_name": "Monarch Networth Capital Limited",
     "base_domain": "mnclgroup.com",
     "canonical_host": "mnclgroup.com",
     "source": "homepage_anchors",
-    "discovered_total": 269,
+    "discovered_total": 273,
     "team_urls": [],
     "scheme_urls": [
       "https://www.mnclgroup.com/mncl-capital-compounder-fund-2",
       "https://www.mnclgroup.com/mncl-capital-compounder-fund",
       "https://www.mnclgroup.com/mncl-capital-compounder-fund-1",
-      "https://www.mnclgroup.com/storage/mutual-fund-empanelled-amc-list-with-amfi-reg-no.pdf"
+      "https://mnclgroup.com/storage/mutual-fund-empanelled-amc-list-with-amfi-reg-no.pdf"
     ]
   },
   {
-    "amc_id": 316,
+    "amc_id": 320,
     "firm_name": "MONEYBEE SECURITIES PRIVATE LIMITED",
     "base_domain": "moneybee.in",
     "canonical_host": "moneybee.in",
     "source": "homepage_anchors",
-    "discovered_total": 56,
+    "discovered_total": 57,
     "team_urls": [
       "https://www.moneybee.in/team.php"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 317,
+    "amc_id": 321,
     "firm_name": "Moneygrow Asset Private Limited",
     "base_domain": "moneygrowindia.com",
     "canonical_host": "moneygrowindia.com",
-    "source": "sitemap_index",
-    "discovered_total": 23,
+    "source": "sitemap_xml",
+    "discovered_total": 11,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 320,
+    "amc_id": 324,
     "firm_name": "MOTILAL OSWAL WEALTH LIMITED",
     "base_domain": "motilaloswalpwm.com",
     "canonical_host": "motilaloswalpwm.com",
     "source": "homepage_anchors",
     "discovered_total": 86,
     "team_urls": [
-      "https://motilaloswalpwm.com/ourteam"
+      "https://www.motilaloswalpwm.com/ourteam"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 321,
+    "amc_id": 325,
     "firm_name": "MRG INVESTMENT PARTNERS PRIVATE LIMITED",
     "base_domain": "mrgcapital.in",
     "canonical_host": "mrgcapital.in",
     "source": "sitemap_index",
-    "discovered_total": 161,
+    "discovered_total": 28,
     "team_urls": [
-      "https://www.mrgcapital.in/leadership-and-management/how-will-you-measure-your-life/",
-      "https://www.mrgcapital.in/leadership-and-management/the-invaluable-role-of-chief-business-obstructers-in-the-modern-corporate-world/",
-      "https://www.mrgcapital.in/leadership-and-management/infosys-saga-who-is-omkar-goswami-by-the-way/",
-      "https://www.mrgcapital.in/leadership-and-management/the-three-blunders-by-tim-cook-at-apple/",
-      "https://www.mrgcapital.in/leadership-and-management/what-infosyss-vishal-sikkas-tenure-teaches-us-about-strategy/",
-      "https://www.mrgcapital.in/leadership-and-management/the-stark-similarities-between-donald-trump-and-arvind-kejriwal-and-why-donald-could-well-be-the-next-most-powerful-man-on-the-planet/",
-      "https://www.mrgcapital.in/leadership-and-management/blackberry-and-the-art-of-becoming-irrelevant-in-the-business-world/",
-      "https://www.mrgcapital.in/leadership-and-management/license-to-corruption/",
-      "https://www.mrgcapital.in/leadership-and-management/is-life-and-commerce-a-casino/",
-      "https://www.mrgcapital.in/leadership-and-management/the-hero-who-moved-me/",
-      "https://www.mrgcapital.in/leadership-and-management/how-boards-expedite-the-demise-of-some-of-the-best-companies/",
-      "https://www.mrgcapital.in/leadership-and-management/the-great-indian-election-tamasha-and-the-6-lessons-for-the-ceos-in-corporate-world/",
-      "https://www.mrgcapital.in/leadership-and-management/warmth-an-essential-leadership-tool/",
-      "https://www.mrgcapital.in/leadership-and-management/the-power-of-dissent/",
-      "https://www.mrgcapital.in/leadership-and-management/remembering-a-great-man-some-people-who-made-a-difference-to-my-life-iii/",
-      "https://www.mrgcapital.in/leadership-and-management/the-health-index-of-organisations/",
-      "https://www.mrgcapital.in/our-team/",
-      "https://www.mrgcapital.in/category/leadership-and-management/"
+      "https://www.mrgcapital.in/our-team/"
     ],
     "scheme_urls": [
       "https://www.mrgcapital.in/our-products/alternate-investment-fund/"
     ]
   },
   {
-    "amc_id": 322,
+    "amc_id": 326,
     "firm_name": "MULTI-ACT EQUITY CONSULTANCY PVT LTD",
     "base_domain": "multi-act.com",
     "canonical_host": "multi-act.com",
     "source": "sitemap_index",
-    "discovered_total": 420,
+    "discovered_total": 423,
     "team_urls": [
       "https://multi-act.com/about/our-team/",
       "https://multi-act.com/group/leadership/",
@@ -3215,7 +2917,7 @@
     ]
   },
   {
-    "amc_id": 323,
+    "amc_id": 327,
     "firm_name": "Multiples Alternate Asset Management Private Limited",
     "base_domain": "multiplesequity.com",
     "canonical_host": "multiplesequity.com",
@@ -3225,7 +2927,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 326,
+    "amc_id": 330,
     "firm_name": "NARNOLIA VELOX ADVISORY LIMITED",
     "base_domain": "narnolia.com",
     "canonical_host": "narnolia.com",
@@ -3256,7 +2958,7 @@
     ]
   },
   {
-    "amc_id": 327,
+    "amc_id": 331,
     "firm_name": "NEGEN CAPITAL SERVICES PRIVATE LIMITED",
     "base_domain": "negenpms.com",
     "canonical_host": "negenpms.com",
@@ -3268,7 +2970,7 @@
     ]
   },
   {
-    "amc_id": 330,
+    "amc_id": 334,
     "firm_name": "NEW BERRY CAPITALS PVT. LTD.",
     "base_domain": "newberry.in",
     "canonical_host": "newberry.in",
@@ -3278,19 +2980,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 331,
+    "amc_id": 335,
     "firm_name": "NIKUNJ STOCK BROKERS LIMITED",
     "base_domain": "nikunjonline.com",
     "canonical_host": "nikunjonline.com",
-    "source": "homepage_anchors",
-    "discovered_total": 102,
-    "team_urls": [
-      "https://nikunjonline.com/our-team.php"
-    ],
+    "source": "sitemap_html",
+    "discovered_total": 3,
+    "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 337,
+    "amc_id": 341,
     "firm_name": "NJ ASSET MANAGEMENT PRIVATE LIMITED",
     "base_domain": "njpms.in",
     "canonical_host": "njpms.in",
@@ -3300,7 +3000,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 339,
+    "amc_id": 343,
     "firm_name": "NNM Securities Private Limited",
     "base_domain": "nnmsecurities.com",
     "canonical_host": "nnmsecurities.com",
@@ -3310,17 +3010,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 341,
+    "amc_id": 345,
     "firm_name": "Novumlake Partners Private Limited",
     "base_domain": "novumlake.com",
     "canonical_host": "novumlake.com",
     "source": "sitemap_index",
-    "discovered_total": 6,
+    "discovered_total": 2000,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 342,
+    "amc_id": 346,
     "firm_name": "Nuvama and Cushman & Wakefield Management Private Limited",
     "base_domain": "ncwam.com",
     "canonical_host": "ncwam.com",
@@ -3330,17 +3030,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 346,
+    "amc_id": 350,
     "firm_name": "Oaks Asset Management Private Limited",
     "base_domain": "oaksamc.com",
     "canonical_host": "oaksamc.com",
     "source": "sitemap_html",
-    "discovered_total": 51,
+    "discovered_total": 69,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 347,
+    "amc_id": 351,
     "firm_name": "OHM PORTFOLIO EQUI RESEARCH PVT LTD.",
     "base_domain": "ohmgrp.com",
     "canonical_host": "ohmgrp.com",
@@ -3350,17 +3050,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 350,
+    "amc_id": 354,
     "firm_name": "Optima Wealth Private Limited",
     "base_domain": "optima.ai",
     "canonical_host": "optima.ai",
-    "source": "unreachable",
-    "discovered_total": 0,
+    "source": "sitemap_html",
+    "discovered_total": 13,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 353,
+    "amc_id": 357,
     "firm_name": "PACE FINANCIAL INVESTMENT ADVISER PRIVATE LIMITED",
     "base_domain": "pace360.in",
     "canonical_host": "pace360.in",
@@ -3375,7 +3075,7 @@
     ]
   },
   {
-    "amc_id": 355,
+    "amc_id": 359,
     "firm_name": "Param Ventures LLP",
     "base_domain": "will",
     "canonical_host": "will",
@@ -3385,7 +3085,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 356,
+    "amc_id": 360,
     "firm_name": "PATERSON SECURITIES PRIVATE LTD",
     "base_domain": "paterson.co.in",
     "canonical_host": "paterson.co.in",
@@ -3395,7 +3095,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 359,
+    "amc_id": 363,
     "firm_name": "Pelican Holdings Private Limited",
     "base_domain": "pelicanpms.com",
     "canonical_host": "pelicanpms.com",
@@ -3405,7 +3105,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 362,
+    "amc_id": 366,
     "firm_name": "PHILLIPCAPITAL (INDIA) PRIVATE LIMITED",
     "base_domain": "phillipcapital.in",
     "canonical_host": "phillipcapital.in",
@@ -3415,18 +3115,19 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 363,
+    "amc_id": 367,
     "firm_name": "Pioneer Client Associates Private Limited",
     "base_domain": "clientassociates.com",
     "canonical_host": "clientassociates.com",
     "source": "sitemap_xml",
-    "discovered_total": 121,
+    "discovered_total": 123,
     "team_urls": [
       "https://clientassociates.com/about/team/",
       "https://clientassociates.com/scholarly/hearty-leadership/",
       "https://clientassociates.com/about/team/abhimanyu-nair/",
       "https://clientassociates.com/about/team/abhishek-khudania/",
       "https://clientassociates.com/about/team/ankit-jain/",
+      "https://clientassociates.com/about/team/asheesh-jain/",
       "https://clientassociates.com/about/team/ashish-sharma/",
       "https://clientassociates.com/about/team/chatradhar-paritala/",
       "https://clientassociates.com/about/team/donald-d-souza/",
@@ -3445,69 +3146,12 @@
       "https://clientassociates.com/about/team/rakesh-khanna/",
       "https://clientassociates.com/about/team/rishabh-khanna/",
       "https://clientassociates.com/about/team/rohit-sarin/",
-      "https://clientassociates.com/about/team/sourish-pal/",
-      "https://clientassociates.com/about/team/vandita-saran/"
+      "https://clientassociates.com/about/team/sanjeev-singh/"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 371,
-    "firm_name": "Prabhudas Lilladher Private Limited",
-    "base_domain": "plindia.com",
-    "canonical_host": "plindia.com",
-    "source": "sitemap_index",
-    "discovered_total": 2000,
-    "team_urls": [
-      "https://www.plindia.com/board-of-directors/",
-      "https://www.plindia.com/blogs/what-is-a-fund-manager/",
-      "https://www.plindia.com/news/bharti-airtel-q2-results-profit-more-than-doubles-as-premium-users-drive-arpu-leadership/",
-      "https://www.plindia.com/pl-research/renewable-equipments-sector-update-indias-solar-boom-powers-re-leadership/"
-    ],
-    "scheme_urls": [
-      "https://www.plindia.com/nfo-groww-small-cap-fund/",
-      "https://www.plindia.com/mutual-funds/",
-      "https://www.plindia.com/blogs/gold-etf-vs-gold-mutual-fund/",
-      "https://www.plindia.com/blogs/real-estate-vs-mutual-funds/",
-      "https://www.plindia.com/blogs/open-ended-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-xirr-in-mutual-funds/",
-      "https://www.plindia.com/blogs/what-is-elss-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-idcw-in-mutual-fund/",
-      "https://www.plindia.com/blogs/close-end-mutual-fund/",
-      "https://www.plindia.com/blogs/mutual-fund-vs-pms-vs-aif/",
-      "https://www.plindia.com/blogs/what-is-mutual-fund-benchmark/",
-      "https://www.plindia.com/blogs/can-nris-invest-in-mutual-funds/",
-      "https://www.plindia.com/blogs/what-is-an-arn-number-in-a-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-fund-of-fund/",
-      "https://www.plindia.com/blogs/what-is-mutual-fund/",
-      "https://www.plindia.com/blogs/index-fund-vs-equity-fund/",
-      "https://www.plindia.com/blogs/what-is-exit-load-in-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-15-15-15-rule-mutual-fund/",
-      "https://www.plindia.com/blogs/direct-vs-regular-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-swp-in-mutual-funds/",
-      "https://www.plindia.com/blogs/do-you-need-demat-account-for-mutual-funds/",
-      "https://www.plindia.com/blogs/what-is-nfo-new-fund-offer/",
-      "https://www.plindia.com/blogs/etf-vs-index-fund/",
-      "https://www.plindia.com/blogs/commodity-mutual-funds/",
-      "https://www.plindia.com/blogs/sortino-ratio-mutual-funds/",
-      "https://www.plindia.com/blogs/idcw-vs-growth-options-in-mutual-fund/",
-      "https://www.plindia.com/blogs/stcg-on-debt-mutual-funds/",
-      "https://www.plindia.com/blogs/smallcase-vs-mutual-funds/",
-      "https://www.plindia.com/blogs/what-is-treps-in-mutual-fund/",
-      "https://www.plindia.com/blogs/what-is-side-pocketing-in-mutual-funds/",
-      "https://www.plindia.com/blogs/what-is-mutual-fund-custodian/",
-      "https://www.plindia.com/blogs/mutual-funds-vs-hedge-fund/",
-      "https://www.plindia.com/blogs/what-is-one-time-mandate-in-mutual-fund/",
-      "https://www.plindia.com/blogs/long-term-capital-gain-tax-rate-on-mutual-fund/",
-      "https://www.plindia.com/news/what-does-the-january-mutual-fund-data-tell-us-about-investors-move-into-gold-and-silver/",
-      "https://www.plindia.com/news/sebi-clarifies-broad-based-fund-rules-for-aifs-managed-by-amcs/",
-      "https://www.plindia.com/news/sbi-mutual-fund-ipo-10-things-investors-should-know/",
-      "https://www.plindia.com/news/groww-mutual-fund-launches-small-cap-equity-scheme-nfo-opens-january-8/",
-      "https://www.plindia.com/news/equity-mutual-fund-inflows-august-2025-amfi-data/",
-      "https://www.plindia.com/news/soch-kar-samajh-kar-invest-kar-decoding-exit-load-in-mutual-funds/"
-    ]
-  },
-  {
-    "amc_id": 372,
+    "amc_id": 375,
     "firm_name": "Prajana Advisors Private Limited",
     "base_domain": "athenainvestments.in",
     "canonical_host": "athenainvestments.in",
@@ -3517,22 +3161,32 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 373,
+    "amc_id": 376,
     "firm_name": "Prescientcap Investment Advisors LLP",
     "base_domain": "prescientcap.com",
     "canonical_host": "prescientcap.com",
     "source": "sitemap_xml",
-    "discovered_total": 95,
+    "discovered_total": 96,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 376,
+    "amc_id": 377,
+    "firm_name": "Prime Trigen Wealth Limited",
+    "base_domain": "trigenwealth.com",
+    "canonical_host": "trigenwealth.com",
+    "source": "sitemap_xml",
+    "discovered_total": 20,
+    "team_urls": [],
+    "scheme_urls": []
+  },
+  {
+    "amc_id": 380,
     "firm_name": "PROFITGATE CAPITAL SERVICES LLP",
     "base_domain": "profitgate.in",
     "canonical_host": "profitgate.in",
     "source": "sitemap_index",
-    "discovered_total": 24,
+    "discovered_total": 25,
     "team_urls": [
       "https://profitgate.in/our-team/",
       "https://profitgate.in/our-team/pinkesh-thakrani/",
@@ -3546,7 +3200,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 378,
+    "amc_id": 382,
     "firm_name": "Profusion Investment Advisors LLP",
     "base_domain": "profusioninvestmentadvisors.in",
     "canonical_host": "profusioninvestmentadvisors.in",
@@ -3558,7 +3212,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 384,
+    "amc_id": 388,
     "firm_name": "PRUDENT INVESTMENT MANAGERS LLP",
     "base_domain": "prudentim.com",
     "canonical_host": "prudentim.com",
@@ -3570,31 +3224,29 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 385,
+    "amc_id": 389,
     "firm_name": "Purnartha Investment Advisers Pvt.Ltd.",
     "base_domain": "purnartha.com",
     "canonical_host": "purnartha.com",
-    "source": "sitemap_xml",
-    "discovered_total": 28,
+    "source": "sitemap_index",
+    "discovered_total": 36,
     "team_urls": [
-      "https://www.purnartha.com/ourteam"
+      "https://www.purnartha.com/our-team/"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 391,
+    "amc_id": 395,
     "firm_name": "QUANT PORTFOLIO MANAGERS PRIVATE LIMITED",
     "base_domain": "quant.in",
     "canonical_host": "quant.in",
-    "source": "sitemap_index",
-    "discovered_total": 49,
+    "source": "unreachable",
+    "discovered_total": 0,
     "team_urls": [],
-    "scheme_urls": [
-      "https://quant.in/mutual-fund/"
-    ]
+    "scheme_urls": []
   },
   {
-    "amc_id": 392,
+    "amc_id": 396,
     "firm_name": "QUANTUM ADVISORS PVT.LTD.",
     "base_domain": "qasl.com",
     "canonical_host": "qasl.com",
@@ -3608,17 +3260,17 @@
     ]
   },
   {
-    "amc_id": 396,
+    "amc_id": 399,
     "firm_name": "R. WADIWALA SECURITIES PRIVATE LIMITED",
     "base_domain": "rwsec.com",
     "canonical_host": "rwsec.com",
     "source": "homepage_anchors",
-    "discovered_total": 114,
+    "discovered_total": 115,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 397,
+    "amc_id": 400,
     "firm_name": "RBSA Investment Manager LLP",
     "base_domain": "rbsainvest.in",
     "canonical_host": "rbsainvest.in",
@@ -3639,17 +3291,7 @@
     ]
   },
   {
-    "amc_id": 399,
-    "firm_name": "RENAISSANCE INVESTMENT MANAGERS PRIVATE LIMITED",
-    "base_domain": "renaissanceinvest.in",
-    "canonical_host": "renaissanceinvest.in",
-    "source": "sitemap_html",
-    "discovered_total": 79,
-    "team_urls": [],
-    "scheme_urls": []
-  },
-  {
-    "amc_id": 400,
+    "amc_id": 403,
     "firm_name": "REVELATION PORTFOLIO MANAGEMENT PVT. LTD.",
     "base_domain": "rpmpl.in",
     "canonical_host": "rpmpl.in",
@@ -3659,39 +3301,39 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 401,
+    "amc_id": 404,
     "firm_name": "RIGHT HORIZONS PORTFOLIO MANAGEMENT PRIVATE LIMITED",
     "base_domain": "righthorizonspms.com",
     "canonical_host": "righthorizonspms.com",
     "source": "sitemap_index",
-    "discovered_total": 96,
+    "discovered_total": 97,
     "team_urls": [],
     "scheme_urls": [
       "https://righthorizonspms.com/blog/is-pms-better-than-mutual-funds/"
     ]
   },
   {
-    "amc_id": 404,
+    "amc_id": 407,
     "firm_name": "Saamya Advisors LLP",
     "base_domain": "saamya-advisors.in",
     "canonical_host": "saamya-advisors.in",
-    "source": "unreachable",
-    "discovered_total": 0,
+    "source": "sitemap_xml",
+    "discovered_total": 8,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 406,
+    "amc_id": 409,
     "firm_name": "Sahasrar Capital Private Limited",
     "base_domain": "sahasrarcapital.com",
     "canonical_host": "sahasrarcapital.com",
-    "source": "sitemap_xml",
-    "discovered_total": 862,
+    "source": "homepage_anchors",
+    "discovered_total": 21,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 413,
+    "amc_id": 416,
     "firm_name": "SAVVY CAPITAL ADVISORS LLP",
     "base_domain": "savvycapital.in",
     "canonical_host": "savvycapital.in",
@@ -3701,7 +3343,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 414,
+    "amc_id": 417,
     "firm_name": "SBI FUNDS MANAGEMENT LIMITED",
     "base_domain": "sbifunds.com",
     "canonical_host": "sbifunds.com",
@@ -3711,7 +3353,94 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 416,
+    "amc_id": 419,
+    "firm_name": "Scripbox Wealth Managers Private Limited",
+    "base_domain": "scripbox.com",
+    "canonical_host": "scripbox.com",
+    "source": "sitemap_xml",
+    "discovered_total": 76,
+    "team_urls": [
+      "https://scripbox.com/mutual-fund/fund-managers"
+    ],
+    "scheme_urls": [
+      "https://scripbox.com/mutual-fund/liquid",
+      "https://scripbox.com/mutual-fund/debt",
+      "https://scripbox.com/mutual-fund/arbitrage",
+      "https://scripbox.com/mutual-fund/gilt",
+      "https://scripbox.com/mutual-fund/large-cap",
+      "https://scripbox.com/mutual-fund/equity",
+      "https://scripbox.com/mutual-fund/hybrid",
+      "https://scripbox.com/mutual-fund/small-cap",
+      "https://scripbox.com/mutual-fund/money-market",
+      "https://scripbox.com/mutual-fund/mid-cap",
+      "https://scripbox.com/mutual-fund/overnight",
+      "https://scripbox.com/mutual-fund/short-term",
+      "https://scripbox.com/mutual-fund/sectoral-thematic",
+      "https://scripbox.com/mutual-fund/diversified",
+      "https://scripbox.com/mutual-fund/tax-saving",
+      "https://scripbox.com/mutual-fund/dynamic-bond",
+      "https://scripbox.com/mutual-fund/aggressive-hybrid",
+      "https://scripbox.com/mutual-fund/corporate-bond",
+      "https://scripbox.com/mutual-fund/ultra-short",
+      "https://scripbox.com/mutual-fund/equity-savings",
+      "https://scripbox.com/mutual-fund/solution-oriented",
+      "https://scripbox.com/mutual-fund/medium-term",
+      "https://scripbox.com/mutual-fund/us-equity",
+      "https://scripbox.com/mutual-fund/banking-and-psu",
+      "https://scripbox.com/mutual-fund/floater",
+      "https://scripbox.com/mutual-fund/long-duration",
+      "https://scripbox.com/mutual-fund/low-duration",
+      "https://scripbox.com/mutual-fund/medium-to-long-duration",
+      "https://scripbox.com/mutual-fund/conservative-hybrid",
+      "https://scripbox.com/mutual-fund/dynamic-asset-allocation",
+      "https://scripbox.com/mutual-fund/multi-asset-allocation",
+      "https://scripbox.com/mutual-fund/childrens",
+      "https://scripbox.com/mutual-fund/credit-risk",
+      "https://scripbox.com/mutual-fund/retirement",
+      "https://scripbox.com/mutual-fund/index",
+      "https://scripbox.com/mutual-fund/international",
+      "https://scripbox.com/mutual-fund/amc",
+      "https://scripbox.com/mutual-fund/best-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-sip-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-equity-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-elss-funds",
+      "https://scripbox.com/mutual-fund/best-tax-saving-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-liquid-funds",
+      "https://scripbox.com/mutual-fund/best-short-term-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-debt-funds",
+      "https://scripbox.com/mutual-fund/best-large-cap-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-index-funds",
+      "https://scripbox.com/mutual-fund/best-long-term-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-mid-cap-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-small-cap-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-multicap-mutual-funds",
+      "https://scripbox.com/mutual-fund/best-hybrid-funds",
+      "https://scripbox.com/mutual-fund/best-fixed-maturity-plans",
+      "https://scripbox.com/mutual-fund/best-target-maturity-funds",
+      "https://scripbox.com/mutual-fund/high-risk",
+      "https://scripbox.com/mutual-fund/low-risk",
+      "https://scripbox.com/mutual-fund/moderate-risk",
+      "https://scripbox.com/mutual-fund/isin-fair-market-values",
+      "https://scripbox.com/mutual-fund/latest-nav",
+      "https://scripbox.com/mutual-fund/it-sector-mutual-funds",
+      "https://scripbox.com/mutual-fund/energy-sector-mutual-funds",
+      "https://scripbox.com/mutual-fund/pharma-sector-mutual-funds",
+      "https://scripbox.com/mutual-fund/banking-sector-mutual-funds",
+      "https://scripbox.com/mutual-fund/contra-funds",
+      "https://scripbox.com/mutual-fund/value-funds",
+      "https://scripbox.com/mutual-fund/focused-funds",
+      "https://scripbox.com/mutual-fund/dividend-yield-funds",
+      "https://scripbox.com/mutual-fund/fund-of-funds",
+      "https://scripbox.com/mutual-fund/infrastructure-funds",
+      "https://scripbox.com/mutual-fund/gold-funds",
+      "https://scripbox.com/mutual-fund/esg-funds",
+      "https://scripbox.com/mutual-fund/large-and-mid-cap-funds",
+      "https://scripbox.com/mutual-fund/etf-vs-mutual-funds",
+      "https://scripbox.com/mutual-fund/low-cost-index-fund"
+    ]
+  },
+  {
+    "amc_id": 420,
     "firm_name": "SECURITIES INVESTMENT MANAGEMENT PRIVATE LIMITED",
     "base_domain": "simpl.co.in",
     "canonical_host": "simpl.co.in",
@@ -3721,27 +3450,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 418,
-    "firm_name": "SEKURA INDIA MANAGEMENT LIMITED",
-    "base_domain": "sekura.in",
-    "canonical_host": "sekura.in",
-    "source": "homepage_anchors",
-    "discovered_total": 22,
-    "team_urls": [],
-    "scheme_urls": []
-  },
-  {
-    "amc_id": 419,
+    "amc_id": 422,
     "firm_name": "SHADE CAPITAL PRIVATE LIMITED",
     "base_domain": "shadecapital.in",
     "canonical_host": "shadecapital.in",
     "source": "homepage_anchors",
-    "discovered_total": 26,
+    "discovered_total": 27,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 422,
+    "amc_id": 426,
     "firm_name": "SHEPHERDS HILL FINANCIAL ADVISORS LLP",
     "base_domain": "info.shepherdshill.in",
     "canonical_host": "info.shepherdshill.in",
@@ -3751,7 +3470,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 423,
+    "amc_id": 427,
     "firm_name": "Shree Rama Managers LLP",
     "base_domain": "shreerama.co.in",
     "canonical_host": "shreerama.co.in",
@@ -3763,7 +3482,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 424,
+    "amc_id": 428,
     "firm_name": "Shriram Asset Management Company Limited",
     "base_domain": "shriramamc.in",
     "canonical_host": "shriramamc.in",
@@ -3773,7 +3492,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 425,
+    "amc_id": 430,
     "firm_name": "Sicomoro Advisors Private Limited",
     "base_domain": "sicomoro.in",
     "canonical_host": "sicomoro.in",
@@ -3785,7 +3504,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 430,
+    "amc_id": 435,
     "firm_name": "SIRIUS ADVISORS PRIVATE LIMITED",
     "base_domain": "siriusadvisors.in",
     "canonical_host": "siriusadvisors.in",
@@ -3797,7 +3516,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 432,
+    "amc_id": 437,
     "firm_name": "Sky Impact Capital Advisors LLP",
     "base_domain": "skyimpact.com",
     "canonical_host": "skyimpact.com",
@@ -3807,19 +3526,19 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 434,
+    "amc_id": 439,
     "firm_name": "SMIFS LIMITED",
     "base_domain": "smifs.com",
     "canonical_host": "smifs.com",
     "source": "sitemap_xml",
-    "discovered_total": 170,
+    "discovered_total": 171,
     "team_urls": [],
     "scheme_urls": [
       "https://smifs.com/products/categories/long-short-hedge-fund"
     ]
   },
   {
-    "amc_id": 439,
+    "amc_id": 444,
     "firm_name": "Sowilo Investment Managers LLP",
     "base_domain": "sowilo.co.in",
     "canonical_host": "sowilo.co.in",
@@ -3831,7 +3550,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 440,
+    "amc_id": 445,
     "firm_name": "Spark Asia Impact Managers Private Limited",
     "base_domain": "sparkfund.in",
     "canonical_host": "sparkfund.in",
@@ -3848,12 +3567,12 @@
     ]
   },
   {
-    "amc_id": 441,
+    "amc_id": 446,
     "firm_name": "Spark Fund Advisors LLP",
     "base_domain": "sparkcapital.in",
     "canonical_host": "sparkcapital.in",
     "source": "sitemap_xml",
-    "discovered_total": 616,
+    "discovered_total": 724,
     "team_urls": [],
     "scheme_urls": [
       "https://www.sparkcapital.in/what-we-do/investment-banking/transactions/spark-capital-advises-fusion-microfinance-on-its-5-200-mn-equity-fund-raise-led-by-warburg-pincus-and-existing-investor-creation-investments-1",
@@ -3878,7 +3597,7 @@
     ]
   },
   {
-    "amc_id": 444,
+    "amc_id": 449,
     "firm_name": "SPICE ROUTE ADVISORS LLP",
     "base_domain": "spicerouteadvisors.in",
     "canonical_host": "spicerouteadvisors.in",
@@ -3890,7 +3609,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 447,
+    "amc_id": 452,
     "firm_name": "Stalwart Investment Advisors LLP",
     "base_domain": "stalwartvalue.com",
     "canonical_host": "stalwartvalue.com",
@@ -3900,7 +3619,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 448,
+    "amc_id": 453,
     "firm_name": "STANDARD CHARTERED SECURITIES (INDIA) LIMITED",
     "base_domain": "standardcharteredtrade.co.in",
     "canonical_host": "standardcharteredtrade.co.in",
@@ -3910,7 +3629,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 449,
+    "amc_id": 454,
     "firm_name": "STEADFORT INVESTMENT MANAGERS LLP",
     "base_domain": "steadfort.com",
     "canonical_host": "steadfort.com",
@@ -3920,7 +3639,46 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 452,
+    "amc_id": 456,
+    "firm_name": "Stride Fund Advisors LLP",
+    "base_domain": "strideventures.global",
+    "canonical_host": "strideventures.global",
+    "source": "sitemap_xml",
+    "discovered_total": 272,
+    "team_urls": [
+      "https://strideventures.global/team",
+      "https://strideventures.global/team/amaira-singh-balyan",
+      "https://strideventures.global/team/amay-ganguly",
+      "https://strideventures.global/team/anshika-puri",
+      "https://strideventures.global/team/apoorva-sharma",
+      "https://strideventures.global/team/asade-tolu",
+      "https://strideventures.global/team/devansh-methi",
+      "https://strideventures.global/team/devin-gupta",
+      "https://strideventures.global/team/divya-sharma",
+      "https://strideventures.global/team/fariha-ansari-javed",
+      "https://strideventures.global/team/ganeev-chadha",
+      "https://strideventures.global/team/gs-virk",
+      "https://strideventures.global/team/hrushikesh-brahma",
+      "https://strideventures.global/team/ishpreet-singh-gandhi",
+      "https://strideventures.global/team/japshabad-singh-suri",
+      "https://strideventures.global/team/jhanvi-punia",
+      "https://strideventures.global/team/jitesh-wadhwa",
+      "https://strideventures.global/team/jyoti-golia",
+      "https://strideventures.global/team/kholoud-almohammadi",
+      "https://strideventures.global/team/kriti-sachdeva-2",
+      "https://strideventures.global/team/kunal-manocha",
+      "https://strideventures.global/team/kushvardhan-soni",
+      "https://strideventures.global/team/manikandan-sanjive",
+      "https://strideventures.global/team/mitesh-pawar",
+      "https://strideventures.global/team/mohit-kumar-bagra"
+    ],
+    "scheme_urls": [
+      "https://strideventures.global/blog/1947-vc-how-he-built-indias-leading-venture-debt-fund-stride-ventures-ishpreet-gandhi",
+      "https://strideventures.global/blog/ivcas-fund-in-focus"
+    ]
+  },
+  {
+    "amc_id": 458,
     "firm_name": "Svan Investment Managers LLP",
     "base_domain": "svaninvestments.com",
     "canonical_host": "svaninvestments.com",
@@ -3930,17 +3688,17 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 453,
+    "amc_id": 459,
     "firm_name": "Svobodha Infinity Investment Advisors Private Limited",
     "base_domain": "savart.com",
     "canonical_host": "savart.com",
     "source": "sitemap_xml",
-    "discovered_total": 8,
+    "discovered_total": 10,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 459,
+    "amc_id": 465,
     "firm_name": "T G P ADVISORS LLP",
     "base_domain": "tridentgp.in",
     "canonical_host": "tridentgp.in",
@@ -3952,24 +3710,24 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 460,
+    "amc_id": 466,
     "firm_name": "T.RAM FINANCIAL SERVICES PRIVATE LIMITED",
     "base_domain": "tramfsl.com",
     "canonical_host": "tramfsl.com",
     "source": "sitemap_xml",
-    "discovered_total": 23,
+    "discovered_total": 24,
     "team_urls": [],
     "scheme_urls": [
       "https://tramfsl.com/services/mutual-fund-distribution/"
     ]
   },
   {
-    "amc_id": 466,
+    "amc_id": 472,
     "firm_name": "THE HONGKONG AND SHANGHAI BANKING CORPOR",
     "base_domain": "hsbc.co.in",
     "canonical_host": "hsbc.co.in",
     "source": "sitemap_index",
-    "discovered_total": 391,
+    "discovered_total": 389,
     "team_urls": [],
     "scheme_urls": [
       "https://www.hsbc.co.in/investments/products/mutual-funds/",
@@ -3977,12 +3735,12 @@
     ]
   },
   {
-    "amc_id": 469,
+    "amc_id": 475,
     "firm_name": "Trilithon Partners LLP",
     "base_domain": "trilithon.in",
     "canonical_host": "trilithon.in",
     "source": "sitemap_xml",
-    "discovered_total": 113,
+    "discovered_total": 109,
     "team_urls": [
       "https://www.trilithon.in/team"
     ],
@@ -3992,7 +3750,7 @@
     ]
   },
   {
-    "amc_id": 470,
+    "amc_id": 476,
     "firm_name": "TRIVANTAGE CAPITAL MANAGMENT INDIA PRIVATE LIMITED",
     "base_domain": "trivantagecapital.com",
     "canonical_host": "trivantagecapital.com",
@@ -4004,12 +3762,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 472,
+    "amc_id": 478,
     "firm_name": "True North Credit Fund Managers LLP",
     "base_domain": "truenorth.co.in",
     "canonical_host": "truenorth.co.in",
     "source": "sitemap_index",
-    "discovered_total": 260,
+    "discovered_total": 263,
     "team_urls": [
       "https://www.truenorth.co.in/people_category/senior-leadership-team/"
     ],
@@ -4022,12 +3780,12 @@
     ]
   },
   {
-    "amc_id": 473,
+    "amc_id": 479,
     "firm_name": "True North Managers LLP",
     "base_domain": "truenorth.co.in",
     "canonical_host": "truenorth.co.in",
     "source": "sitemap_index",
-    "discovered_total": 260,
+    "discovered_total": 263,
     "team_urls": [
       "https://www.truenorth.co.in/people_category/senior-leadership-team/"
     ],
@@ -4040,7 +3798,7 @@
     ]
   },
   {
-    "amc_id": 476,
+    "amc_id": 482,
     "firm_name": "TRUSTLINE SECURITIES LIMITED",
     "base_domain": "trustline.in",
     "canonical_host": "trustline.in",
@@ -4050,12 +3808,12 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 478,
+    "amc_id": 484,
     "firm_name": "TURTLE WEALTH MANAGEMENT PVT. LTD.",
     "base_domain": "turtlewealth.in",
     "canonical_host": "turtlewealth.in",
     "source": "sitemap_index",
-    "discovered_total": 58,
+    "discovered_total": 60,
     "team_urls": [
       "https://turtlewealth.in/our-team/"
     ],
@@ -4064,7 +3822,7 @@
     ]
   },
   {
-    "amc_id": 480,
+    "amc_id": 486,
     "firm_name": "Unicorn Investment Managers LLP",
     "base_domain": "unicornim.in",
     "canonical_host": "unicornim.in",
@@ -4074,7 +3832,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 483,
+    "amc_id": 489,
     "firm_name": "Upachaya Wealth Advisors LLP",
     "base_domain": "http:",
     "canonical_host": "http:",
@@ -4084,7 +3842,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 485,
+    "amc_id": 491,
     "firm_name": "UTI ASSET MANAGEMENT COMPANY PVT LTD",
     "base_domain": "utiwms.com",
     "canonical_host": "utiwms.com",
@@ -4094,7 +3852,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 486,
+    "amc_id": 492,
     "firm_name": "V.E.C Assago Capital Management LLP",
     "base_domain": "under",
     "canonical_host": "under",
@@ -4104,7 +3862,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 487,
+    "amc_id": 493,
     "firm_name": "Vaikarya Change LLP",
     "base_domain": "vaikarya.com",
     "canonical_host": "vaikarya.com",
@@ -4114,29 +3872,29 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 489,
+    "amc_id": 495,
     "firm_name": "Valcreate Investment Managers LLP",
     "base_domain": "valcreate.com",
     "canonical_host": "valcreate.com",
-    "source": "sitemap_html",
-    "discovered_total": 1,
+    "source": "sitemap_index",
+    "discovered_total": 7,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 490,
+    "amc_id": 496,
     "firm_name": "VALENTIS ADVISORS PRIVATE LIMITED",
     "base_domain": "valentisadvisors.com",
     "canonical_host": "valentisadvisors.com",
     "source": "sitemap_index",
-    "discovered_total": 63,
+    "discovered_total": 64,
     "team_urls": [
       "https://www.valentisadvisors.com/our-team/"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 493,
+    "amc_id": 499,
     "firm_name": "Value Prolific Investments and Consulting Private Limited",
     "base_domain": "valpro.co.in",
     "canonical_host": "valpro.co.in",
@@ -4148,7 +3906,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 497,
+    "amc_id": 503,
     "firm_name": "VENTURA SECURITIES LIMITED",
     "base_domain": "venturasecurities.com",
     "canonical_host": "venturasecurities.com",
@@ -4235,7 +3993,6 @@
       "https://www.venturasecurities.com/blog/index-fund-investing-commonsense-investing/",
       "https://www.venturasecurities.com/blog/does-a-higher-mutual-fund-aum-mean-higher-returns-breaking-the-myth/",
       "https://www.venturasecurities.com/blog/the-ultimate-guide-to-mutual-fund-analysis-in-2026/",
-      "https://www.venturasecurities.com/blog/sebis-new-mutual-fund-reforms-what-changes-for-investors/",
       "https://www.venturasecurities.com/blog/from-gifting-gold-to-gifting-growth-how-mutual-fund-gift-cards-are-changing-indian-finance/",
       "https://www.venturasecurities.com/blog/precious-metal-mutual-funds/",
       "https://www.venturasecurities.com/blog/difference-between-fund-flow-cash-flow/",
@@ -4247,28 +4004,31 @@
       "https://www.venturasecurities.com/blog/upcoming-nfos-in-june-2026-list-of-new-fund-offers-launch-dates-and-investment-opportunities/",
       "https://www.venturasecurities.com/blog/bandhan-nifty-bank-index-fund-nfo/",
       "https://www.venturasecurities.com/blog/how-did-the-mutual-fund-industry-perform-in-october-2025/",
-      "https://www.venturasecurities.com/blog/what-is-the-public-provident-fund/"
+      "https://www.venturasecurities.com/blog/what-is-the-public-provident-fund/",
+      "https://www.venturasecurities.com/blog/sebis-new-mutual-fund-reforms-what-changes-for-investors/",
+      "https://www.venturasecurities.com/blog/five-common-mistakes-in-mutual-fund-investing/"
     ]
   },
   {
-    "amc_id": 498,
+    "amc_id": 504,
     "firm_name": "VIREYA CAPITAL MANAGEMENT LLP",
     "base_domain": "vireyacapital.com",
     "canonical_host": "vireyacapital.com",
-    "source": "sitemap_html",
-    "discovered_total": 21,
+    "source": "sitemap_index",
+    "discovered_total": 14,
     "team_urls": [
+      "https://vireyacapital.com/our-team/",
       "https://vireyacapital.com/team/"
     ],
     "scheme_urls": []
   },
   {
-    "amc_id": 509,
+    "amc_id": 514,
     "firm_name": "WEALTH FIRST PORTFOLIO MANAGERS LIMITED",
     "base_domain": "wealth-firstonline.com",
     "canonical_host": "wealth-firstonline.com",
     "source": "sitemap_index",
-    "discovered_total": 190,
+    "discovered_total": 192,
     "team_urls": [
       "https://www.wealth-firstonline.com/our-team/",
       "https://www.wealth-firstonline.com/management-team/",
@@ -4284,7 +4044,7 @@
     ]
   },
   {
-    "amc_id": 512,
+    "amc_id": 517,
     "firm_name": "WEALTHBRIDGE CAPITAL ADVISORS PRIVATE LIMITED",
     "base_domain": "wealthbridge.in",
     "canonical_host": "wealthbridge.in",
@@ -4294,7 +4054,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 514,
+    "amc_id": 519,
     "firm_name": "White Pine Investment Management Private Limited",
     "base_domain": "whitepineim.in",
     "canonical_host": "whitepineim.in",
@@ -4304,7 +4064,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 516,
+    "amc_id": 521,
     "firm_name": "White Whale Partners LLP",
     "base_domain": "whitewhale.in",
     "canonical_host": "whitewhale.in",
@@ -4314,38 +4074,7 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 517,
-    "firm_name": "WhiteOak Capital Asset Management Limited",
-    "base_domain": "pms.whiteoakamc.com",
-    "canonical_host": "pms.whiteoakamc.com",
-    "source": "sitemap_index",
-    "discovered_total": 98,
-    "team_urls": [
-      "https://pms.whiteoakamc.com/about-us/our-team"
-    ],
-    "scheme_urls": [
-      "https://pms.whiteoakamc.com/aif/whiteoak-capital-equity-fund",
-      "https://pms.whiteoakamc.com/aif/whiteoak-capital-healthcare-opportunities-fund",
-      "https://pms.whiteoakamc.com/aif/whiteoak-capital-india-opportunities-fund",
-      "https://pms.whiteoakamc.com/learning-edge/conceptopedia/what-nav-or-net-asset-value-actually-means-for-your-mutual-fund-investments",
-      "https://pms.whiteoakamc.com/learning-edge/conceptopedia/how-whiteoak-capital-selects-a-quality-equity-fund-our-investment-philosophy-explained",
-      "https://pms.whiteoakamc.com/learning-edge/conceptopedia/mid-cap-fund-growth-in-2026-what-investors-should-know-before-investing",
-      "https://pms.whiteoakamc.com/learning-edge/conceptopedia/mid-cap-vs-flexi-cap-fund-direct-growth-which-one-fits-your-2026-goals",
-      "https://pms.whiteoakamc.com/learning-edge/conceptopedia/mid-cap-fund-growth-what-investors-should-know-before-investing",
-      "https://pms.whiteoakamc.com/learning-edge/video/whiteoak-elss-tax-saver-fund-multi-cap-and-large-cap-funds",
-      "https://pms.whiteoakamc.com/learning-edge/video/wealth-insight-january-2025-and-mutual-fund-insight-february-2025",
-      "https://pms.whiteoakamc.com/learning-edge/video/woc-db-fund-video",
-      "https://pms.whiteoakamc.com/learning-edge/video/whiteoak-capital-large-and-mid-cap-fund",
-      "https://pms.whiteoakamc.com/learning-edge/video/woc-sof-fund-video",
-      "https://pms.whiteoakamc.com/learning-edge/video/woc-phc-video-fund",
-      "https://pms.whiteoakamc.com/learning-edge/video/woc-bfs-fund-video",
-      "https://pms.whiteoakamc.com/learning-edge/video/insights-whiteoak-capital-balanced-advantage-fund",
-      "https://pms.whiteoakamc.com/learning-edge/video/choose-grey-invest-in-whiteoak-capital-balanced-advantage-fund",
-      "https://pms.whiteoakamc.com/learning-edge/video/why-should-you-invest-in-whiteoak-capital-multi-asset-allocation-fund"
-    ]
-  },
-  {
-    "amc_id": 518,
+    "amc_id": 523,
     "firm_name": "WILLOW ADVISORS LLP",
     "base_domain": "willowadvisors.in",
     "canonical_host": "willowadvisors.in",
@@ -4355,29 +4084,27 @@
     "scheme_urls": []
   },
   {
-    "amc_id": 519,
+    "amc_id": 524,
     "firm_name": "Windmill Capital Private Limited",
     "base_domain": "pms.windmillcapital.in",
     "canonical_host": "pms.windmillcapital.in",
     "source": "sitemap_html",
-    "discovered_total": 27,
+    "discovered_total": 30,
     "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 524,
-    "firm_name": "ZEN WEALTH MANAGEMENT SERVICES LIMITED",
-    "base_domain": "zenwealth.in",
-    "canonical_host": "zenwealth.in",
-    "source": "sitemap_xml",
-    "discovered_total": 19,
-    "team_urls": [
-      "https://www.zenwealth.in/team"
-    ],
+    "amc_id": 529,
+    "firm_name": "YUBI ASSET MANAGEMENT PRIVATE LIMITED",
+    "base_domain": "yubiamc.com",
+    "canonical_host": "yubiamc.com",
+    "source": "unreachable",
+    "discovered_total": 0,
+    "team_urls": [],
     "scheme_urls": []
   },
   {
-    "amc_id": 525,
+    "amc_id": 531,
     "firm_name": "Zeva Capsol Private Limited",
     "base_domain": "1crowd.co",
     "canonical_host": "1crowd.co",

@@ -260,6 +260,26 @@
     "sebi_id": 13
   },
   {
+    "name": "Carnelian Asset Management and Advisors Private Limited",
+    "reg_no": "MF/094/26/20",
+    "contact_person": "",
+    "email": "",
+    "telephone": "",
+    "fax": "",
+    "website": "",
+    "address": "1212 LODHA ONE, SENAPATI BAPAT MARK LOWER PAREL DELISLE ROAD, MUMBAI, MAHARASHTRA, 400013",
+    "correspondence_address": "",
+    "validity": "Jul 20, 2026 - Perpetual",
+    "located_address": "1212 LODHA ONE, SENAPATI BAPAT MARK LOWER PAREL DELISLE ROAD, MUMBAI, MAHARASHTRA, 400013",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400013",
+    "domain": "",
+    "category": "",
+    "sebi_type": "mutual-funds",
+    "sebi_id": 14
+  },
+  {
     "name": "Choice Mutual Fund",
     "reg_no": "MF/087/25/13",
     "contact_person": "",
@@ -277,7 +297,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 14
+    "sebi_id": 15
   },
   {
     "name": "CRB MF",
@@ -297,7 +317,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 15
+    "sebi_id": 16
   },
   {
     "name": "DSP MF",
@@ -317,7 +337,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 16
+    "sebi_id": 17
   },
   {
     "name": "EDELWEISS MF",
@@ -337,7 +357,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 17
+    "sebi_id": 18
   },
   {
     "name": "FRANKLIN TEMPLETON MF",
@@ -357,7 +377,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 18
+    "sebi_id": 19
   },
   {
     "name": "Groww Mutual Fund",
@@ -377,7 +397,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 19
+    "sebi_id": 20
   },
   {
     "name": "HDFC MF",
@@ -397,7 +417,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 20
+    "sebi_id": 21
   },
   {
     "name": "Helios Mutual Fund",
@@ -417,7 +437,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 21
+    "sebi_id": 22
   },
   {
     "name": "HSBC MF",
@@ -437,7 +457,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 22
+    "sebi_id": 23
   },
   {
     "name": "ICICI PRUDENTIAL MF",
@@ -457,7 +477,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 23
+    "sebi_id": 24
   },
   {
     "name": "IDBI MUTUAL FUND",
@@ -477,7 +497,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 24
+    "sebi_id": 25
   },
   {
     "name": "IIFCL MF (IDF)",
@@ -497,7 +517,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 25
+    "sebi_id": 26
   },
   {
     "name": "IL&FS IDF MF",
@@ -517,7 +537,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 26
+    "sebi_id": 27
   },
   {
     "name": "Invesco Mutual Fund",
@@ -537,7 +557,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 27
+    "sebi_id": 28
   },
   {
     "name": "ITI Mutual Fund",
@@ -557,7 +577,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 28
+    "sebi_id": 29
   },
   {
     "name": "Jio BlackRock Mutual Fund",
@@ -577,7 +597,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 29
+    "sebi_id": 30
   },
   {
     "name": "JM FINANCIAL MF",
@@ -597,7 +617,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 30
+    "sebi_id": 31
   },
   {
     "name": "Kotak Mutual Fund",
@@ -617,7 +637,27 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 31
+    "sebi_id": 32
+  },
+  {
+    "name": "Lakshya Mutual Fund",
+    "reg_no": "MF/091/26/17",
+    "contact_person": "",
+    "email": "",
+    "telephone": "",
+    "fax": "",
+    "website": "",
+    "address": "F-31, 3rd Floor, Commerce House-4,, Sur No. 1319/1301/1, 100Ft Road, Anand Nagar Char Rasta, Anand Nagar, Jodhpur Char Rasta,, AHMEDABAD, GUJARAT, 380015",
+    "correspondence_address": "",
+    "validity": "Mar 25, 2026 - Perpetual",
+    "located_address": "F-31, 3rd Floor, Commerce House-4,, Sur No. 1319/1301/1, 100Ft Road, Anand Nagar Char Rasta, Anand Nagar, Jodhpur Char Rasta,, AHMEDABAD, GUJARAT, 380015",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380015",
+    "domain": "",
+    "category": "",
+    "sebi_type": "mutual-funds",
+    "sebi_id": 33
   },
   {
     "name": "LIC MF",
@@ -637,7 +677,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 32
+    "sebi_id": 34
   },
   {
     "name": "Mahindra Manulife Mutual Fund",
@@ -657,7 +697,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 33
+    "sebi_id": 35
   },
   {
     "name": "MIRAE ASSET MF",
@@ -677,10 +717,10 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 34
+    "sebi_id": 36
   },
   {
-    "name": "Monarch Networth Capital Limited",
+    "name": "Monarch Mutual Fund",
     "reg_no": "MF/092/26/18",
     "contact_person": "",
     "email": "",
@@ -697,7 +737,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 35
+    "sebi_id": 37
   },
   {
     "name": "MOTILAL OSWAL MF",
@@ -717,7 +757,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 36
+    "sebi_id": 38
   },
   {
     "name": "N J Mutual Fund",
@@ -737,7 +777,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 37
+    "sebi_id": 39
   },
   {
     "name": "NAVI MUTUAL FUND",
@@ -757,7 +797,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 38
+    "sebi_id": 40
   },
   {
     "name": "Nippon India Mutual Fund",
@@ -777,7 +817,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 39
+    "sebi_id": 41
   },
   {
     "name": "Nuvama Mutual Fund",
@@ -797,7 +837,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 40
+    "sebi_id": 42
   },
   {
     "name": "Old Bridge Mutual Fund",
@@ -817,7 +857,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 41
+    "sebi_id": 43
   },
   {
     "name": "PGIM INDIA MUTUAL FUND",
@@ -837,7 +877,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 42
+    "sebi_id": 44
   },
   {
     "name": "PPFAS MF",
@@ -857,7 +897,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 43
+    "sebi_id": 45
   },
   {
     "name": "Quant Mutual Fund",
@@ -877,7 +917,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 44
+    "sebi_id": 46
   },
   {
     "name": "QUANTUM MF",
@@ -897,7 +937,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 45
+    "sebi_id": 47
   },
   {
     "name": "SAMCO MUTUAL FUND",
@@ -917,7 +957,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 46
+    "sebi_id": 48
   },
   {
     "name": "SBI MF",
@@ -937,7 +977,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 47
+    "sebi_id": 49
   },
   {
     "name": "SHRIRAM MF",
@@ -957,7 +997,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 48
+    "sebi_id": 50
   },
   {
     "name": "SUNDARAM MF",
@@ -977,7 +1017,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 49
+    "sebi_id": 51
   },
   {
     "name": "Tata Mutual Fund",
@@ -997,7 +1037,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 50
+    "sebi_id": 52
   },
   {
     "name": "TAURUS MF",
@@ -1017,7 +1057,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 51
+    "sebi_id": 53
   },
   {
     "name": "The Wealth Company Mutual Fund",
@@ -1037,7 +1077,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 52
+    "sebi_id": 54
   },
   {
     "name": "TRUST MUTUAL FUND",
@@ -1057,7 +1097,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 53
+    "sebi_id": 55
   },
   {
     "name": "Unifi Mutual Fund",
@@ -1077,7 +1117,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 54
+    "sebi_id": 56
   },
   {
     "name": "Union Mutual Fund",
@@ -1097,7 +1137,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 55
+    "sebi_id": 57
   },
   {
     "name": "UTI  MF",
@@ -1117,27 +1157,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 56
-  },
-  {
-    "name": "WEALTH FIRST PORTFOLIO MANAGERS LIMITED",
-    "reg_no": "MF/091/26/17",
-    "contact_person": "",
-    "email": "",
-    "telephone": "",
-    "fax": "",
-    "website": "",
-    "address": "F-31, 3rd Floor, Commerce House-4,, Sur No. 1319/1301/1, 100Ft Road, Anand Nagar Char Rasta, Anand Nagar, Jodhpur Char Rasta,, AHMEDABAD, GUJARAT, 380015",
-    "correspondence_address": "",
-    "validity": "Mar 25, 2026 - Perpetual",
-    "located_address": "F-31, 3rd Floor, Commerce House-4,, Sur No. 1319/1301/1, 100Ft Road, Anand Nagar Char Rasta, Anand Nagar, Jodhpur Char Rasta,, AHMEDABAD, GUJARAT, 380015",
-    "city": "Ahmedabad",
-    "state": "Gujarat",
-    "pincode": "380015",
-    "domain": "",
-    "category": "",
-    "sebi_type": "mutual-funds",
-    "sebi_id": 57
+    "sebi_id": 58
   },
   {
     "name": "WhiteOak Capital Mutual Fund",
@@ -1157,7 +1177,7 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 58
+    "sebi_id": 59
   },
   {
     "name": "Zerodha Mutual Fund",
@@ -1177,6 +1197,6 @@
     "domain": "",
     "category": "",
     "sebi_type": "mutual-funds",
-    "sebi_id": 59
+    "sebi_id": 60
   }
 ]

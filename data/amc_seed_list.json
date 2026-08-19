@@ -195,7 +195,7 @@
     "legal_name": "Invesco Asset Management (India) Private Limited",
     "clean_name": "Invesco",
     "base_domain": "invescomutualfund.com",
-    "sitemap_url": "https://www.invescomutualfund.com/sitemap.xml",
+    "sitemap_url": "https://invescomutualfund.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": true
   },
@@ -445,9 +445,9 @@
     "legal_name": "Unifi Asset Management Private Limited",
     "clean_name": "Unifi",
     "base_domain": "unifimf.com",
-    "sitemap_url": "https://unifimf.com/sitemap.xml",
+    "sitemap_url": "https://unifimf.com/sitemap_index.xml",
     "sitemap_type": "xml",
-    "sitemap_verified": false
+    "sitemap_verified": true
   },
   {
     "amc_id": 80,
@@ -554,9 +554,19 @@
     "firm_name": "Nuvama Mutual Fund",
     "legal_name": "Nuvama Asset Management Limited",
     "clean_name": "Nuvama",
-    "base_domain": "www.nuvamamf.com",
-    "sitemap_url": "https://www.nuvamamf.com/sitemap.xml",
+    "base_domain": "nuvamamutualfund.com",
+    "sitemap_url": "https://nuvamamutualfund.com/sitemap.xml",
     "sitemap_type": "xml",
     "sitemap_verified": false
+  },
+  {
+    "amc_id": 91,
+    "firm_name": "Carnelian Mutual Fund",
+    "legal_name": "Carnelian Investment Managers Private Limited",
+    "clean_name": "Carnelian",
+    "base_domain": "www.carnelianmf.com",
+    "sitemap_url": "https://www.carnelianmf.com/sitemap",
+    "sitemap_type": "html",
+    "sitemap_verified": true
   }
 ]
